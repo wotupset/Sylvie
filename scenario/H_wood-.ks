@@ -220,7 +220,7 @@
 [bg  time="1"  method="crossfade"  storage="sw1-7.jpg" ]
 
 #シルヴィ
-あ…[name]…私、そろそろ…♡[p]
+啊…[name]…私、そろそろ…♡[p]
 あぁっ！♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sw1-8.jpg" ]
@@ -519,7 +519,7 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sw2-8.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-5.png" ]
 はぁっ…♡ふぅっ…♡♡[r]
-[name]…♡♡[p]
+[name]...♡♡[p]
 [black]
 [fadeoutbgm time=500]
 [cancelskip]
