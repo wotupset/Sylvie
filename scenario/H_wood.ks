@@ -13,7 +13,7 @@
 [f_clp]
 
 #シルヴィ
-ん…。[p]
+嗯…。[p]
 [fadeoutbgm  time=500]
 [if exp="f.lust<=40" ]
 [f_tp]
@@ -24,7 +24,7 @@
 [elsif exp="f.lust<=100" ]
 [f_tp]
 （シルヴィの口に侵入すると彼女の小さな舌がそれに応える。[p]
-ん…[name]…。[p]
+嗯…[name]…。[p]
 …するんですか？[p]
 [f_stp]
 はい、じゃあ…。[p]
@@ -280,7 +280,7 @@
 [bg  time="1"  method="crossfade"  storage="sw1-7.jpg" ]
 
 #シルヴィ
-あ…[name]…私、そろそろ…♡[p]
+啊…[name]…私、そろそろ…♡[p]
 あぁっ！♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sw1-8.jpg" ]
@@ -398,7 +398,7 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sw2-8.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-5.png" ]
 はぁっ…♡ふぅっ…♡♡[r]
-[name]…♡♡[p]
+[name]...♡♡[p]
 [eval exp="f.sex=f.sex+1" ]
 [eval exp="f.h_v=f.h_v+6" ]
 [eval exp="f.lust=f.lust+7" ]
