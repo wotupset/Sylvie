@@ -329,7 +329,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_st]
 #シルヴィ
 我很幸福[lr]
-[name]和（玩家)一起的話、過去的事回憶起來都不再痛苦了。[p]
+和[name]一起的話、過去的事回憶起來都不再痛苦了。[p]
 [s_s]
 [after_talk]
 
@@ -368,7 +368,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk9
 [s_cclt]
 #シルヴィ
-[name]不在身邊，變得有點不安[lr]
+[name]不在身邊的話，會覺得有點不安[lr]
 [s_ct]
 能夠儘可能的和您在一起嗎?[p]
 [s_c]
@@ -386,7 +386,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk11
 [s_st]
 #シルヴィ
-[name]只要和（玩家)一起的話，無論在哪裡、做甚麼都會一樣那麼快樂。[p]
+只要和[name]一起的話，無論在哪裡、做什麼都會一樣那麼快樂。[p]
 [s_s]
 [after_talk]
 
@@ -403,7 +403,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk13
 [s_stp]
 #シルヴィ
-還要[name]想讓你喜歡我。[lr]
+想要讓[name]更加喜歡我。[lr]
 我，會加油的。[p]
 [s_sp]
 [after_talk]
@@ -442,8 +442,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk18
 [s_st]
 #シルヴィ
-肚子不餓嗎?[lr]
-簡單的可以的話那就做點什麼喔[p]
+肚子會餓嗎？[lr]
+想吃點簡單的我都會做喔[p]
 [s_s]
 [after_talk]
 
@@ -459,14 +459,14 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk20
 [s_st]
 #シルヴィ
-如果不會造成不方便的話[name]我可以幫忙分擔工作嗎?[p]
+如果不會造成不方便的話，我可以幫忙分擔[name]的工作嗎?[p]
 [s_s]
 [after_talk]
 
 *talk21
 [s_ct]
 #シルヴィ
-那間服務店的店員，不覺得她有點兒可怕嗎?[lr]
+那間服務店的店員，不覺得她有點可怕嗎?[lr]
 怎麼說呢…沒有實感的感覺呢…。[p]
 [s_c]
 [after_talk]
@@ -483,7 +483,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk23
 [s_t]
 #シルヴィ
-下次再遇上那位商人的話，我想和他好好地道個謝呢。[lr]
+下次再遇上那位商人的話，我想和他好好地道個謝。[lr]
 [s_clt]
 雖然並不溫柔，但也沒做什麼過分的事[lr]
 [s_st]
@@ -514,7 +514,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk26
 [s_st]
 #シルヴィ
-[name]能夠讓（玩家)收留我真的是太幸運了[lr]
+能夠讓[name]收留我真的是太幸運了[lr]
 [s_scltp]
 至今為止的不幸微不足道似的[p]
 [s_sclp]
@@ -525,7 +525,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 可以看書架上的書嗎？[lr]
 至少，閱讀及書寫是沒問題的。[p]
-有知識的話[name]也許能增加對（玩家)幫上忙的機會也說不定[p]
+有讀書的話 也許能增加給[name]幫上忙的機會也說不定[p]
 [s_s]
 [after_talk]
 
@@ -534,7 +534,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 [name]不買自己的洋服嗎?[p]
 [s_ct]
-買了一大堆我的洋裝…[p]
+只買給我一大堆洋裝…[p]
 [s_c]
 [after_talk]
 
@@ -544,7 +544,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 為我買衣服的也是[r]
 我很開心能品嘗到這麼美味的甜點。[p]
 [s_t]
-但是不去顧慮也沒關係喔?（好像不太通順求修正)[lr]
+但是不用那麼麻煩也沒關係喔？[lr]
 [s_ssp]
 我、[name]在我身邊的話就已經很幸福了[p]
 [after_talk]
