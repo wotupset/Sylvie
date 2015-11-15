@@ -169,7 +169,7 @@ f.walk=Math.floor(Math.random() * 45 + 1);
 [f_s]
 真的嗎？[lr]
 [f_ssp]
-我、[name]派上用場了嗎？[p]
+我有幫上[name]的忙了嗎？[p]
 [jump  storage=""  target="*choice" ]
 
 *walk13
@@ -194,7 +194,7 @@ f.walk=Math.floor(Math.random() * 45 + 1);
 
 *walk16
 [f_st]
-這陣風很涼爽呢。[lr]有樹木的地方和鎮上的空氣完全不一樣呢[p]
+這陣風很涼爽呢。[lr]有樹木的地方和鎮上吹的風完全不一樣呢[p]
 [jump  storage=""  target="*choice" ]
 
 *walk17
@@ -206,7 +206,7 @@ f.walk=Math.floor(Math.random() * 45 + 1);
 [f_st]
 …風停下後，變得安靜了。[lr]
 [f_stp]
-簡直就像、[name]像是這個世界只剩下我們兩人一樣…。[p]
+簡直就像這世界只剩下我跟[name]兩人一樣…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk19
@@ -236,8 +236,8 @@ f.walk=Math.floor(Math.random() * 45 + 1);
 有樹倒下來了呢[lr]
 好像不是有人來砍斷的[p]
 #
-（距離倒下似乎已過了有一段時間[lr]
-也有可能會發生落雷。[p]
+（似乎已倒下了一段時間[lr]
+可能是落雷之類的東西導致。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk24
@@ -336,8 +336,8 @@ f.walk=Math.floor(Math.random() * 45 + 1);
 [cancelskip]
 [f_scl]
 #
-和兩人坐在茂盛的草地上[p]
-（靠近身子並挽著我手，[p]
+和シルヴィ兩人坐在茂盛的草地上[p]
+（シルヴィ靠近身子並挽著我手，[p]
 
 [if exp="f.dress==21" ]
 [jump  storage=""  target="*c_true" ]

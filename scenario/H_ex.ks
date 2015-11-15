@@ -968,7 +968,7 @@
 [eval  exp="f.s_feel=f.s_feel-250" ]
 [eval  exp="f.wet=f.wet+30" ]
 #
-（そろそろ限界だ…
+（差不多到極限了…
 [button  storage=""  target="*in_cum"  graphic="ch/in-cum.png"    x="0"  y="200" ]
 [button  storage=""  target="*out_cum"  graphic="ch/out-cum.png"   x="0"  y="350" ]
 [s]

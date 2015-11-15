@@ -60,7 +60,7 @@
 [endif]
 
 #
-どこに行こうか？[l]
+要去哪裡好呢？[l]
 [if exp="f.step>5"]
 [button  storage="wood.ks"  target="*wood"  graphic="ch/wood.png"   x="0"  y="300"  ]
 [else]

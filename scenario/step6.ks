@@ -1330,7 +1330,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_tp]
-[name]如果是…的話，即使粗暴一點也…[p]
+如果是[name]的話，稍微粗暴一點也…[p]
 [after_nade]
 
 *nade45
