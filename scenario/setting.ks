@@ -191,7 +191,7 @@
 *record
 [cm  ]
 #
-和シルヴィ開始一起生活[emb exp="f.day" ]日目[r]
+和シルヴィ開始一起生活 第[emb exp="f.day" ]天[r]
 
 [if exp="f.sex==0 || f.sex=='yet'" ]
 [else]

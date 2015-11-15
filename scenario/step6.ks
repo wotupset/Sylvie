@@ -426,8 +426,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk16
 [s_st]
 #シルヴィ
-沒有甚麼、想做的事嗎？[lr]
-[name]我想幫上一點忙也好[p]
+沒有要做的事嗎？[lr]
+能稍微幫上[name]的忙也好[p]
 [s_s]
 [after_talk]
 
@@ -630,7 +630,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 嗯…[p]
 #
-（突然間吻了上來,兩唇相濡[p]
+（突然間吻了上來[p]
 [eval  exp="f.h_m=f.h_m+1" ]
 [after_talk]
 
@@ -802,23 +802,23 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk55
 [s_ctp]
 #シルヴィ
-我、已經[name]不在的話，我就要變得不行了…[lr]
-你問說是什麼…，是一切所有喔…。[p]
+要是[name]消失的話，我就要放棄了…[lr]
+你問說是什麼…，什麼都可能…。[p]
 [s_cp]
 [after_talk]
 
 *talk56
 [s_ctp]
 #シルヴィ
-時常[name]開始會渴求著了。[lr]
-身心都…[p]
+最近一直在渴求著[name]的東西。[lr]
+心理跟生理都…[p]
 [s_cp]
 [after_talk]
 
 *talk57
 [s_ctp]
 #シルヴィ
-最近，趁著太陽高掛的時候[name]被疼愛著的感覺，已經無法從腦海裡消去…[lr]
+最近，一整天的時間 [name]被疼愛著的感覺，都無法從腦海裡消去…[lr]
 腹部的這地方，一直感到按耐不住[p]
 [eval  exp="f.lust=f.lust+1" ]
 [s_cp]
@@ -828,7 +828,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_tp]
 #シルヴィ
 [name]？[lr]
-我、[name]我已經隨時都準備好接受的一切了[p]
+我已經隨時都準備好接受[name]的一切了[p]
 [s_tp]
 如果有那麼一點那種感覺的話[r]
 不用考慮太多也可以喔?[p]
