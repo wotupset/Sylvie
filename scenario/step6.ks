@@ -69,14 +69,14 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_sst]
 #シルヴィ
-…おはようございます、[name][p]
+…早安、[name][p]
 [s_s]
 [elsif exp="f.act=='nonp'" ]
 [eval exp="f.act=0" ]
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_tp]
 #シルヴィ
-…おはようございます、[name][p]
+…早安、[name][p]
 [s_sp]
 [elsif exp="f.act=='sex'" ]
 [eval exp="f.act=0" ]
@@ -85,11 +85,11 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_cltp]
 #シルヴィ
-…おはようございます、[name][p]
+…早安、[name][p]
 [s_tp]
-昨日は…その…[lr]気持ちよすぎて…[p]いつの間にか意識が飛んじゃってたみたいです。[p]
+昨天…那個…[lr]因為太舒服了…[p]不經不覺間，意識變得就像飛走了一樣。[p]
 [s_cltp]
-気がついたら、もう朝で…。[lr]すいません。[p]
+回過神來，已經天亮了…[lr]不好意思[p]
 [s_clp]
 [elsif exp="f.act=='sexxx'" ]
 [eval exp="f.act=0" ]
@@ -98,19 +98,19 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_cltp]
 #シルヴィ
-…おはようございます、[name][p]
+…早安、[name][p]
 [s_ctp]
-昨日は、その…勝手なことをして、ごめんなさい。[p]
+昨天，那個…擅自作出那種事情，真的十分抱歉。[p]
 [s_ccltp]
-自分で自分が抑えられなくて…。[p]
+變得更無法控制自我了…[p]
 [s_cltp]
-でも、昨日の[name]凄かった…♡[p]
+不過、昨天的[name]好厲害…♡[p]
 [s_tp]
-正確には覚えてないんですけど…[r]
-たくさん…していただいたんですよね。[p]
-…まだ脚に力が入らないんです。[p]
+雖然不覺得這是正確的…[r]
+做了….好多好多次呢。[p]
+…現在腳還使不上力。[p]
 [s_ccltp]
-今日は家で休ませていただいていいでしょうか？[p]
+今天可以就這樣在家裡休息嗎？[p]
 [s_p]
 
 [elsif exp="f.act=='morning'" ]
@@ -120,11 +120,11 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_tp]
 #シルヴィ
-…もう、落ち着きました。[lr]改めておはようございます。[p]
+…已經、冷靜下來了[lr]重來一次，早安。[p]
 [s_cltp]
-もうお昼近いですね。[lr][name]が朝からあんなにするから…。[p]
+已經快要中午了呢。[lr][name]都是你早上做了那麼多次…[p]
 [s_tp]
-…嫌ではないですけど。[p]
+…雖然並不討厭啦。[p]
 [s_p]
 
 [elsif exp="f.act=='wood'" ]
@@ -134,11 +134,11 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_cltp]
 #シルヴィ
-…おはようございます、[name][p]
+…早安、[name][p]
 [s_tp]
-昨日は家まで運んでくれて、ありがとうございました。[p]
-しかも私、帰りに疲れて寝ちゃったみたいで…。[p]
-すいません…。[p]
+昨天把我搬回家、非常感謝您。[p]
+可是我好像一回家就累得倒頭大睡的樣子…[p]
+對不起…。[p]
 
 [elsif exp="f.act=='sexmax'" ]
 [eval exp="f.act=4" ]
@@ -148,15 +148,15 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [s_cltp]
 #シルヴィ
-…おはようございます、[name][p]
+…早安、[name][p]
 [s_tp]
-結局、朝までしてしまいましたね…。[p]
+結果、一直做到早上呢…。[p]
 [s_cltp]
-もうお昼…。何か食べましょうか。[p]
+已經中午了….要吃些甚麼呢[p]
 …。[p]
 [s_ctp]
-ん…ごめんなさい。しばらく立てそうもありません。[lr]
-というか、まだ、体の震えも治まってなくて…。[p]
+恩…非常抱歉。可能一段時間內連站起來的力氣都沒有了。[lr]
+或該說，身體的悸動依然無法平息…[p]
 [s_cp]
 [endif]
 
@@ -209,13 +209,13 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [eval exp="f.sexless_c=2" ]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [jump  storage="H_sexless1.ks"  target="*sexless1" ]
 [elsif exp="f.sexless>=11 && f.sexless_c==2" ]
 [eval exp="f.sexless_c=3" ]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [jump  storage="H_sexless2.ks"  target="*sexless2" ]
 [elsif exp="f.sexless>=15 && f.sexless_c==3" ]
 [jump  storage=""  target="*cant_wait" ]
@@ -233,13 +233,13 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [eval exp="f.sexless_c=2" ]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [jump  storage="H_sexless1.ks"  target="*sexless1" ]
 [elsif exp="f.sexless>=8 && f.sexless_c==2" ]
 [eval exp="f.sexless_c=3" ]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [jump  storage="H_sexless2.ks"  target="*sexless2" ]
 [elsif exp="f.sexless>=10 && f.sexless_c==3" ]
 [jump  storage=""  target="*cant_wait" ]
@@ -257,13 +257,13 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [eval exp="f.sexless_c=2" ]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [jump  storage="H_sexless1.ks"  target="*sexless1" ]
 [elsif exp="f.sexless>=6 && f.sexless_c==2" ]
 [eval exp="f.sexless_c=3" ]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [jump  storage="H_sexless2.ks"  target="*sexless2" ]
 [elsif exp="f.sexless>=8 && f.sexless_c==3" ]
 [jump  storage=""  target="*cant_wait" ]
@@ -281,12 +281,12 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_s]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [s_st]
 #シルヴィ
-…そろそろ寝ましょうか。[lr]
+…是時候該睡了吧[lr]
 [s_ssp]
-今日も一緒に…。[p]
+今天也一起…。[p]
 [black]
 …[p]
 [jump  storage=""  target="*show_bace" ]
@@ -297,14 +297,14 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_s]
 #
 …[p]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [s_p]
 …[p]
 [s_clt]
 #シルヴィ
-あ、なんでもないです。[lr]
+阿，沒事，什麼事都沒有[lr]
 [s_st]
-そろそろ寝ましょうか。[p]
+是時候睡覺了吧[p]
 [black]
 …[p]
 [jump  storage=""  target="*show_bace" ]
@@ -315,7 +315,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #
 …[p]
 [s_cp]
-（もう夜だ…寝支度をしよう[p]
+（已經入夜了…準備就寢吧[p]
 [s_cclp]
 #シルヴィ
 …[p]
@@ -326,20 +326,20 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_st]
 [name]？[lr]
 [s_sstp]
-…大好きです。[p]
+最喜歡了[p]
 [after_talk]
 
 *talk2
 [s_cclt]
 #シルヴィ
-ずっと、一緒ですよね…。[p]
+會一直在一起對吧…。[p]
 [s_ccl]
 [after_talk]
 
 *talk3
 [s_sclt]
 #シルヴィ
-お出かけも楽しいけど、こうして家で二人きりも落ち着きますね。[p]
+出門雖然很快樂、不過像這樣兩人在家獨處也覺得很安心。[p]
 [s_s]
 [eval exp="f.lust=f.lust-1" ]
 [after_talk]
@@ -347,8 +347,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk4
 [s_st]
 #シルヴィ
-私、幸せです。[lr]
-[name]といれば昔のこと、思い出してもつらくないです。[p]
+我很幸福[lr]
+[name]和（玩家)一起的話、過去的事回憶起來都不再痛苦了。[p]
 [s_s]
 [after_talk]
 
@@ -366,7 +366,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_ssp]
 …。[p]
 #
-（何をしなくとも微笑みを向けてくる[p]
+就算沒有做任何事也會對我展開微笑[p]
 [after_talk]
 
 *talk7
@@ -374,47 +374,47 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 #
-（何もいわずに身を寄せてきた。[p]
+（默默的將身體靠了過來。[p]
 [after_talk]
 
 *talk8
 [s_st]
 #シルヴィ
-[name]といると昔のことを忘れていられます。[p]
+[name]和在一起的話就能忘記過去[p]
 [s_s]
 [after_talk]
 
 *talk9
 [s_cclt]
 #シルヴィ
-[name]がそばにいないと、少し不安になってしまいます。[lr]
+[name]不在身邊，變得有點不安[lr]
 [s_ct]
-できるだけ一緒にいてもいいですか？[p]
+能夠儘可能的和您在一起嗎?[p]
 [s_c]
 [after_talk]
 
 *talk10
 [s_cclt]
 #シルヴィ
-一人の夜はもう嫌です…。[lr]
+已經不想再一個人度過夜晚…。[lr]
 [s_ct]
-一緒にいてください。[p]
+請陪在我身邊。[p]
 [s_c]
 [after_talk]
 
 *talk11
 [s_st]
 #シルヴィ
-[name]といれば、どこにいても何をしていても楽しいです。[p]
+[name]只要和（玩家)一起的話，無論在哪裡、做甚麼都會一樣那麼快樂。[p]
 [s_s]
 [after_talk]
 
 *talk12
 [s_clt]
 #シルヴィ
-[name]のくれるものは全部私の宝物です。[lr]
+[name]給我的東西全都是我的寶物。[lr]
 [s_stp]
-物も、気持ちも、思い出も[p]
+事物也好，心情也好，回憶也好[p]
 [s_sp]
 [eval exp="f.lust=f.lust-1" ]
 [after_talk]
@@ -422,16 +422,16 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk13
 [s_stp]
 #シルヴィ
-もっと[name]に好きになってもらいたいです。[lr]
-私、がんばります。[p]
+還要[name]想讓你喜歡我。[lr]
+我，會加油的。[p]
 [s_sp]
 [after_talk]
 
 *talk14
 [s_ct]
 #シルヴィ
-私の傷、醜くないですか？[lr]
-[name]が嫌なら、できるだけ隠したいんですけど…[p]
+我的傷,不會很醜嗎?[lr]
+[name]討厭的話，我是想盡量隱藏起來的說…..[p]
 [s_c]
 [eval exp="f.lust=f.lust-1" ]
 [after_talk]
@@ -439,74 +439,74 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk15
 [s_sclp]
 #シルヴィ
-どこにも行かないでくださいね…。[p]
+請您哪裡也不要去…。[p]
 [after_talk]
 
 *talk16
 [s_st]
 #シルヴィ
-何か、してほしいことはないですか？[lr]
-[name]のお役に立ちたいです。[p]
+沒有甚麼、想做的事嗎？[lr]
+[name]我想幫上一點忙也好[p]
 [s_s]
 [after_talk]
 
 *talk17
 [s_st]
 #シルヴィ
-のどは渇いてませんか？[lr]
-なにかお飲み物、もってきましょうか？[p]
+口會渴嗎?[lr]
+我去拿些喝的東西過來吧?[p]
 [s_s]
 [after_talk]
 
 *talk18
 [s_st]
 #シルヴィ
-お腹空きませんか？[lr]
-簡単なものでよければ何か作りますよ。[p]
+肚子不餓嗎?[lr]
+簡單的可以的話那就做點什麼喔[p]
 [s_s]
 [after_talk]
 
 *talk19
 [s_t]
 #シルヴィ
-お掃除と洗濯と、お料理もきっと上手になって…。[lr]
+打掃、洗衣，料理也一定可以變的拿手的[lr]
 [s_clt]
-あとは、何ができるかな…。[p]
+然後,還有什麼能做的嗎…[p]
 [s_cl]
 [after_talk]
 
 *talk20
 [s_st]
 #シルヴィ
-ご迷惑じゃなければ、[name]のお仕事も手伝わせてくれませんか？[p]
+如果不會造成不方便的話[name]我可以幫忙分擔工作嗎?[p]
 [s_s]
 [after_talk]
 
 *talk21
 [s_ct]
 #シルヴィ
-あの服屋の店員さん、ちょっと怖くないですか？[lr]
-なんというか、つかみどころがない感じが…。[p]
+那間服務店的店員，不覺得她有點兒可怕嗎?[lr]
+怎麼說呢…沒有實感的感覺呢…。[p]
 [s_c]
 [after_talk]
 
 *talk22
 [s_ct]
 #シルヴィ
-[name]も、やっぱり色々と豊満な女性に魅力を感じるんでしょうか？[lr]
+[name]也覺得身材姣好的豐滿女性比較有魅力吧？[lr]
 [s_cclt]
-あの服屋の店員さんに会う度、少し惨めな気持ちになってしまいます…。[p]
+每每遇到那位服飾店員時、總有點相形見拙的感覺…。[p]
 [s_ccl]
 [after_talk]
 
 *talk23
 [s_t]
 #シルヴィ
-今度あの商人の方に会ったら、きちんとお礼をしたいです。[lr]
+下次再遇上那位商人的話，我想和他好好地道個謝呢。[lr]
 [s_clt]
-優しくはなかったけど、ひどいこともしなかったし、[lr]
+雖然並不溫柔，但也沒做什麼過分的事[lr]
 [s_st]
-何より私をここに連れてきてくれたのはいくら感謝してもしきれません。[p]
+尤其是帶我來到這裡，這點無論我如何感謝都無法盡表我內心的感激[p]
 [s_s]
 [after_talk]
 
@@ -515,10 +515,10 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …。[p]
 #
-（…。[p]
+（…[p]
 #シルヴィ
 [s_ctp]
-…ぁ、ごめんなさい。[lr]少しウトウトしちゃったみたいです[p]
+…啊，對不起。[lr]好像不小心打了個瞌睡的樣子。[p]
 [s_cp]
 [eval exp="f.lust=f.lust-1" ]
 [after_talk]
@@ -526,175 +526,175 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 *talk25
 [s_ct]
 #シルヴィ
-お出かけは楽しいですけど、[name]以外の人はまだ少し怖いんです…。[p]
+出門雖然是很快樂，[name]您以外的人還是稍微有些害怕[p]
 [s_c]
 [after_talk]
 
 *talk26
 [s_st]
 #シルヴィ
-[name]に引き取ってもらえて、私本当に幸運でした。[lr]
+[name]能夠讓（玩家)收留我真的是太幸運了[lr]
 [s_scltp]
-今までの不幸がかすむぐらい…。[p]
+至今為止的不幸微不足道似的[p]
 [s_sclp]
 [after_talk]
 
 *talk27
 [s_t]
 #シルヴィ
-本棚の本を見てみてもいいですか？[lr]
-一応読み書きはできるんです。[p]
-知識がある方が[name]のお役に立てることも増えるかもしれないし。[p]
+可以看書架上的書嗎？[lr]
+至少，閱讀及書寫是沒問題的。[p]
+有知識的話[name]也許能增加對（玩家)幫上忙的機會也說不定[p]
 [s_s]
 [after_talk]
 
 *talk28
 [s_t]
 #シルヴィ
-[name]は自分のお洋服を買ったりはしないんですか？[p]
+[name]不買自己的洋服嗎?[p]
 [s_ct]
-私のお洋服ばかり買っていただいて…。[p]
+買了一大堆我的洋裝…[p]
 [s_c]
 [after_talk]
 
 *talk
 [s_st]
 #シルヴィ
-お洋服を買ってもらえるのも、[r]
-美味しいデザートをご馳走してもらえるのも嬉しいです。[p]
+為我買衣服的也是[r]
+我很開心能品嘗到這麼美味的甜點。[p]
 [s_t]
-でも気を使わなくても大丈夫ですよ？[lr]
+但是不去顧慮也沒關係喔?（好像不太通順求修正)[lr]
 [s_ssp]
-私、[name]がいればそれだけで幸せですから。[p]
+我，[name]在我身邊的話就已經很幸福了[p]
 [after_talk]
 
 *talk29
 [s_t]
 #シルヴィ
-患者さんの病気や怪我もそれほどひどくないみたいですし、[r]
-この町は平和な所なんですね。[p]
+患者的症狀似乎也沒有那麼嚴重的樣子[r]
+這個城鎮市是個和平的地方喔。[p]
 [s_clt]
-私が育った場所はもっと治安の悪いところにありました。[p]
+我長大的地方是在治安更糟糕的地方[p]
 [s_cl]
 [after_talk]
 
 *talk30
 [s_t]
 #シルヴィ
-ここに来る前のお屋敷には私の他にも奴隷が何人かいました。[p]
+來這裡之前，府邸內還有其他幾位像我一樣的奴隸在[p]
 [s_ct]
-雑用や労働のための奴隷。[lr]
-夜の相手をする奴隷。[lr]
+只為了做雜物粗活的奴隸[lr]
+夜裡侍奉主人的奴隸[lr]
 [s_cclt]
-私はただ、痛めつけて楽しむための奴隷だったみたいです。[p]
+我好像只是負責被主人責打取樂的奴隸而已。[p]
 [s_ccl]
 [after_talk]
 
 *talk31
 [s_t]
 #シルヴィ
-前に私を飼っていた人。[lr]
+前一個飼養我的人。[lr]
 [s_clt]
-事故で亡くなったって言われてましたけど、本当は違うんです。[p]
-色んな人の恨みを買っていたらしいです…。[p]
+雖然說是因事故而身亡、但其實不是的。[p]
+似乎招惹了許多人的怨恨[p]
 [s_cl]
 [after_talk]
 
 *talk32
 [s_t]
 #シルヴィ
-私を飼っていた人、[r]
-私の前にも何人か痛めつけて楽しむための奴隷を買ってたらしいです。[p]
+照顧我的人。[r]
+在我之前貌似也買了許多用來虐待的奴隸[p]
 [s_cclt]
-…事件が起こるタイミングがもう少し遅かったら、[r]
-私もその人たちと同じことになってたかもしれません。[p]
+…若發生的時機點再稍微晚一點的話，[r]
+說不定我也變得跟那些人一樣了[p]
 [s_ccl]
 [after_talk]
 
 *talk33
 [s_clt]
 #シルヴィ
-物心つく頃から私は一人で、家族と言うものを知りません。[lr]
+自從懂事以來我就是一個人、不知道家人是怎麼樣的。[lr]
 [s_ct]
-…[name]を、家族のように思ったら、ご迷惑でしょうか？[p]
+…[name]將（玩家)當成家人一樣的話，會令你困惑嗎?[p]
 [s_c]
 [after_talk]
 
 *talk34
 [s_ct]
 #シルヴィ
-私の体、貧相だけど、嫌いじゃないですか？[lr]
-まだ、成長はすると思いますから…。[p]
+我雖然沒什麼身材，你應該不會嫌棄吧？[lr]
+我想，以後還會再成長的…。[p]
 [s_c]
 [after_talk]
 
 *talk35
 [s_st]
 #シルヴィ
-[name]を思うと、楽しくて。[lr]
+[name]想著（玩家名)的時候,非常的快樂[lr]
 [s_ccltp]
-幸せすぎて苦しくもなります。[p]
+太過幸福，甚至幸福得開始有點辛苦了。[p]
 [s_cclp]
 [after_talk]
 
 *talk36
 [s_ctp]
 #シルヴィ
-[name]…。[lr]抱きしめて…くれませんか？[p]
+[name]…。[lr]不抱抱…人家嗎?[p]
 [s_cp]
 [after_talk]
 
 *talk37
 [s_clp]
 #シルヴィ
-ん…[p]
+嗯…[p]
 #
-（突然唇を重ねられた[p]
+（突然間吻了上來,兩唇相濡[p]
 [eval  exp="f.h_m=f.h_m+1" ]
 [after_talk]
 
 *talk38
 [s_ctp]
 #シルヴィ
-こうして一緒にいるだけで、体が火照るような…。[p]
+像這樣子在一起的時候，身體就變得好像被火燒一樣….[p]
 [s_cp]
 [after_talk]
 
 *talk39
 [s_stp]
 #シルヴィ
-私は、[name]のものです。[lr]
-心も、体も…。[p]
+我、[name]的東西[lr]
+身心都…[p]
 [s_sp]
 [after_talk]
 
 *talk40
 [s_clt]
 #シルヴィ
-普通の家庭に生まれていたら、辛い過去はなかったのかもしれません。[lr]
-でも、そうしたら[name]ともきっと会えなかった。[p]
+如果能出生在普通的家庭的話，或許就不會有這麼辛酸的過去了。[lr]
+但、那麼做的話[name]未能遇到[p]
 [s_stp]
-そう考えたら、みなしごでよかったって思います。[p]
+這樣想來的話，生為一個孤兒真是太好了。[p]
 [s_sp]
 [after_talk]
 
 *talk41
 [s_sstp]
 #シルヴィ
-[name]といれば、どこにいても何をしていても幸せです。[p]
+[name]這樣說來、不管在哪裡、做著什麼都很幸福[p]
 [after_talk]
 
 *talk42
 [s_cltp]
 #シルヴィ
-[name]といると、昔のことなんてどうでもよくなります。[p]
+[name]這麼說來，以前的事情就變得無所謂了呢。[p]
 [s_clp]
 [after_talk]
 
 *talk43
 [s_cltp]
 #シルヴィ
-奴隷でもいいから、ずっとお側に居させてください。[p]
+作為奴隸也無所謂，請讓我一直待在您身邊。[p]
 [s_clp]
 [after_talk]
 
@@ -702,46 +702,46 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_cltp]
 #シルヴィ
 [name]。[lr]
-私にして欲しいことがあったら、遠慮しないで言ってくださいね。[lr]
+有想對我做的事情的話，請您不要猶疑地直接告訴我喔。[lr]
 [s_tp]
-私、精一杯ご奉仕します。[p]
+我會盡全力來奉仕的。[p]
 [s_p]
 [after_talk]
 
 *talk45
 [s_t]
 #シルヴィ
-あの服屋さん、普通じゃない服や、服でないものも置いてありますよね。[p]
+那個服飾店也有賣不普通的衣服跟不是衣服的東西呢[p]
 [s_stp]
-[name]が着てほしい物なら、私なんでも着ますからね。[p]
+[name]想我穿的話，我甚麼也會穿的喔。[p]
 [after_talk]
 
 *talk46
 [s_clt]
 #シルヴィ
-[name]は色んなことを教えてくれましたね。[p]
+[name]教了我許多不同的事情呢。[p]
 [s_st]
-優しい、暖かい、甘い、嬉しい。[lr]
+既溫柔,又溫暖,既甜蜜,又愉悅[lr]
 [s_cltp]
-…あと、気持ちいい。[p]
+…而且，很舒服。[p]
 [s_clp]
 [after_talk]
 
 *talk47
 [s_ctp]
 #シルヴィ
-最近、[name]に触れると、[r]
-なんだかお腹の下の方がきゅうってなるんです。[p]
+最近，[name]摸了一下[r]
+不知為何下腹部就啾~的縮緊了起來[p]
 [s_cp]
 [after_talk]
 
 *talk48
 [s_cp]
 #
-（太ももを擦り合わせるようにもじもじとしている[p]
+大腿不停互相摩擦，冷靜不下來的樣子[p]
 #シルヴィ
 …。[p]
-（目が合うと頬がさらに赤らんだような気がした。[p]
+（視線重合時感覺臉變得更紅了[p]
 [after_talk]
 
 *talk49
@@ -749,96 +749,96 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 [name]…　[p]
 #
-（こちらに寄り添い、なにやら切なそうな声を上げた[p]
+（依靠我這邊來，發出了感覺帶有些哀傷的聲音[p]
 [s_cp]
 [after_talk]
 
 *talk50
 [s_ctp]
 #シルヴィ
-[name]、その…。[lr]
+[name]、那個…。[lr]
 [s_ccltp]
-…なんでも…ないです。[p]
+什麼事…都沒有[p]
 #
-（なにか少し落ち着きがないようだ。[lr]
-心なしか息が荒い。[p]
+（好像有點不安的樣子[lr]
+不禁氣息紊亂。[p]
 [s_cp]
 [after_talk]
 
 *talk51
 [s_clp]
 #シルヴィ
-ん…[p]
+嗯…[p]
 #
-（突然唇を重ねられた。[lr]
-熱い吐息と舌が口内に入り込んでくる。[p]
+(嘴唇親了上來。[lr]
+灼熱的吐息伴隨著舌頭一併進入了口腔之中。[p]
 #シルヴィ
-ちゅ…れる[p]
+啾…咕嚕…♡[p]
 [eval  exp="f.h_m=f.h_m+1" ]
 [after_talk]
 
 *talk52
 [s_clp]
 #シルヴィ
-ん…[p]
+嗯…[p]
 #
-（何も言わず後ろから抱きしめられた。[lr]
-少し高く感じる体温と大きく高鳴る心音が背中から伝わってくる。[p]
+（二話不說，從後面抱了上去[lr]
+從那背部傳來了稍微升高的體溫以及越來越大聲的心跳[p]
 [after_talk]
 
 *talk53
 [s_ctp]
 #シルヴィ
-もっと、くっついても、いいですか？[p]
+可以、再靠近你身邊一點嗎？[p]
 #
-（返事より前に胴を抱えられた。[p]
+（回答之前就被抱住了[p]
 [s_clp]
 #シルヴィ
-ふぅ…ん…。[p]
+呼…嗯…。[p]
 #
-（しっかりと体を抱きしめ、[r]
-腹をこすりつけるようにゆっくりと身じろぎしている。[p]
+（緊緊地抱著她的身子、[r]
+像是要摩擦腹部一樣，慢慢地挪動著身體[p]
 [after_talk]
 
 *talk54
 [s_p]
 #
 （…[p]
-（こちらの肩に頭を預けているシルヴィの頬に手をそえる。[p]
+（シルヴィ倚著我的肩膀，我將手放上她的臉頰[p]
 [s_tp]
 #シルヴィ
-…あむ[p]
+…啊嗚[p]
 #
-（唐突にシルヴィに指を咥えられた[p]　
+（突然被シルヴィ含住手指[p]　
 [s_cltp]
 #シルヴィ
-ん、ちゅ…。[lr]はぁ…れろ…。[p]　
+嗯、啾…。[lr]哈…舔舔…[p]　
 #
-（奉仕するように指先を舐め始めてしまった。[p]
+（如侍奉般地開始舔著指尖[p]
 [eval  exp="f.h_m=f.h_m+1" ]
 [after_talk]
 
 *talk55
 [s_ctp]
 #シルヴィ
-私、もう[name]がいないと、ダメだと思います…。[lr]
-なにがって…、何もかもです…。[p]
+我、已經[name]不在的話，我就要變得不行了…[lr]
+你問說是什麼…，是一切所有喔…。[p]
 [s_cp]
 [after_talk]
 
 *talk56
 [s_ctp]
 #シルヴィ
-常に[name]のことを求めるようになってしまいました。[lr]
-心も、体も…[p]
+時常[name]開始會渴求著了。[lr]
+身心都…[p]
 [s_cp]
 [after_talk]
 
 *talk57
 [s_ctp]
 #シルヴィ
-最近、日が高いうちから[name]に抱かれている時の気持ちが脳裏を離れなくて…。[lr]
-お腹のあたりが、いつも切ないです…。[p]
+最近，趁著太陽高掛的時候[name]被疼愛著的感覺，已經無法從腦海裡消去…[lr]
+腹部的這地方，一直感到按耐不住[p]
 [eval  exp="f.lust=f.lust+1" ]
 [s_cp]
 [after_talk]
@@ -847,24 +847,24 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_tp]
 #シルヴィ
 [name]？[lr]
-私、[name]を受け入れる準備はいつでもできてますから…。[p]
+我，[name]我已經隨時都準備好接受的一切了[p]
 [s_tp]
-ほんのちょっとでもそういう気持ちになったら、[r]
-遠慮しないでいいですからね？[p]
+如果有那麼一點那種感覺的話[r]
+不用考慮太多也可以喔?[p]
 [s_p]
 [after_talk]
 
 *talk59
 [s_ccltp]
 #シルヴィ
-あの…実は[name]に隠れて、その…。[lr]
+那個…其實[name]瞞著，那個…[lr]
 [s_ctp]
-自分を慰めたことがあるんです。[p]
+也是有自慰過。[p]
 [s_ccltp]
-でも、全然満足できなくて、[lr]
-余計辛くなってしまって…。[lr]
+但完全沒有辦法獲得滿足[lr]
+只會更加得難受…[lr]
 [s_ctp]
-もう、[name]にしていただかないとダメみたいです…。[p]
+已經、[name]不作那種事的話就好像就不行…[p]
 [eval  exp="f.lust=f.lust+1" ]
 [s_cp]
 [after_talk]
@@ -873,76 +873,76 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [s_ctp]
 #シルヴィ
 [name]…。[p]
-（シルヴィが正面から抱きついてきた。[p]
+（シルヴィ從正面將我抱著[p]
 [name]…。[name]…。[p]
 （繰り返しこちらを呼ぶばかりだが[r]
-潤んだ瞳は何かを訴えるようにこちらを見上げている。[p]
+濕潤的眼眸向是在訴說著什麼並往這裡看過來[p]
 [s_cp]
 [eval  exp="f.h_b=f.h_b+1" ]
 [after_talk]
 
 *talk61
 [s_t]
-外に出ると人の目を引いてしまうのは、やっぱりこの痕のせいですよね…[p]
+外出時總會引人注目、果然是因為這身傷痕的關係吧…[p]
 [s_clt]
-でも[name]さえ気にしないでくれるなら私は大丈夫です。[p]
+但是[name]，若你不在意的話那我就沒關係。[p]
 [s_st]
-私にとっては[name]が全てですから。[p]
+因為對我來說[name]就是我的全部。[p]
 [s_s]
 [after_talk]
 
 *talk62
 [s_ctp]
-自分でも、自分がいやらしいって思います…。[p]
-…[name]はそんな娘は嫌でしょうか？[r]
-やっぱり迷惑でしょうか…？[p]
+我也覺得、自己很色…。[p]
+…[name]討厭那樣的女孩嗎？[r]
+果然還是替您添麻煩了嗎…?[p]
 [s_p]
 [after_talk]
 
 *talk63
 [s_ctp]
-いやらしい気持ちになっちゃうのは[name]のことを考えてる間だけなんです…。[p]
+之所以會有淫糜感覺[name]就在想著你的時候…[p]
 [s_ccltp]
-でも、そばにいると考えちゃうし、そばにいないと不安になるし…。[p]
+可是若在身旁的話就不禁會去想。若不再身旁的話又會感到不安…[p]
 [s_cclp]
 [after_talk]
 
 *talk64
 [s_tp]
-自分で体を動かすより、[name]に好きにされてる時の方が自然に思えてしまって。[p]
+比起自己移動身體，[name]開始覺得被恣意的玩弄時才是正常了[p]
 [s_cltp]
-私の体、もう[name]の物になってしまったみたいです…。[p]
+我的身體,已經[name]…好像變成了您的所有物一樣…[p]
 [s_clp]
 [after_talk]
 
 *talk65
 [s_tp]
-[name]に激しくされると、私は[name]の物なんだって感じます。[p]
+[name]若那麼激烈的話，我會[name]…我覺得自己屬於您。[p]
 [s_cltp]
-それがどうしようもなく嬉しく感じるのは、やっぱり変なんでしょうね…。[p]
+會感到如此莫名喜悅的我，一定是哪裡不太對吧[p]
 [s_clp]
 [after_talk]
 
 *talk66
 [s_ctp]
-たとえ他に生きていく居場所があったとしても、[r]
-私もう[name]と一緒じゃないとダメです。[p]
-ずっと一緒にいてください。ずっと…ずっと…。[p]
+就算有其他讓我生活的地方[r]
+我已經[name]沒有一起的話是不行的[p]
+請你一直和我在一起。一直…一直…[p]
 [s_cp]
 [after_talk]
 
 *talk67
 [s_stp]
-[name]のそばにいるだけで嬉しくて、[name]に触れてると幸せです。[p]
+[name]的身邊覺得很開心[name]摸著感到很幸福[p]
 [s_sp]
 [after_talk]
 
 *talk68
 [s_t]
-[name]はどんな女性が好みなんでしょう？[p]
-言葉使い、姿勢、振る舞い[r]
+[name]喜歡怎樣的女性呢？[p]
+講話時的遣詞、姿勢、舉止[r]
 [s_ct]
-私、どう変わればもっと好きになってもらえますか？[p]
+我要怎樣你才會更加喜歡我？[p]
 [s_c]
 [after_talk]
 
@@ -957,7 +957,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ss]
-ふふっ…好きですよ。[p]
+呼呼…喜歡你唷[p]
 [after_nade]
 
 *nade2
@@ -966,7 +966,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_st]
-もっと、お願いしても宜しいですか？[p]
+還能…要求更多嗎？[p]
 [after_nade]
 
 *nade3
@@ -975,9 +975,9 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_sst]
-ふふ…[name]？[p]
+呼呼…[name]？[p]
 #
-（嬉しそうに表情をほころばせる。[p]
+（綻放出相當開心的笑容[p]
 [after_nade]
 
 *nade4
@@ -986,7 +986,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_sclt]
-優しくって、暖かい…[p]
+既溫柔又溫暖[p]
 [after_nade]
 
 *nade5
@@ -995,7 +995,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-溶けてしまいそうです[p]
+好像要融化了一樣[p]
 [after_nade]
 
 *nade6
@@ -1004,7 +1004,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-[name]の手、大好きです[p]
+[name]的手，最喜歡了。[p]
 [after_nade]
 
 *nade7
@@ -1013,7 +1013,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-こうされていると、とても落ち着きます[p]
+被這麼做時、都覺得非常安心呢[p]
 [after_nade]
 
 *nade8
@@ -1022,7 +1022,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-[name]、あったかいです。[r]とても…。[p]
+[name]、好溫暖。[r]十分的…[p]
 [after_nade]
 
 *nade9
@@ -1031,7 +1031,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-なんだか幸せな気分です…[p]
+總覺得很幸福…[p]
 [after_nade]
 
 *nade10
@@ -1040,7 +1040,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-[name]の与えてくれるものは全部暖かいですね[p]
+[name]賜予我的東西，全部都很溫暖呢[p]
 [after_nade]
 
 *nade11
@@ -1049,7 +1049,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-こうしていただけると、とても安心します…[p]
+受到這樣的對待，讓我感到非常的安心[p]
 [after_nade]
 
 *nade12
@@ -1058,7 +1058,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-ずっとこうしていたくなります…[p]
+變得想繼續這麼下去…[p]
 [after_nade]
 
 *nade13
@@ -1067,7 +1067,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-見捨てないでくださいね…[p]
+請不要拋棄我呢…[p]
 [after_nade]
 
 *nade14
@@ -1076,7 +1076,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-[name]、…好きです。[p]
+[name]…喜歡你[p]
 [after_nade]
 
 *nade15
@@ -1085,7 +1085,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-どうぞ、お好きなだけ私に触れてください。[p]
+請您儘管隨您喜歡的觸摸我吧。[p]
 [after_nade]
 
 *nade16
@@ -1094,7 +1094,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-頭をなでるだけで、いいんですか？[p]
+只摸頭、可以嗎?[p]
 [after_nade]
 
 *nade17
@@ -1112,7 +1112,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_sclt]
-[name]の与えてくれるものは全部暖かいですね[p]
+[name]賜予我的東西，全部都很溫暖呢[p]
 [after_nade]
 
 *nade19
@@ -1121,7 +1121,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_st]
-私も[name]に触れてもいいですか？[p]
+我也[name]可以摸摸我嗎？[p]
 [after_nade]
 
 *nade20
@@ -1130,7 +1130,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_sstp]
-ふふっ…大好きです♡[p]
+呵呵…最愛你了[p]
 [after_nade]
 
 *nade21
@@ -1139,7 +1139,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ccltp]
-…好きです…どうしようもなく好きなんです[p]
+…喜歡你…喜歡的無法自拔[p]
 [after_nade]
 
 *nade22
@@ -1148,7 +1148,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-…[name]に触れていただいていると、すごく安心します[p]
+…[name]這樣子被撫摸著，令人感到安心[p]
 [after_nade]
 
 *nade23
@@ -1157,7 +1157,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-こうされていると、とても落ち着きます[p]
+被這麼做時、都覺得非常安心呢[p]
 [after_nade]
 
 *nade24
@@ -1166,7 +1166,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ssp]
-[name]の手、大好きです[p]
+[name]的手，最喜歡了。[p]
 [after_nade]
 
 *nade25
@@ -1175,7 +1175,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-ドロドロに溶けてしまいそう[p]
+幸福的要溶化了呢…♡[p]
 [after_nade]
 
 *nade26
@@ -1184,7 +1184,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-[name]、あったかいです。とても…。[p]
+[name]非常的…溫暖[p]
 [after_nade]
 
 *nade27
@@ -1193,7 +1193,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-[name]…私…[p]
+[name]…我…[p]
 [after_nade]
 
 *nade28
@@ -1202,7 +1202,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-離さないでくださいね[p]
+請不要離開我唷[p]
 [after_nade]
 
 *nade29
@@ -1211,7 +1211,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-こうして私の心を溶かしてくれたんですよね…。[p]
+就是這樣把我的內心溶解了的呢…[p]
 [after_nade]
 
 *nade30
@@ -1220,9 +1220,9 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-私からもじゃれつきたくなります…。[p]
+我也開始想要戲弄了…[p]
 [n_cltp]
-我ながらなんだか犬か猫みたいですね…。[p]
+覺得自己就像是狗狗或是貓咪那樣呢…。[p]
 [after_nade]
 
 *nade31
@@ -1231,8 +1231,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-撫でてくれてる…。[p]
-私の大好きな[name]が…。[p]
+摸了…[p]
+我最喜歡的[name]…。[p]
 [after_nade]
 
 *nade32
@@ -1241,7 +1241,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-ずっとこうしていたいです。ずっと…[p]
+想要永遠這麼下去。永遠…[p]
 [after_nade]
 
 *nade33
@@ -1250,7 +1250,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-ふぅー…[p]
+呼－…[p]
 [after_nade]
 
 *nade34
@@ -1266,7 +1266,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-優しくって、暖かくって…[p]
+又溫柔、又溫暖…[p]
 [after_nade]
 
 *nade36
@@ -1275,7 +1275,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ccltp]
-体が火照ってしまいます…[p]
+身體相當火燙…[p]
 [after_nade]
 
 *nade37
@@ -1284,7 +1284,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-最近[name]に触れていないと、不安で…[p]
+最近[name]若不撫摸我的話，就會不安…[p]
 [after_nade]
 
 *nade38
@@ -1293,8 +1293,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_tp]
-お好きなだけ私に触れてください。[lr]
-気がすむまで、いつまででも…。[p]
+請隨你喜歡的撫摸我。[lr]
+到滿意為止，就一直這樣下去…[p]
 [after_nade]
 
 *nade39
@@ -1303,7 +1303,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-…ん…はぁ[p]
+嗯…哈啊…[p]
 [after_nade]
 
 *nade40
@@ -1312,7 +1312,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_tp]
-もっと、お願いします。もっと…[p]
+更多，求求您了給我更多….[p]
 [after_nade]
 
 *nade41
@@ -1321,7 +1321,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-頭だけじゃたりません。もっと…私に触れてください[p]
+只是頭的話是不夠的。請你…更加地觸摸我吧[p]
 [after_nade]
 
 *nade42
@@ -1330,8 +1330,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-これだけだと、かえって切なくなっちゃいます…。[lr]
-ねぇ、[name]…？[p]
+若有那麼多的話，反而會感到難過不安…[lr]
+吶[name]…？[p]
 [after_nade]
 
 *nade43
@@ -1340,7 +1340,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-[name]の手…私の大好きな…。[p]
+[name]的手…我最喜歡了…。[p]
 [after_nade]
 
 *nade44
@@ -1349,7 +1349,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_tp]
-[name]にだったら、少しぐらい乱暴に扱われても…。[p]
+[name]如果是…的話，即使粗暴一點也…[p]
 [after_nade]
 
 *nade45
@@ -1358,7 +1358,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_cltp]
-これだけで、頭が痺れてきそう…。[p]
+只是這樣、腦袋就快要麻痺了…。[p]
 [after_nade]
 
 *nade46
@@ -1367,7 +1367,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-触られてるのは頭なのに、身体中が熱くなって…。[p]
+被觸摸的明明是頭的話，身體裡卻變得熱起來了……[p]
 [after_nade]
 
 *nade47
@@ -1376,7 +1376,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_ctp]
-…いじわるしないでください。[p]
+…請別捉弄我了。[p]
 [after_nade]
 
 *nade48
@@ -1385,16 +1385,16 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_tp]
-もっと、強い刺激が欲しくなってきました…。[p]
+變得還想要、更強烈的刺激了[p]
 [after_nade]
 
 *nade49
 [n_ctp]
 [show_nade]
 #シルヴィ
-ふぅ…ん…。[p]
+呼…嗯…。[p]
 #
-（不規則な呼吸をつきながら潤んだ瞳でこちらを見つめている…。[p]
+（喘息著不規律的呼吸，水汪汪的眼睛直盯著我看[p]
 [after_nade]
 
 *nade50
@@ -1405,7 +1405,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 [n_ctp]
 [name]…。[name]…。[p]
 #
-（もどかしそうな顔をしながらモジモジと体を揺らしている…。[p]
+（做出一付不如其意般的表情，開始不安分地搖動身軀[p]
 [after_nade]
 
 *nade51
@@ -1414,8 +1414,8 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_stp]
-私を、幸せにしてくれる手…。[lr]
-私を気持ち良くしてくれる手…。[p]
+能夠讓我獲得幸福的雙手[lr]
+令我感到舒服的手…。[p]
 [after_nade]
 
 *nade52
@@ -1424,7 +1424,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_tp]
-私は[name]のものですから、何をしてもいいんですよ？[p]
+我[name]的所有物…想對我做什麼都可以喔?[p]
 [after_nade]
 
 *nade53
@@ -1433,7 +1433,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_scltp]
-私の体は隅から隅まで[name]のものです[p]
+用我身體上的所有部位[name]的東西[p]
 [after_nade]
 
 *nade54
@@ -1442,7 +1442,7 @@ f.morning_h=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 …[p]
 [n_sstp]
-私、幸せです。とっても…[p]
+我,非常的幸福,非常的…[p]
 [after_nade]
 
 
