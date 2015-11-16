@@ -95,22 +95,22 @@
 [show_effect]
 
 #シルヴィ
-えっ！?[p]
+哎！?[p]
 [bg  time="1"  method="crossfade"  storage="sk1-2.jpg" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/00.png" ]
 
-あ、[name]。おはようござい…ます。[p]
+啊、[name]您...早安。[p]
 #
-（シルヴィの艶かしい後ろ姿を見て収まらなくなったペニスを無防備な尻に添えた。[p]
+(看見シルヴィ魅力十足的背姿忍受不了的肉棒向無防備的屁股靠過去[p]
 #シルヴィ
-朝食の準備をしているんですけど、その…。[p]
-えっと、その。[lr]
-もしかして、するんですか…今ここで?[p]
+雖然早已把早餐準備好了，但是那個…[p]
+那、那個[lr]
+難道是，要做嗎...就在這兒？[p]
 [bg  time="1"  method="crossfade"  storage="sk1-3.jpg" ]
 
-…では、ど…どうぞ。[p]
+…那麼、請…請來吧[p]
 #
-（恥らいをにじませながらもシルヴィはおずおずと尻を突き出してきた。[p]
+（シルヴィ一邊害羞一邊戰戰兢兢的把屁股翹起來[p]
 
 [button  storage=""  target="*wear1"  graphic="ch/wear.png"    x="0"  y="200" ]
 [button  storage=""  target="*nude1"  graphic="ch/unwear.png"   x="0"  y="350" ]
@@ -120,14 +120,14 @@
 [cm]
 [cancelskip]
 [chara_mod  name="e-clothes"  time="0"  storage="chara/8/00.png" ]
-（服の肩紐を外し床に落とす。[p]
+(解下シルヴィ的肩帶，衣服落到了床上。[p]
 
 *wear1
 [cm]
 [cancelskip]
 #
-（準備のなかったシルヴィもペニスを尻にこすられ続けると興奮し始めたようだ。[p]
-（秘部がだんだんと湿り気を帯びてくる。[p]
+(看起來毫無防備的シルヴィ也因為被男根摩擦著嫩臀而興奮了起來[p]
+（私處漸漸變得濕潤[p]
 
 [bg  time="1"  method="crossfade"  storage="sk1-4.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk1-4.png" ]
@@ -137,19 +137,19 @@
 [playse  storage="s-wet1.ogg"  clear="true"  ]
 
 #シルヴィ
-ん…ぁ[p]
+嗯…啊[p]
 #
-（ずるりとシルヴィの下腹部にペニスをしまいこむ。[p]
+（流暢地將陰莖深入シルヴィ下腹部深處[p]
 [bg  time="1"  method="crossfade"  storage="sk1-5.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk1-5.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/00.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk1-5.png" ]
 
 #シルヴィ
-ふぅ〜。[p]
+呼～[p]
 #
-（シルヴィもしっかりペニスを受け入れている。[p]
-（ゆっくりとしたペースアップは必要なさそうだ。[p]
+(シルヴィ己經完全接受肉棒了[p]
+（緩慢的速度似乎有加快的必要了[p]
 [bg  time="1"  method="crossfade"  storage="sk1-6.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk1-6.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk1-6.png" ]
@@ -158,29 +158,29 @@
 [playse  loop="true"  storage="l-wet1.ogg"  clear="true"  ]
 
 
-（じっくりと深くシルヴィの中を楽しむ。[p]
+（慢慢的、深深的在シルヴィ的裡面享受著[p]
 #シルヴィ
-んっ…ふぅっ！やっ…♡[p]
+嗚咕…呼！呀…♡[p]
 #
-（脚を閉じているからか普段より肉襞の圧迫感が強い。[p]
+(因為雙腳夾緊著肉壁的壓迫感比平常要強[p]
 （膣の内側から腹をこすりあげる度に[r]
-シルヴィは必死で声を抑えようと息を詰まらせる。[p]
+シルヴィ因拚命的抑止住聲音而喘不過氣[p]
 #シルヴィ
-…ふぅっ！んっ…♡ひぅっ！♡[p]
-（じっくり時間をかけてピストンのスピードを上げていく。[p]
+…呼嗚！嗚…♡咿嗚！♡[p]
+(慢慢的花時把活塞運動的速度加快[p]
 [bg  time="1"  method="crossfade"  storage="sk1-7.jpg" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk1-7.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk1-7.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sk-3.png" ]
 
 #シルヴィ
-ぐぅっ！♡…ひぃん！！♡[p]
+嗚咕！♡…咿！！♡[p]
 #
-（すでに濡れ切ったシルヴィの下腹部からは蜜が溢れ脚を伝い地面に垂れていく。[p]
-（ピストンはすでにかなりのスピードになり、[r]
-愛液で濡れた腰と尻はぶつかり合う度弾けるような音を立てている。[p]
-（始めはこらえようとしていた喘ぎ声を[r]
-シルヴィはすでに抑えられず彼女の嬌声がキッチンに響き渡る。[p]
+(シルヴィ的愛液從已經濕透的下腹部，流過了雙腿，一路垂向地面[p]
+(活塞運動的速度已經相當快了[r]
+(濕透的腰與臀每次相碰，都因為愛液而像彈奏般發出聲響。[p]
+（一開始就像是要忍耐般的將喘聲[r]
+シルヴィ已經壓抑不住開始好好的發出嬌喘聲[p]
 [bg  time="1"  method="crossfade"  storage="sk1-8.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk1-8.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk1-8.png" ]
@@ -188,9 +188,9 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 #シルヴィ
-あっ！[name]っ！！♡私、もうっ！♡[p]
+啊！[name]嗚！！♡我、我已經！♡[p]
 #
-（シルヴィの膝が震え始め体重を支えられなくなりそうだ。[p]
+(シルヴィ的雙膝開始發抖，好像快要支撐不住體重一樣[p]
 [bg  time="1"  method="crossfade"  storage="sk1-9.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk1-9.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk1-9.png" ]
@@ -199,10 +199,10 @@
 [playse   storage="fin1.ogg"  clear="true"  ]
 
 #シルヴィ
-んぅ…！！！♡！♡♡[p]
+嗯…！！！♡！♡禾[p]
 #
-（シルヴィの体がガクンと揺れると同時に腰を思い切り打ち付け、[r]
-一番深くに精子を流し込む。[p]
+(在シルヴィ身體因顫抖搖動的同時用力的把腰挺上去[r]
+把精子射進最深處[p]
 [bg  time="1"  method="crossfade"  storage="sk1-10.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/00.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk1-10.png" ]
@@ -211,7 +211,7 @@
 
 
 #シルヴィ
-はー…♡はー♡[p]
+哈啊─…♡哈啊♡[p]
 
 [jump  storage=""  target="*end" ]
 
@@ -304,15 +304,15 @@
 [show_effect]
 
 #シルヴィ
-んっ…！[p]
+嗚…！[p]
 [bg  time="1"  method="crossfade"  storage="sk2-2.jpg" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk2-2.png" ]
 
-あ、[name]…。[p]
-するん…ですか?[p]
-…どうぞ。[p]
+啊、[name]…。[p]
+要…做嗎？[p]
+...請用。[p]
 #
-（シルヴィは何も言わずともすんなりと尻を突き出してきた。[p]
+（シルヴィ二話不說馬上把屁股抬了上來[p]
 
 [button  storage=""  target="*wear2"  graphic="ch/wear.png"    x="0"  y="200" ]
 [button  storage=""  target="*nude2"  graphic="ch/unwear.png"   x="0"  y="350" ]
@@ -322,12 +322,12 @@
 [cm]
 [cancelskip]
 [chara_mod  name="e-clothes"  time="0"  storage="chara/8/00.png" ]
-（服の肩紐を外し床に落とす。[p]
+(解下シルヴィ的肩帶，衣服落到了床上。[p]
 
 *wear2
 [cm]
 [cancelskip]
-（ペニスを尻にこするとすぐに秘部から蜜が溢れてきた。[p]
+（肉棒一磨擦到屁股從秘處馬上流出了蜜汁[p]
 [bg  time="1"  method="crossfade"  storage="sk2-3.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk2-3.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk2-3.png" ]
@@ -336,10 +336,10 @@
 [playse  storage="s-wet1.ogg"  clear="true"  ]
 
 #シルヴィ
-はぁ〜♡ん…!♡[p]
+啊啊〜♡嗚…!♡[p]
 #
-（シルヴィの膣はすんなりとペニスを受け入れ、[r]
-挿入しただけで快感の声が漏れた。[p]
+（シルヴィ的陰道順從地接受了我的男根，[r]
+只是插入而已，舒服的聲音就漏了出來[p]
 [bg  time="1"  method="crossfade"  storage="sk2-4.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk2-4.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk2-4.png" ]
@@ -347,26 +347,26 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sk-2.png" ]
 [playse  loop="true"  storage="l-wet1.ogg"  clear="true"  ]
 
-（遠慮する必要はなさそうだ。[p]
-（初めからそれなりのスピードで腰を動かし始める。[p]
+（似乎是不用顧慮了[p]
+(一開始シルヴィ用自己的速度開始扭動纖腰[p]
 #シルヴィ
-あっ…んぅっ！♡はぅっ！♡♡[p]
+啊…嗯！♡哈嗚！♡♡[p]
 #
-（閉じた脚に挟まれた膣の入り口は普段以上の圧でペニスを締め付けてくる。[p]
+(緊閉的雙腳讓小穴入口的肉棒感覺更被壓得緊緊的[p]
 （膣の内側から腹をこすりあげる度シルヴィは喉を震わせ声をあげた。[p]
 [bg  time="1"  method="crossfade"  storage="sk2-5.jpg" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk2-5.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk2-5.png" ]
 
 #シルヴィ
-あ゛っ…！♡♡あぁ゛〜！♡！♡♡[p]
+啊…！♡♡啊啊～！♡！♡♡[p]
 #
-（シルヴィがブルッと小さく身を震わせた。[lr]
-どうやら軽く絶頂したようだ。[p]
-（それにかまわず膣をえぐり、子宮を小突き、お互いの快感をひたすら高めていく。[p]
+シルヴィ那小小的身體突然哆嗦的顫抖了一下。[lr]
+似乎是小小的高潮呢[p]
+(我依舊深深插入陰道，短促地抽插著子宮，一味地提高著雙方的快感[p]
 #シルヴィ
-あ゛…！♡あ゛っ…♡！♡あ゛ぁっ…！♡♡♡[p]
-（シルヴィの下腹部からは蜜が溢れ足元にピチャピチャと溢れている。[p]
+啊…！♡　啊…♡！　♡好舒服…！♡♡♡[p]
+(從シルヴィ的下腹部源源不決流出的蜜汁早已流到腳邊[p]
 
 [bg  time="1"  method="crossfade"  storage="sk2-6.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk2-6.png" ]
@@ -376,10 +376,10 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 #シルヴィ
-ぐぅっ！！♡…う〜！！♡♡[p]
+嘟咕嗚！！♡…嗚〜！！♡♡[p]
 #
-（ピストンはすでにかなりのスピードになり[r]
-愛液で濡れた腰と尻はぶつかり合う度弾けるような音を立てている。[p]
+(活塞運動的速度已經相當快了[r]
+(濕透的腰與臀每次相碰，都因為愛液而像彈奏般發出聲響。[p]
 （ヒクつく肉襞がペニスに絡みつきシルヴィの嬌声もだんだん大きくなる。[p]
 
 [bg  time="1"  method="crossfade"  storage="sk2-7.jpg" ]
@@ -387,9 +387,9 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk2-7.png" ]
 
 #シルヴィ
-あ゛っ！[name]っ！♡！♡私、おっきいのきちゃいます！♡！♡♡[p]
+啊！[name](...！♡！我...有什麼要來了！很大的...！[p]
 #
-（シルヴィの膝がガクガクと震え今にも崩れ落ちそうだ。[p]
+（シルヴィ的腳一顫一顫的顫抖著彷彿隨時都會站不住一樣[p]
 [bg  time="1"  method="crossfade"  storage="sk2-8.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk2-8.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk2-8.png" ]
@@ -398,10 +398,10 @@
 [playse  storage="fin1.ogg"  clear="true"  ]
 
 #シルヴィ
-あ゛ぁっっ！！♡！♡！♡♡[p]
+啊゛啊！！♡！♡！♡♡[p]
 #
-（シルヴィの体がビクンと跳ねると同時に腰を思い切り打ち付け、[r]
-一番深いところに精子を流し込む。[p]
+(在シルヴィ身體因顫抖而一震的同時用力的把腰挺上去[r]
+將我的精子射進秘穴的最深處[p]
 [bg  time="1"  method="crossfade"  storage="sk2-9.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/00.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk2-9.png" ]
@@ -409,7 +409,7 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sk-5.png" ]
 
 #シルヴィ
-ふ〜っ…♡は〜っ…♡♡♡[p]
+呼～…♡哈～…♡♡♡[p]
 
 [jump  storage=""  target="*end" ]
 
@@ -499,18 +499,18 @@
 [show_effect]
 
 #シルヴィ
-あんっ！[p]
+啊嗯！[p]
 #
-（突然の接触にも関わらず、シルヴィはどこか甘い声をあげた。[p]
+（不知是不是突然碰觸的關係，シルヴィ發出了甜蜜的叫聲[p]
 [bg  time="1"  method="crossfade"  storage="sk3-2.jpg" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk3-2.png" ]
 
 #シルヴィ
-あ、[name]。してくださるんですか？[p]
+啊、[name]。してくださるんですか？[p]
 #
-（尻に触れたのがなんなのかわかるとすぐに腰を突き出し、[r]
-小さく尻を左右に揺すりはじめた。[p]
-（秘部はすでに潤い、蜜が脚を伝っている。[p]
+(不知是不是碰到屁股的關係她馬上就把腰挺起來[r]
+小小的臀部開始左右搖晃[p]
+(秘部早就濕潤，蜜汁也已流到腳上[p]
 
 [button  storage=""  target="*wear3"  graphic="ch/wear.png"    x="0"  y="200" ]
 [button  storage=""  target="*nude3"  graphic="ch/unwear.png"   x="0"  y="350" ]
@@ -520,7 +520,7 @@
 [cm]
 [cancelskip]
 [chara_mod  name="e-clothes"  time="0"  storage="chara/8/00.png" ]
-（服の肩紐を外し床に落とす。[p]
+(解下シルヴィ的肩帶，衣服落到了床上。[p]
 
 *wear3
 [cm]
@@ -534,14 +534,14 @@
 
 
 #シルヴィ
-あ゛ぁ〜♡あ゛っ…！♡♡[p]
+啊～♡啊…！♡♡[p]
 #
-（すでにびしょびしょの蜜壺に早速ペニスをねじ込む。[p]
+（事不宜遲趕緊把陰莖插入已經決堤的蜜壺中[p]
 
 #シルヴィ
-んん…！♡ふぅ〜！♡！♡♡[p]
+嗯嗯…！♡呼〜！♡！♡♡[p]
 #
-（挿入しただけで軽く彼女の体は痙攣を始めた。[p]
+（才只是插入而已,她的身體就開始不斷痙攣[p]
 
 [bg  time="1"  method="crossfade"  storage="sk3-4.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk3-4.png" ]
@@ -556,15 +556,15 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk3-5.png" ]
 
 #シルヴィ
-あ゛っ♡…あ゛ぅっ♡！♡ひぐんっ…！♡！♡♡[p]
+啊゛♡…啊゛嗚゛…！♡一動一動的~！♡！♡♡[p]
 #
-（すでにビクビクとひくつく肉襞はペニスに吸い付き射精をねだっているようだ。[p]
-（膣の内側から腹をゴリゴリとこすりあげる度シルヴィの体は大きく跳ね上がっている。[p]
+(早就一顫一顫的肉壁彷彿像是祈求早點射精般的緊緊吸住肉棒[p]
+（從膣內側硬往腹部磨擦時シルヴィ的身體都會大幅的顫抖著。[p]
 #シルヴィ
-あ゛っ♡…あ゛へっ゛…！♡♡あ゛っ！♡♡♡[p]
+啊゛♡…啊゛嘿゛…！♡♡啊~！♡♡♡[p]
 #シルヴィ
 （脚は体を支えることができず持ち上げられた腰に頼りなくぶら下がっているだけだ。[p]
-（すでに何度か小さな絶頂を迎えているのだろう、[r]
+（早就不知迎來多少次的輕微高湖[r]
 膣がビクビクと時折震えるのを感じる。[p]
 [bg  time="1"  method="crossfade"  storage="sk3-6.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk3-6.png" ]
@@ -574,23 +574,23 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 #シルヴィ
-あ゛ぁ〜！♡♡…あ゛ぁ゛〜っ！♡！♡♡[p]
+啊啊～！♡♡…啊啊～！♡！♡♡[p]
 #
-（下腹部からは蜜が溢れ足元に水たまりを広げている。[p]
-（ピストンはすでにかなりのスピードになり、[r]
-愛液で濡れた腰と尻はぶつかり合う度弾けるような音を立てている。[p]
+(蜜汁從下腹部溢出，在腳底蔓延成攤[p]
+(活塞運動的速度已經相當快了[r]
+(濕透的腰與臀每次相碰，都因為愛液而像彈奏般發出聲響。[p]
 #シルヴィ
-あ゛ぁ゛〜っ！♡！♡♡お゛ぁっ！♡！♡♡♡[p]
-（シルヴィはすでに獣のように声を荒げ、ただ快楽を貪っている。[p]
+啊゛啊゛〜っ！♡！♡♡哦゛啊啊！♡！♡♡♡[p]
+（シルヴィ開始發出像野獸般的淫叫,變的只是一昧的貪圖著快樂[p]
 [bg  time="1"  method="crossfade"  storage="sk3-7.jpg" ]
 
 #シルヴィ
-あ゛〜！♡くるっ♡♡！！すごいのくる゛っ！♡♡[r]
-あ゛っ！！♡あ゛ぁ゛っ！♡！♡♡♡[p]
+啊～♡要來了♡♡很棒的要來了！♡♡[r]
+啊！！♡啊啊！♡！♡♡♡[p]
 #
-（シルヴィの体がひときわ大きくガクガクと震え出した。[p]
-（こちらもラストスパートに向けてピストンの速度を可能な限り早くし、[r]
-乱暴にペニスで子宮を殴りつける[p]
+（シルヴィ的身體顫抖比平常的還要大[p]
+(這邊也要迎向結尾了所以儘可能的要加快活塞的速度[r]
+粗暴的將肉棒頂向子宮[p]
 [bg  time="1"  method="crossfade"  storage="sk3-8.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk3-8.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sk3-8.png" ]
@@ -599,10 +599,10 @@
 [playse  storage="fin1.ogg"  clear="true"  ]
 
 #シルヴィ
-いぐゅぅうっっっ…！！♡！♡！♡♡♡♡[p]
+要去～～～…！！♡！♡！♡♡♡♡[p]
 #
-（シルヴィの体がビクンと跳ねると同時に腰を思い切り打ち付け、[r]
-一番深いところに精子を流し込む。[p]
+(在シルヴィ身體因顫抖而一震的同時用力的把腰挺上去[r]
+將我的精子射進秘穴的最深處[p]
 
 [bg  time="1"  method="crossfade"  storage="sk3-9.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sk3-9.png" ]
@@ -610,7 +610,7 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sk3-9.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sk-5.png" ]
 #シルヴィ
-あ゛〜！♡♡…あ゛ぁ゛〜！♡！♡♡[p]
+啊〜！♡♡…啊゛啊゛〜！♡！♡♡[p]
 
 [jump  storage=""  target="*end" ]
 
@@ -620,8 +620,8 @@
 [black]
 [fadeoutbgm time=500]
 #
-（手を離すとシルヴィはその場に座り込んでしまう。[p]
-（どうやら腰が抜けてしまったらしく朝食の準備はできそうもない。[p]
+一放手シルヴィ就無力的跌坐在那裡[p]
+(看來シルヴィ的腰似乎使不上力，要準備早餐也沒辦法了[p]
 
 （シルヴィを抱えてやり部屋に運び、彼女の代わりに台所に向かう。[p]
 
