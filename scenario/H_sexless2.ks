@@ -19,7 +19,7 @@
 
 #シルヴィ
 [f_ctp]
-あの、[name]…？[p]
+那個﹕[name]…？[p]
 まだ…私を抱きたい気分にはならないでしょうか？[p]
 
 [freeimage layer=0]
@@ -27,20 +27,20 @@
 [call  storage="set_show.ks"  target="*show_mise" ]
 
 （突然シルヴィは秘部を見せつけてきた。[p]
-（羞恥に震えながらも滴る愛液が太ももを伝い足元まで流れている。[p]
+一邊害羞的抖著，滴落的愛液卻流至大腿甚至腳邊[p]
 
 #シルヴィ
 [if exp="f.lust<=40" ]
-わ…私、体がなんだかおかしくて…[p]
+我…我、的身體變得感覺有點奇怪…[p]
 多分、自分じゃどうしようもないと思うんです…[lr]
-だから…その…。[p]
+所以說…那個…[p]
 [elsif exp="f.lust<=100" ]
 [name]に抱いて欲しくて、お腹の下の方が切なくて…[p]
-…お願い…できませんか？[p]
+…求求您…不可以嗎？[p]
 [else]
 もう、子宮が切なくて切なくて…[lr]
 [name]に抱いていただかないとどうにかなってしまいそうなんです…。[p]
-どうか…犯してください。お願いします…[p]
+請…盡情的侵犯我吧,求您了…[p]
 [endif]
 
 [button  storage=""  target="*nop"  graphic="ch/latar.png"    x="0"  y="200" ]
@@ -52,18 +52,18 @@
 [cm]
 [cancelskip]
 [if exp="f.lust<=40" ]
-…わかり…ました[p]
+…我…知道了[p]
 [name]がしてくれるまで…待ちます…[p]
-…きっと、少しの辛抱…ですよね。[p]
+…一定、有點辛苦…吧[p]
 [elsif exp="f.lust<=100" ]
-…わかり…ました[lr]
-でも、できるだけ早く…お願いします。[p]
-できるだけ…早く…[p]
+…我…知道了[lr]
+但是，拜託你…盡量動快一點。[p]
+盡量….快一點進來…..[p]
 [else]
-そんな…。まだ、お預けなんですか？[p]
-…わかり…ました[p]
-でも、できるだけ早く…お願いします。[p]
-でないと、私…。私…。[p]
+怎麼會…又是、改天再說嗎？[p]
+…我…知道了[p]
+但是，拜託你…盡量動快一點。[p]
+不然的話、我…我…[p]
 [endif]
 
 [black]
@@ -142,12 +142,12 @@
 
 #
 （シルヴィの淫猥な懇願にたまらなくなり、[r]
-彼女の服を引き剥がしベッドに押し倒す。[p]
+將她的衣服脫掉，並推倒在床上。[p]
 #シルヴィ
-あぁ…[name]に犯していただけるんですね…♡[p]
-ありがとうございます♡ありがとうございます♡[p]
+啊…[name]只會讓您侵犯我唷…♡[p]
+謝謝您♡謝謝你♡[p]
 #
-（息を荒くし挿入を待ちわびているシルヴィの中に一気に侵入する。[p]
+一口氣侵入等待插入氣息混亂的シルヴ裡面[p]
 [bg  time="1"  method="crossfade"  storage="sxx-2-.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sxx-2.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sxx-2.png" ]
@@ -157,12 +157,12 @@
 [playse   storage="s-wet1.ogg"  clear="true"  ]
 
 #シルヴィ
-はぁ…ふぅ…っ♡！♡[p]
+哈…嗚…♡！♡[p]
 #
 （シルヴィの肉襞は熱く煮えたぎり、侵入していくペニスに吸い付くように絡む。[p]
 
 #シルヴィ
-あ…ぁ…♡♡♡[name]の…♡！♡♡[p]
+啊…啊…♡♡♡[name]"嗚…♡！♡♡"[p]
 [name]のが♡入って…♡♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-3-.jpg" ]
@@ -172,11 +172,11 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sxx-3.png" ]
 
 #シルヴィ
-ふっ♡んぅ…っ！！♡！♡♡[p]
+哼♡嗯…！！♡！♡♡[p]
 #
 （まだ動いていないにもかかわらずシルヴィの体がビクリと震え、[r]
 膣が不規則にペニスを締め付けた。[p]
-（挿入だけで絶頂してしまったらしい。[p]
+（光是插進去似乎就已經高潮了[p]
 
 
 [bg  time="1"  method="crossfade"  storage="sxx-4-.jpg" ]
@@ -185,17 +185,17 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sxx-4.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sxx-4.png" ]
 
-はっ♡…ひぅっ…！♡[p]
-ご…ごめん…なさい…♡[lr]
-久しぶりで…♡体が…おかしくって…♡[p]
+哈啊♡…呼…！♡[p]
+對…對不…起…♡[lr]
+好久沒有這樣…♡感覺身體…要變的奇怪了…♡[p]
 [bg  time="1"  method="crossfade"  storage="sxx-5.jpg"  ]
 #シルヴィ
-でも♡まだ…大丈夫ですから…♡[lr]
-どうか、続けて…ください…♡♡[p]
+但是♡還…不要緊的…♡[lr]
+拜託、請你…繼續…♡[p]
 
 #
 （余韻に震えながらも行為の継続を望むシルヴィの淫猥さに心揺さぶられ[r]
-たまらず腰を動かす[p]
+不由自主地擺動腰部[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-6.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sxx-6.png" ]
@@ -205,28 +205,28 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 #シルヴィ
-あ゛〜っ♡♡あ゛〜っ♡！♡♡[p]
+啊〜っ♡♡啊〜っ♡！♡♡"[p]
 #
 （絶頂直後で痙攣も収まりきっていない膣を激しく掻き分け、[r]
-子宮を小突くとシルヴィは甘い声を漏らした[p]
+稍微的頂到子宮シルヴィ忍不住發出甜美的嬌喘[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-7.jpg"  ]
 
 #シルヴィ
-これ…！♡これが欲しくて…♡たまらなかったんです…！♡！♡♡[p]
+這個…！♡我就是想要這個…♡想要得不得了…！♡！♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-8.jpg"  ]
 #シルヴィ
-イイ゛っ゛♡！♡♡気持ちイイ゛♡！♡♡[r]
+好棒♡！♡♡好舒服啊♡！♡♡[r]
 [name]…♡！♡♡[p]
 #
-（腰を打ち付けるたびに汗と愛液が弾けびちゃびちゃと卑猥な水音を立てる。[p]
+（當腰部貼上去時汗水和愛液發出了啪答啪答的猥褻水聲[p]
 [bg  time="1"  method="crossfade"  storage="sxx-9.jpg"  ]
 #シルヴィ
-もっと…♡もっと…♡♡かき回して…♡！♡♡[p]
+再來…♡再來…♡♡再更加的攪動…♡！♡♡[p]
 #
-（シルヴィの膣はひくひくと動きペニスに刺激を送り続けている。[p]
-（先ほどの絶頂の余韻がまだ冷めきっていないようだ。[p]
+（シルヴィ的腔內一顫一顫的持續的向肉棒給予刺激[p]
+剛才高潮後的餘韻似乎還沒停下的樣子[p]
 
 
 [bg  time="1"  method="crossfade"  storage="sxx-10.jpg"  ]
@@ -254,27 +254,27 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sxx-11.png" ]
 [playse  storage="fin1.ogg"  clear="true"  ]
 
-イっ…♡イ゛グっ…！！！♡！♡♡！[p]
+要去…♡去了…！！！♡！♡♡！[p]
 #
 （シルヴィが絶頂に震え歯をガチンと鳴らすと同時に膣がひときわ強く締まり[r]
-たまらずこちらも腰を打ち付け精液をぶちまけた。[p]
+我也忍不住把腰貼上去射出精液[p]
 [bg  time="1"  method="crossfade"  storage="sxx-12a.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sxx-12.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sxx-12.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sxx-12.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sxx-12.png" ]
 
-はぁ゛〜…♡♡あ゛〜…♡！♡♡[p]
+哈啊～♡♡啊～…♡！♡♡[p]
 
 #
-（幸せそうな表情のシルヴィを見ていると[r]
+看著シルヴィ幸福的表情[r]
 イチモツは縮むどころかさらに固さを増していく…。[p]
 （…しばらくぶりの興奮は一度では収まりそうにない。[p]
 [bg  time="1"  method="crossfade"  storage="sxx-13.jpg"  ]
 #シルヴィ
-も…もしかし…て、まだ…続け…るんですか？♡[r]
-私、おか…しくなっちゃいそう…。[p]
-でも、続けて…♡続けてください…♡♡[p]
+難…難道…說，還要…再繼續…做嗎?[r]
+我、我似乎…變得奇怪起來了…。[p]
+但是，繼續吧…♡請您繼續…♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-14.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sxx-14.png" ]
@@ -283,7 +283,7 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sxx-14.png" ]
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
-あ゛〜っ♡♡あ゛〜っ♡！♡♡[p]
+啊〜っ♡♡啊〜っ♡！♡♡"[p]
 [black]
 結局それから１度では収まらず、しばらくシルヴィとまぐわい続けてしまった。[p]
 
@@ -298,7 +298,7 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/00.png" ]
 [chara_mod  name="z-a"  time="0"  storage="chara/25/sxx-1.png" ]
 [playse    storage="squi.ogg"  clear="true"  ]
-イっ…♡イ゛グっ…！！！♡！♡♡！[p]
+要去…♡去了…！！！♡！♡♡！[p]
 #
 （シルヴィが絶頂に震え歯をガチンと鳴らすと同時に膣がひときわ強く締まり[r]
 思わず腰を引きシルヴィの体に精液をぶちまけた。[p]
@@ -309,17 +309,17 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sxx-12.png" ]
 [chara_mod  name="z-a"  time="0"  storage="chara/25/sxx-2.png" ]
 #
-（幸せそうな表情のシルヴィを見ていると[r]
+看著シルヴィ幸福的表情[r]
 イチモツは縮むどころかさらに固さを増していく…。[p]
 （…しばらくぶりの興奮は一度では収まりそうにない。[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-13.jpg" ]
 [playse   storage="s-wet1.ogg"  clear="true"  ]
-（再びシルヴィの膣にペニスを沈める。[p]
+再一次的將肉棒挺進シルヴィ的腔內[p]
 #シルヴィ
-も…もしかし…て、まだ…続け…るんですか？♡[r]
-私、おか…しくなっちゃいそう…。[p]
-でも、続けて…♡続けてください…♡♡[p]
+難…難道…說，還要…再繼續…做嗎?[r]
+我、我似乎…變得奇怪起來了…。[p]
+但是，繼續吧…♡請您繼續…♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sxx-14.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sxx-14.png" ]
@@ -327,7 +327,7 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sxx-14.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sxx-6.png" ]
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
-あ゛〜っ♡♡あ゛〜っ♡！♡♡[p]
+啊〜っ♡♡啊〜っ♡！♡♡"[p]
 [black]
 結局それから１度では収まらず、しばらくシルヴィとまぐわい続けてしまった。[p]
 
