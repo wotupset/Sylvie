@@ -10,7 +10,7 @@
 （キスを続け舌を絡めあう。[p]
 [jump  storage=""  target="*m_calc" ]
 *tx_bbm
-（胸に刺激を与えながらキスをする。[p]
+（邊刺激著胸部邊親吻上去[p]
 [jump  storage=""  target="*m_calc" ]
 *tx_bbm_
 （胸に刺激を与え続け舌を絡める。[p]
@@ -28,7 +28,7 @@
 （クリトリスの愛撫を続けながらシルヴィと舌を絡める。[p]
 [jump  storage=""  target="*m_calc" ]
 *tx_bfm
-（シルヴィの性感帯を刺激する手は止めずキスをする。[p]
+（在親吻的同時，手也不停地刺激シルヴィ的性感帶[p]
 [jump  storage=""  target="*m_calc" ]
 *tx_bfm_
 （胸と膣へ刺激を与え続け舌を絡める。[p]
@@ -91,7 +91,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 んちゅ。[p]
 [elsif exp="f.ma==3" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclm.png" ]
-ん…。[p]
+嗯…[p]
 [elsif exp="f.ma==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-clm.png" ]
 ちゅ…。[p]
@@ -112,26 +112,26 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 [if exp="f.ma==1" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cls.png" ]
-ん…♡[p]
+嗯…♡[p]
 [elsif exp="f.ma==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ha.png" ]
 ふぁ…。[p]
 [elsif exp="f.ma==3" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cls.png" ]
-ん、ちゅ…。[p]
+嗯、啾…。[p]
 [elsif exp="f.ma==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cla.png" ]
 あむ…。はぁ…。[p]
 [elsif exp="f.ma==5" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ha.png" ]
-ふぅ…、あ…。[p]
+呼...啊...[p]
 [endif]
 
 #
 [if exp="f.mb==1" ]
 （舌を入れるとシルヴィの舌がゆっくりとそれに応える。[p]
 [elsif exp="f.mb==2" ]
-（繋がった唇の間でお互いの唾液が混じり合う。[p]
+緊緊相連的嘴唇互相混和著對方的唾液[p]
 [endif]
 [jump  storage=""  target="*desc_calc" ]
 
@@ -140,7 +140,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 [if exp="f.ma==1" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cls.png" ]
-ん…♡[p]
+嗯…♡[p]
 [elsif exp="f.ma==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-clt.png" ]
 ふぁ…♡[p]
@@ -167,7 +167,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 #シルヴィ
 [if exp="f.ma==1" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3um.png" ]
-んぅ！♡[p]
+唔!♡[p]
 [elsif exp="f.ma==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3t.png" ]
 れろ…じゅる♡[p]
@@ -176,7 +176,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 あむ…♡ん…♡[p]
 [elsif exp="f.ma==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ccls.png" ]
-ちゅ…ぅ…♡[p]
+啾~~~♡[p]
 [elsif exp="f.ma==5" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3t.png" ]
 ふぅ…♡ん…♡[p]
@@ -198,10 +198,10 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 ん゛〜！！♡♡[p]
 [elsif exp="f.ma==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3st.png" ]
-ふ〜…！♡♡[p]
+呼~...!♡♡[p]
 [elsif exp="f.ma==3" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cq3t.png" ]
-ん゛ぅ！♡[p]
+唔!♡[p]
 [elsif exp="f.ma==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3st.png" ]
 はぁ…♡ん…♡♡[p]
@@ -212,7 +212,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 
 #
 [if exp="f.mb==1" ]
-（体の震えに連動するようにシルヴィの舌に力が入る。[p]
+（如同要和身體的震動連結起來一樣，從シルヴィ的細舌開始傳來了力道[p]
 [elsif exp="f.mb==2" ]
 （シルヴィの舌が跳ねるように動きまわり口元に吸い付いてくる。[p]
 [endif]
@@ -235,7 +235,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 （クリと胸の愛撫を続ける。[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_b_bf
-（空いた手を胸に持っていき、さらに愛撫を加える。[p]
+（將空出來的手放到胸部上，施加起愛撫[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_b_bf_
 （膣内を撫で回しながら胸をつまむ。[p]
@@ -253,7 +253,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 （膣とクリを責め立てながら空いた手を胸にのばす。[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_b_vbc_
-（膣の奥を小突きながら胸とクリトリスを愛撫する。[p]
+（對私處深處的肉芽以及胸部與陰蒂進行了愛撫[p]
 [jump  storage=""  target="*say_calc" ]
 
 
@@ -271,7 +271,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 （上半身と下半身の敏感な突起に同時に愛撫を続ける。[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_c_cf
-（指で膣の内を撫でながら敏感な豆にも愛撫を加える。[p]
+（一邊在小穴內用手指撫摸，一邊在敏感的小豆上施加愛撫[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_c_cf_
 （秘部の性感帯を両手で攻め立て続ける。[p]
@@ -297,7 +297,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 （蜜の漏れ始めたシルヴィのワレメに指を沈める。[p]
 [h_def]
 *tx_fi_c
-（十分に準備のできたシルヴィの秘部に指を入れる。[p]
+（手指侵入了早已準備萬全シルヴィ的私處中[p]
 [h_def]
 *tx_fi_d
 （愛液で濡れそぼったシルヴィの膣に指を差し込む。[p]
@@ -307,7 +307,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 [h_def]
 
 *tx_f_bf
-（小さな胸を揉みながら膣の中を撫でる。[p]
+（邊揉著瘦小的胸部邊玩弄著小穴[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_f_cf
 （秘部を中と外から優しく愛撫する。[p]
@@ -317,7 +317,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 [jump  storage=""  target="*say_calc" ]
 
 *tx_ff_bf
-（小さな胸を揉みながら膣の中を撫でる。[p]
+（邊揉著瘦小的胸部邊玩弄著小穴[p]
 [jump  storage=""  target="*say_calc" ]
 *tx_ff_cf
 （秘部を中と外から激しく擦りあげる。[p]
@@ -336,12 +336,12 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 （まだそれほど濡れていないシルヴィのワレメにゆっくりとペニスを差し込む。[p]
 #シルヴィ
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chm.png" ]
-くぅ…[p]
+咕...[p]
 [h_def]
 *tx_vi_b
 （蜜の漏れ始めたシルヴィのワレメに自身のイチモツを沈める。[p]
 #シルヴィ
-ん…[p]
+嗯…[p]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclm.png" ]
 [h_def]
 *tx_vi_c
@@ -360,7 +360,7 @@ f.mb=Math.floor(Math.random() * 3 + 1);
 （ぐしょぐしょに蕩けきったシルヴィの秘部にペニスを突き入れた。[p]
 #シルヴィ
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3sa.png" ]
-あ゛っ♡あ゛ぁ〜っ♡♡♡[p]
+啊...♡啊啊~~♡♡♡[p]
 [h_def]
 
 
@@ -448,21 +448,21 @@ f.tr=Math.floor(Math.random() * 11 + 1);
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclm.png" ]
 ん…！ [lr]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ca.png" ]
-あ…だ、大丈夫です。[p]
+啊…沒、沒問題的。[p]
 [elsif exp="f.tr==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclm.png" ]
-ふぅ…[lr]
+呼…[lr]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cm.png" ]
 ゆっくりめで、お願いします。[p]
 [elsif exp="f.tr==3" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclm.png" ]
-ふぅ…ん…。[p]
+呼…嗯…。[p]
 [elsif exp="f.tr==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cm.png" ]
 ん…優しく、お願いします。[p]
 [elsif exp="f.tr==5" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chm.png" ]
-ふぅ…。[name]…[p]
+呼…[name]…[p]
 [elsif exp="f.tr>=10" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclm.png" ]
 んぅ…。[p]
@@ -533,7 +533,7 @@ f.tr=Math.floor(Math.random() * 10 + 1);
 #シルヴィ
 [if exp="f.tr==1" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-csa.png" ]
-あっ♡はぁ…っ♡[p]
+啊♡哈啊...♡[p]
 [elsif exp="f.tr==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chusa.png" ]
 あんっ♡ひうっ♡[p]
@@ -542,10 +542,10 @@ f.tr=Math.floor(Math.random() * 10 + 1);
 んぅっ！♡[name]っ♡[p]
 [elsif exp="f.tr==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-c3sa.png" ]
-[name]っ♡[r]これっ気持ち…いいですっ♡[p]
+[name]っ♡[r]這個感覺...好舒服♡[p]
 [elsif exp="f.tr==5" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3sa.png" ]
-私、[name]と…♡[p]
+我，[name]と…♡[p]
 [elsif exp="f.tr==6" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cclaa.png" ]
 ずっと、こうしていたい…♡[p]
@@ -554,7 +554,7 @@ f.tr=Math.floor(Math.random() * 10 + 1);
 んんっ…♡[p]
 [elsif exp="f.tr==8" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chum.png" ]
-ふぅっ…♡[p]
+呼鳴...♡[p]
 [elsif exp="f.tr==9" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chuo.png" ]
 あっ…ぅ♡[p]
@@ -579,7 +579,7 @@ f.tr=Math.floor(Math.random() * 11 + 1);
 あ゛〜♡♡♡[p]
 [elsif exp="f.tr==2" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3o.png" ]
-ふ〜〜♡…はぁ〜〜♡♡♡[p]
+呼~~♡...哈啊~~♡♡♡[p]
 [elsif exp="f.tr==3" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-c3sa.png" ]
 [name]っ♡[name]っ♡♡[p]
@@ -631,7 +631,7 @@ f.tr=Math.floor(Math.random() * 11 + 1);
 [name]っ！！♡[name]っっ！！！♡♡[p]
 [elsif exp="f.tr==3" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3st.png" ]
-あ゛〜♡♡気持ちい゛い゛っ♡[r]気持ちい゛い゛っっ♡♡[p]
+啊~♡♡好舒服~~♡[r]気持ちい゛い゛っっ♡♡[p]
 [elsif exp="f.tr==4" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3i.png" ]
 気持ちよくって♡おがぢくなるっっ♡♡[p]
@@ -654,7 +654,7 @@ f.tr=Math.floor(Math.random() * 11 + 1);
 い゛〜っ！！♡♡ゔぅ〜っ！！！♡♡♡[p]
 [elsif exp="f.tr>=6" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3ot.png" ]
-あ゛〜♡♡あ゛〜っ♡♡♡[p]
+啊~♡♡啊~~♡♡♡[p]
 [endif]
 [jump  storage=""  target="*desc_calc" ]
 
@@ -763,9 +763,9 @@ f.tr=Math.floor(Math.random() * 19 + 1);
 [elsif exp="f.tr==8" ]
 （シルヴィは時折媚びるように体をくねらせている。[p]
 [elsif exp="f.tr==9" ]
-（催促するように甘い呻き声を上げている。[p]
+（彷彿在催促著一般，逐漸發出了甜美的呻吟聲[p]
 [elsif exp="f.tr==10" ]
-（シルヴィは誘うように喘いでいる。[p]
+（シルヴィ的喘息彷彿在引誘我一般[p]
 [elsif exp="f.tr==11" ]
 （シルヴィはねだるように腰を浮かせて来る。[p]
 [elsif exp="f.tr==12" ]
@@ -898,7 +898,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_both_in2
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3i.png" ]
-んっくぅっ…♡♡♡[p]
+唔...咕...♡♡♡[p]
 [return]
 *tx_ex_both_in3
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3st.png" ]
@@ -906,7 +906,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_both_in4
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-xu3t.png" ]
-あ゛っ！！♡♡あぁ゛っ！！！♡♡♡[p]
+啊!!♡♡啊啊~!!!♡♡♡[p]
 [return]
 
 *tx_ex_both_out1
@@ -915,7 +915,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_both_out2
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3i.png" ]
-んっくぅっ…♡♡♡[p]
+唔...咕...♡♡♡[p]
 [return]
 *tx_ex_both_out3
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3st.png" ]
@@ -923,7 +923,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_both_out4
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-xu3t.png" ]
-あ゛っ！！♡♡あぁ゛っ！！！♡♡♡[p]
+啊!!♡♡啊啊~!!!♡♡♡[p]
 [return]
 
 
@@ -936,7 +936,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_s2
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3i.png" ]
-んっくぅっ…♡♡♡[p]
+唔...咕...♡♡♡[p]
 [if exp="f.h_sex==1" ]
 [eval  exp="f.y_feel=f.y_feel+40" ]
 [endif]
@@ -950,7 +950,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_s4
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-xu3t.png" ]
-あ゛っ！！♡♡あぁ゛っ！！！♡♡♡[p]
+啊!!♡♡啊啊~!!!♡♡♡[p]
 [if exp="f.h_sex==1" ]
 [eval  exp="f.y_feel=f.y_feel+60" ]
 [endif]
@@ -970,7 +970,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [h_def]
 *tx_ex_sy_in4
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chu3ot.png" ]
-お゛ぉ…♡♡あぁ゛…♡♡♡[p]
+喔...♡♡啊啊...♡♡♡[p]
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
@@ -983,7 +983,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [h_def]
 *tx_ex_sy_out2
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cq3aa.png" ]
-はぁっ！♡♡[name]…っ♡♡♡[p]
+哈...!♡[name]…っ♡♡♡[p]
 [h_def]
 *tx_ex_sy_out3
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chu3i.png" ]
@@ -991,7 +991,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [h_def]
 *tx_ex_sy_out4
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-chu3ot.png" ]
-お゛ぉ…♡♡あぁ゛…♡♡♡[p]
+喔...♡♡啊啊...♡♡♡[p]
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
@@ -1009,12 +1009,12 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [return]
 *tx_ex_y_in2
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cha3sa.png" ]
-ふぅ〜♡♡[name]の、たくさん♡[p]
+呼~♡♡[name]の、たくさん♡[p]
 [eval  exp="f.s_feel=f.s_feel+40" ]
 [return]
 *tx_ex_y_in3
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3st.png" ]
-あ゛〜！♡[name]〜♡♡♡♡[p]
+啊~!♡[name]〜♡♡♡♡[p]
 [eval  exp="f.s_feel=f.s_feel+50" ]
 [return]
 *tx_ex_y_in4
@@ -1033,7 +1033,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [h_def]
 *tx_ex_y_out2
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cha3sa.png" ]
-[name]の匂い…♡♡[lr]私、[name]で染まっちゃう…♡♡[p]
+[name]の匂い…♡♡[lr]我，[name]で染まっちゃう…♡♡[p]
 [h_def]
 *tx_ex_y_out3
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-ch3st.png" ]
@@ -1041,7 +1041,7 @@ f.tr=Math.floor(Math.random() * 20 + 1);
 [h_def]
 *tx_ex_y_out4
 [chara_mod  name="e-face"  time="0"  storage="chara/9/x-cu3t.png" ]
-はぁ゛〜…♡はぁ゛〜…♡♡[p]
+哈啊~...♡哈啊~...♡♡[p]
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]

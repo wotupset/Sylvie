@@ -978,7 +978,7 @@
 [eval  exp="f.cum=f.cum+1" ]
 [cum_in]
 #
-（思い切り腰を打ち付けシルヴィの一番奥に精液を流し込む。[p]
+（使盡全力的將腰頂進深處、將精液射進子宮最裡面[p]
 [eval  exp="f.h_in=f.h_in+1" ]
 [squi]
 
@@ -993,8 +993,8 @@
 [call  storage="Hx_text.ks"  target="*tx_ex_both_in4" ]
 [endif]
 #
-（射精と同時にシルヴィも絶頂に体を震わせ[r]
-ビクビクと震える肉襞がペニスから精液を絞り上げる[p]
+（射精的同時，シルヴィ也在顫抖中達到了高潮[r]
+像在跳躍般顫抖的陰道褶皺不停地榨取著更多的精液[p]
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
@@ -1005,7 +1005,7 @@
 [eval  exp="f.kake=f.kake+1" ]
 [cum_out]
 #
-（限界に達する瞬間ペニスを引き抜き、シルヴィの体に精液を吐き出した。[p]
+（抽插的瞬間到達了極限、在シルヴィ體內射出了精液[p]
 [if  exp="f.h_in>=3" ]
 [chara_mod  name="z-b"  time="0"  storage="chara/26/z3.png" ]
 [elsif  exp="f.h_in==2" ]
@@ -1026,7 +1026,7 @@
 [call  storage="Hx_text.ks"  target="*tx_ex_both_out4" ]
 [endif]
 #
-（射精と同時にシルヴィも潮を吹き上げ、二人の性器から吹き出した体液が宙で弾ける。[p]
+（在我射精的同時シルヴィ的下體也噴射出體液，從兩人性器官噴射的體液飛濺到半空中。[p]
 [left_non]
 [right_non]
 [cum_add]
@@ -1046,7 +1046,7 @@
 [eval  exp="f.wet=f.wet+30" ]
 
 #
-（シルヴィの体が大きく跳ね、絶頂に震えた[p]
+シルヴィ的身體激烈地弓起、在顫抖中達到了高潮[p]
 [squi]
 #シルヴィ
 [if exp="f.s_ex==1" ]
@@ -1071,7 +1071,7 @@
 [eval  exp="f.y_feel=0" ]
 [eval  exp="f.y_ex=f.y_ex+1" ]
 #
-（シルヴィの絶頂でペニスを締め上げられ、こっちも我慢ができなくなる[p]
+（シルヴィ的陰道在高潮中猛力收縮，緊緊地吸啜著我的陰莖、到這時我也再無法忍耐下去[p]
 [button  storage=""  target="*sy_in_cum"  graphic="ch/in-cum.png"    x="0"  y="200" ]
 [button  storage=""  target="*sy_out_cum"  graphic="ch/out-cum.png"   x="0"  y="350" ]
 [s]
@@ -1081,7 +1081,7 @@
 [eval  exp="f.cum=f.cum+1" ]
 [cum_in]
 #
-（思い切り腰を打ち付け震える子宮の中に精液を流し込む。[p]
+（盡情的扭動著腰，往顫抖著的子宮深處裡流進精液。[p]
 [eval  exp="f.h_in=f.h_in+1" ]
 
 #シルヴィ
@@ -1100,7 +1100,7 @@
 [eval  exp="f.kake=f.kake+1" ]
 [cum_out]
 #
-（限界に達する瞬間ペニスを引き抜き、シルヴィの体に精液を吐き出した。[p]
+（抽插的瞬間到達了極限、在シルヴィ體內射出了精液[p]
 [if  exp="f.h_in>=3" ]
 [chara_mod  name="z-b"  time="0"  storage="chara/26/z3.png" ]
 [elsif  exp="f.h_in==2" ]
@@ -1116,7 +1116,7 @@
 [eval  exp="f.h_sex=0" ]
 [eval  exp="f.h_act='off'" ]
 #
-（ぶちまけられた精液が余韻に震えるシルヴィの体の上でチラチラと光をはじいている…。[p]
+（噴射飛散的精液在顫抖的シルヴィ的身體上反射著光芒。[p]
 #シルヴィ
 [if exp="f.s_ex==1" ]
 [jump  storage="Hx_text.ks"  target="*tx_ex_sy_out1" ]
@@ -1144,7 +1144,7 @@
 [eval  exp="f.cum=f.cum+1" ]
 [cum_in]
 #
-（思い切り腰を打ち付け子宮の一番奥に精液を流し込む。[p]
+（盡情的扭動著腰，往子宮最深處裡流進精液。[p]
 [eval  exp="f.h_in=f.h_in+1" ]
 [if exp="f.s_ex==0" ]
 [call  storage="Hx_text.ks"  target="*tx_ex_y_in0" ]
@@ -1173,7 +1173,7 @@
 [eval  exp="f.wet=f.wet+30" ]
 
 [squi]
-子宮に流れ込む精子の熱を受けてシルヴィの下腹部がガクガクと震える。[p]
+感受到流進子宮的精子，シルヴィ的下腹也不住顫抖起來[p]
 #シルヴィ
 [if exp="f.s_ex==1" ]
 [call  storage="Hx_text.ks"  target="*tx_ex_s1" ]
@@ -1195,7 +1195,7 @@
 [eval  exp="f.kake=f.kake+1" ]
 [cum_out]
 #
-（限界に達する瞬間ペニスを引き抜き、シルヴィの体に精液を吐き出した。[p]
+（抽插的瞬間到達了極限、在シルヴィ體內射出了精液[p]
 [if  exp="f.h_in>=3" ]
 [chara_mod  name="z-b"  time="0"  storage="chara/26/z3.png" ]
 [elsif  exp="f.h_in==2" ]
@@ -1256,7 +1256,7 @@
 射精[emb exp="f.y_ex" ]回[r]
 [endif]
 [if  exp="f.s_ex>=1" ]
-シルヴィ絶頂[emb exp="f.s_ex" ]回[p]
+シルヴィ高潮了[emb exp="f.s_ex" ]回[p]
 [endif]
 
 [jump  storage="Hx_text.ks"  target="*desc_calc" ]
