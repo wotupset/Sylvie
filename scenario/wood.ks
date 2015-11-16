@@ -17,19 +17,19 @@
 [if exp="f.wood==0" ]
 [eval exp="f.wood=1" ]
 #
-（薬草や食べれる植物や果物もなっている豊かな森だ。[p]
-（深くまで行かなければ危険な生き物に会うこともないだろう。[lr]
-（シルヴィを連れて散策してみよう。[p]
+是座富藏藥草與山蔬野果的森林呢[p]
+（再往森林裡面深入的話，可能會遇上危險的動物也說不定[lr]
+帶著散步吧[p]
 #シルヴィ
 [f_st]
-こんなところがあったんですね。[lr]
-じゃあ、ご一緒させてください。[p]
+竟然有這種地方呢。[lr]
+那麼，請務必讓我同行。[p]
 [else]
 [f_st]
 #シルヴィ
-森をお散歩ですか？[lr]
+要去森林裡散步嗎？[lr]
 [f_ss]
-はい、ご一緒させてください。[p]
+好的，請讓我一起同行。[p]
 [endif]
 
 [black]
@@ -59,7 +59,7 @@ f.walk=Math.floor(Math.random() * 39 + 1);
 [eval exp="f.love=f.love+1" ]
 [if exp="f.act==6" ]
 #
-（もうそろそろ日が暮れる…。[p]
+（太陽差不多要下山了吧…。[p]
 [jump  storage=""  target="*go_home" ]
 [endif]
 
@@ -91,251 +91,251 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 [fadeoutbgm  time=500]
 
 #
-（今日はここらで切り上げて家に帰ろう。[p]
+（今天就在這裡折返回家吧[p]
 [black]
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
 [return_bace]
 
 *walk1
 [f_st]
-あ、あそこ、小さな鳥が。[lr]青くて、綺麗な鳥ですね。[p]
+啊，那邊！有小隻的鳥兒。[lr]閃著寶藍色澤，相當美麗的鳥呢。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk2
 [f_st]
-あ、蝶々が飛んでいますよ。[lr]綺麗…。[p]
+阿,有蝴蝶在飛呢[lr]好漂亮…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk3
 [f_st]
-[name]、あそこリスがいますよ、[lr]かわいい。[p]
+[name]，那邊有松鼠呢。[lr]好可愛。[p]
 [f_ct]
-あ、いっちゃった…。[p]
+啊，跑掉了…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk4
 [f_ct]
-あ、毛虫…。[lr]こういう動きは、見ていて気持ち悪くなっちゃいます。[p]
+啊，毛毛蟲…。[lr]這樣的做法，光看就讓人心情不好呢。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk5
 [f_ct]
-あ、ナメクジ…。[lr]
-そういえばここら辺、他より少し湿ってますね。[p]
-…別のほうに行って見ませんか？[p]
+阿,是蛞蝓…[lr]
+話說回來這附近比其他的地方都還要潮濕呢。[p]
+…不走去別的方向看看嗎?[p]
 [jump  storage=""  target="*choice" ]
 
 *walk6
 [f_s]
-鳥の声が綺麗ですね。[lr]
+小鳥的啼聲很優美呢。[lr]
 [f_scl]
-いろんな方向から聞こえてくる…。[p]
+從每個地方傳來…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk7
 [f_t]
-ここ、水が流れてますね。[p]
+這裡有水流過呢。[p]
 #
-（飛び越せそうな幅の小さな川が流れている[p]
+似乎能一躍而過的寛度的小河流[p]
 #シルヴィ
 [f_scl]
-キラキラ光って音もなんだか綺麗…。[p]
+閃閃發光，音色也相當動聽[p]
 [jump  storage=""  target="*choice" ]
 
 *walk8
 [f_t]
-あ、っと。[p]
-（転びかけたシルヴィを抱きとめる。[p]
+啊，嘿[p]
+抱著差點跌倒的[p]
 [f_ct]
-すいません、何かにつまづいて…。[lr]
+抱歉，好像踢到了什麼…。[lr]
 [f_stp]
-ありがとうございます。[p]
+謝謝[p]
 [jump  storage=""  target="*choice" ]
 
 *walk9
 [f_t]
-すごい色のキノコですね。[lr]
+顏色很驚人的蘑菇呢。[lr]
 [f_ct]
-こういうのは、きっと毒があるんですよね。[p]
+像這樣的，肯定是有毒的吧。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk10
 [f_t]
-すごいおっきなきのこ。[lr]
+非常壯觀的蘑菇。[lr]
 [f_s]
-食べれるきのこだったらお腹一杯食べれそうですね。[p]
+要是可以吃的香菇的話就可以吃個過癮了[p]
 [jump  storage=""  target="*choice" ]
 
 *walk11
 [f_t]
-これ、本棚の図鑑で見たような。[lr]
-[name]、これお役に立つものじゃありませんか？[p]
+這個，在書架上的圖鑑裡面看過呢。[lr]
+[name]這個不是能夠派上用場嗎?[p]
 #
-（これは…残念ながらただの雑草だ。[p]
+（這個是…非常遺憾這只是普通的雜草。[p]
 #シルヴィ
 [f_ct]
-そうですか…。なにか、お役に立てればと思ったんですけど…。[p]
+是這樣啊…。還以為，可以派上用場了呢…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk12
 [f_t]
-これ、本棚の図鑑で見たような。[lr]
-[name]、これお役に立つものじゃありませんか？[p]
+這個，在書架上的圖鑑裡面看過呢。[lr]
+[name]這個不是能夠派上用場嗎?[p]
 #
-（これは…薬の材料になる薬草だ。[p]
+（這個是…可以當成藥材的藥草呢。[p]
 #シルヴィ
 [f_s]
-本当ですか？[lr]
+真的嗎？[lr]
 [f_ssp]
-私、[name]の役に立てましたか？[p]
+我，[name]派上用場了嗎？[p]
 [jump  storage=""  target="*choice" ]
 
 *walk13
 [f_]
-（雨が降ってきた…。[p]
+（開始下雨了…。[p]
 [f_t]
-あ、雨。[lr]小雨だし、すぐ止みそうだけど…。[lr]
+啊，下雨了。[lr]雖然只是彷彿轉瞬即停的小雨…。[lr]
 [f_st]
-木で雨の当たらないところを歩きましょうか。[p]
+往樹下淋不到雨的地方走吧。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk14
 [f_st]
-日差しが強いですけど、木陰は涼しいですね。[p]
+雖然陽光很強，但是樹蔭下很涼爽呢。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk15
 [f_st]
-少し開けていて、綺麗な空がよく見えますね。[lr]
-ここで少し休んでいきませんか？[p]
+森林裡少數的開闊地,可以看到美麗的天空[lr]
+要在這邊稍作休息嗎？[p]
 [jump  storage=""  target="*choice" ]
 
 *walk16
 [f_st]
-風が涼しいですね。[lr]木がある所と町の風ってぜんぜん違って感じます。[p]
+這陣風很涼爽呢。[lr]有樹木的地方和鎮上的空氣完全不一樣呢[p]
 [jump  storage=""  target="*choice" ]
 
 *walk17
 [f_stp]
-町と違って人気がないから、[name]と二人きりを感じられますね…。[p]
+因為和鎮上不同，沒有人在活動，[name]剩下我們兩個了呢…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk18
 [f_st]
-…風が止んで、静かですね。[lr]
+…風停下後，變得安靜了。[lr]
 [f_stp]
-まるで、[name]と世界で二人っきりみたい…。[p]
+簡直就像、[name]像是這個世界只剩下我們兩人一樣…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk19
 [f_t]
-…向こうで何か動いたような。[lr]なにかの動物でしょうか…？[p]
+…前方似乎有什麼動靜。[lr]是某種動物嗎…？[p]
 [jump  storage=""  target="*choice" ]
 
 *walk20
 [f_st]
-あ、綺麗なお花。[lr]面白い形をしてて、町では見かけない花ですね。[p]
+啊，好漂亮的花。[lr]真是有趣的形狀,這是在鎮上見不到的花朵喔[p]
 [jump  storage=""  target="*choice" ]
 
 *walk21
 [f_st]
-人もいなくて、建物もなくって、[lr]
-町を散歩するのとはぜんぜん違いますね。[p]
+既沒有人也沒有建築物[lr]
+跟在城裡散步是完全不一樣的呢[p]
 [jump  storage=""  target="*choice" ]
 
 *walk22
 [f_t]
-大きな木ですね。[lr]
-これだけ育つのにはきっと長くかかるんでしょうね。[p]
+很大的樹木呢。[lr]
+要長成這樣一定花了很長一段時間吧[p]
 [jump  storage=""  target="*choice" ]
 
 *walk23
 [f_t]
-木が倒れてますね。[lr]
-誰かが切ったわけじゃなさそうですけど。[p]
+有樹倒下來了呢[lr]
+好像不是有人來砍斷的[p]
 #
-（倒れてからだいぶたっているようだ。[lr]
-落雷でもあったのかもしれない[p]
+（距離倒下似乎已過了有一段時間[lr]
+也有可能會發生落雷。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk24
 [f_sclt]
-こんな風にゆっくり木を眺めながら自由にお散歩なんて、[r]
-想像したことありませんでした。[p]
+像這樣自在地眺望著樹木，自由的散步什麼的，[r]
+從來沒有想像過。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk25
 [f_st]
-自然のなかをお散歩するのもいいですね。[lr]
+在大自然中散步也不錯呢。[lr]
 [f_scltp]
-一人だったら怖いだろうけど、[r]
-[name]と一緒だとなんだか落ち着きます。[p]
+雖然一個人會感到害怕、[r]
+[name]和在一起的話總感到非常安心呢[p]
 [jump  storage=""  target="*choice" ]
 
 *walk26
 [f_t]
-ここら辺は木が日を遮っていて、少し薄暗いですね。[lr]
+這個地方因為太陽被樹遮住了,所以稍微暗了些[lr]
 [f_cclt]
-虫とかいないか、ちょっと気になっちゃいます。[p]
+有點在意有沒有什麼蟲子呢[p]
 [jump  storage=""  target="*choice" ]
 
 *walk27
 [f_tp]
-[name]、その、手を握ってもいいですか？[p]
+[name]、那個、能牽著我的手嗎？[p]
 [jump  storage=""  target="*choice" ]
 
 *walk28
 [f_ct]
-木が多くて道がないところはちょっと歩きづらいですね。[lr]
-転ばないようにしなくちゃ…。[p]
+樹多又沒路的地方有點難走呢。[lr]
+要小心不能跌倒[p]
 [jump  storage=""  target="*choice" ]
 
 *walk29
 [f_st]
-青々としていて素敵な森ですね。[lr]
+綠油油的一片，好棒的森林呢[lr]
 [f_ct]
-でも、街灯もないし、日が暮れると真っ暗なんですよね？[lr]
+但是，太陽已經下山了、路燈也熄了，已經一片黑了沒關係嗎？[lr]
 [f_cclt]
-そうなったら、すごく怖そう…。[p]
+是這樣的話，還真是可怕呢…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk30
 [f_t]
-私の育った町のそばにも森がありました。[lr]
+我從小長大的小鎮旁邊也有這樣的森林。[lr]
 [f_clt]
-でも、野犬が出るから近づくなって言われてました。[p]
-だからこういう自然のあるところには行ったことがありませんでしたね[p]
+不過因為有野狗出沒所以被警告說不要接近[p]
+說起來我從來就沒有來過這麼多自然景觀的地方呢。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk31
 [f_t]
-昔は、森は怖いイメージでした。[lr]
+以前，對森林只有可怕的印象。[lr]
 [f_clt]
-…森だけじゃなかったのかな。[p]
-知らないものはなんでも怖かったです。[lr]
+不是只有森林嗎。[p]
+不知道的東西稍微有點可怕呢[lr]
 [f_sp]
-でも今は、[name]がいれば、新しいこともワクワクします。[p]
+但是現在，[name]在身邊的話，新奇的事物總令我雀躍不已[p]
 [jump  storage=""  target="*choice" ]
 
 *walk32
 [f_st]
-赤くて綺麗な木の実ですね。[lr]
+是赤紅色的美麗果實。[lr]
 [f_t]
-…これ毒があるんですか？[lr]
+…這個應該有毒吧？[lr]
 [f_ct]
-見た目は美味しそうなのに、残念ですね。[p]
+明明看起來很美味的說，真是遺憾。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk33
 [f_ct]
-あそこ、なんだかたくさんの虫が群がるように飛んでますね。[p]
+那裡,好像有好大的一群蟲在飛舞呢[p]
 #
-（動物の死骸でもあるのかもしれない。迂回していこう。[p]
+（可能會有動物的屍體在前面還是繞道而行吧[p]
 [jump  storage=""  target="*choice" ]
 	
 *walk_H
 [f_st]
-ここ、少し開けてて休憩できそう。[p]
+在這裡稍微休息一下吧。[p]
 [name]、少しゆっくりして行きませんか？
 
 [button  storage=""  target="*rest"  graphic="ch/wood-rest.png"    x="0"  y="200" ]
@@ -345,8 +345,8 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 *not
 [cm]
 [f_clt]
-ん、そうですね。[lr]
-あんまりのんびりしすぎて日が暮れちゃってもいけないし…。[p]
+嗯，是這樣啊。[lr]
+又不能太悠閒而混到傍晚[p]
 [jump  storage=""  target="*choice" ]
 
 *rest
@@ -354,8 +354,8 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 [cancelskip]
 [f_scl]
 #
-シルヴィと二人で具合の良さそうな芝生の上に腰掛ける。[p]
-（シルヴィはすぐ隣に身を寄せ腕を絡めてきた…。[p]
+和兩人坐在茂盛的草地上[p]
+（靠近身子並挽著我手，[p]
 
 [if exp="f.dress==21" ]
 [jump  storage=""  target="*c_true" ]
@@ -369,7 +369,7 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 [jump  storage=""  target="*c_true" ]
 [endif]
 …[p]
-（しばらくシルヴィと自然の空気を味わった…。[p]
+（稍為讓シルヴィ感受下自然的空氣吧[p]
 [eval exp="f.love=f.love+2" ]
 [jump  storage=""  target="*choice" ]
 
@@ -380,7 +380,7 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 [s ]
 [else]
 …[p]
-（しばらくシルヴィと自然の空気を味わった…。[p]
+（稍為讓シルヴィ感受下自然的空氣吧[p]
 [jump  storage=""  target="*choice" ]
 [endif]
 
@@ -388,21 +388,21 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 [cm]
 [f_ssp]
 #シルヴィ
-…ん。[p]
-[name]がこうしてくれると家の外でもリラックスできちゃいます…。[p]
+…恩[p]
+[name]若這麼做的話，在家門外也能放鬆呢[p]
 [jump  storage=""  target="*choice" ]
 
 
 *walk_flower
 #
-（ピンクの花を見つけた。[p]
+（發現了粉紅色的花[p]
 #シルヴィ
 [f_t]
-ずいぶん鮮やかな花ですね。[p]
+真是鮮豔的花朵呢。[p]
 [if exp="f.book==1" ]
 #
-（この間手に入れた本に書かれていた薬の材料だ。[lr]
-いくらか摘んでおこう。[p]
+（是前陣子入手的書裡記載的藥的材料。[lr]
+摘點花回去吧[p]
 [iscript]
 f.walk=Math.floor(Math.random() * 3 + 1);
 [endscript]
@@ -410,19 +410,19 @@ f.walk=Math.floor(Math.random() * 3 + 1);
 [jump  storage=""  target="*choice" ]
 [else]
 #
-（何かの薬に使えると聞いたことがあるが、なんだったろうか。[lr]
-仕事で使うものではないので忘れてしまった…。[p]
+（有聽說過會用一種藥，到底是什麼呢？[lr]
+工作上也不會用到所以就忘記了…。[p]
 [jump  storage=""  target="*choice" ]
 
 *walk_flower_b
 #
-（青い花を見つけた。[p]
+（發現了藍色的花。[p]
 #シルヴィ
 [f_st]
-落ち着いた色の綺麗な花ですね。[p]
+是朵清麗淡雅的花兒呢。[p]
 #
-（リラックス効果のあるハーブだ。[lr]
-お茶にもできるし薬にもなる。いくらか摘んでおこう。[p]
+（是有寧神鎮定效果的藥草呢。[lr]
+既可以當作茶也可以當做藥，多少摘一些吧。[p]
 [iscript]
 f.walk=Math.floor(Math.random() * 3 + 1);
 [endscript]
