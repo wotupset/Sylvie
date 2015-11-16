@@ -21,7 +21,7 @@
 [show_effect]
 
 #シルヴィ
-じゃあ…は、始めます…。[p]
+那麼…開、開始吧…[p]
 
 [call  storage=""  target="*g_a2" ]
 [bg  time="1"  method="crossfade"  storage="sm1-2.jpg" ]
@@ -30,9 +30,9 @@
 [playse  loop="true"  storage="l-wet0.ogg"  clear="true"  ]
 あー、れろ[p]
 #
-（シルヴィはおずおずと竿に舌を添わせてきた。[p]
+（シルヴィ小心翼翼的開始舔起肉棒[p]
 
-ん…。[p]
+嗯…[p]
 
 #
 （できるだけ大きな面積に刺激を与えようと大きなストロークで舌を上下して舐めているようだ。[p]
@@ -42,12 +42,12 @@
 [bg  time="1"  method="crossfade"  storage="sm1-3.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sm1-3.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/00.png" ]
-ちゅ…♡[p]
+啾…♡[p]
 #
 （シルヴィはキスをするようにすぼめた唇を亀頭にあてがい、[r]
-ペニスの先端を丹念に舐めしゃぶり始める。[p]
+開始向肉棒的前端仔細小心的舔著[p]
 #シルヴィ
-んちゅ…あむ♡[p]
+嗯啾…啊嗯♡[p]
 
 [call  storage=""  target="*g_a4" ]
 [bg  time="1"  method="crossfade"  storage="sm1-4.jpg" ]
@@ -69,11 +69,11 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/00.png" ]
 [stopse ]
 #シルヴィ
-…ぷはっ♡[p]
+…噗哈♡[p]
 #
-（少し苦しくなったのか一度ペニスから口を離すとこちらの反応をちらりと伺ってきた。[p]
+（似乎稍微感到痛苦而把肉棒移開嘴邊後，對著我看看我的反應[p]
 #シルヴィ
-ちゃんと、気持ちよくできてますか？[p]
+真的有…感到很舒服嗎？[p]
 
 
 [if exp="f.xr==1" ]
@@ -103,7 +103,7 @@
 （きちんと快感を送れていることに安心したような表情を浮かべると[r]
 再び竿を咥えこみ、さっきより少し深いストロークでフェラを続ける。[p]
 #シルヴィ
-ぢゅる…んぐ…♡[p]
+啾嚕…嗯咕…♡[p]
 #
 （まだ拙いながらも一生懸命な奉仕に次第に興奮は高まっていく…。[p]
 
@@ -130,9 +130,9 @@
 [playse  storage="fin1.ogg"  clear="true"  ]
 
 #
-（限界が訪れシルヴィの口内で高ぶりを爆発させた。[p]
+（到達極限時在シルヴィ的嘴裡用力的爆射出來[p]
 #シルヴィ
-んぅ…！[p]
+嗯嗚…！[p]
 [playse  storage="drink.ogg"  clear="true"  ]
 #
 （シルヴィは驚きに目を見開きながらも咥えたペニスを離そうとはせず、[r]
@@ -147,21 +147,21 @@
 ごく…んぐ…[p]
 #
 （しかし小さな口内はあっという間に満たされ、[r]
-飲むのが間に合わない白濁が唇の端から漏れ出した。[p]
+來不及喝下去的白濁液體從唇邊漏了出來[p]
 [black]
 [bg  time="1"  method="crossfade"  storage="sma1-1.jpg" ]
 [call  storage=""  target="*after_g" ]
 [chara_show  name="e-glasses"  time="0"  wait="true"  left="1" ]
-（ペニスを引き抜くもシルヴィはまだ口一杯の精液と奮闘している。[p]
+（就算把肉棒拔出嘴裡シルヴィ仍為嘴裡滿滿的精液奮鬥著[p]
 [playse  storage="drink1.ogg"  clear="true"  ]
 #シルヴィ
 …んっごくっ…けほっ♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sma1-2.jpg" ]
 #
-（数秒かけて口の中のものを飲み下すと薄目でこちらを見上げ微笑んだ。[p]
+（花了數秒將口中的東西吞下後，抬起頭來向著我微笑[p]
 #シルヴィ
-私、きちんと[name]を、きもちよくできましたか？♡[p]
+我要仔細的[name]的開始很舒服了嗎？♡[p]
 [black]
 [fadeoutbgm time=500]
 [cancelskip]
@@ -187,11 +187,11 @@
 [chara_mod  name="z-a"  time="0"  storage="chara/25/sma1-z.png" ]
 [chara_show  name="z-a"  time="0"  wait="true"  left="1" ]
 #
-（白濁にそまったシルヴィは一瞬驚いた表情を浮かべるも[r]
+（被白濁液沾染的シルヴィ瞬間露出驚訝的表情[r]
 すぐに薄目でこちらを見上げ微笑んだ。[p]
 
 #シルヴィ
-私、きちんと[name]を、きもちよくできましたか？♡[p]
+我要仔細的[name]的開始很舒服了嗎？♡[p]
 [black]
 [fadeoutbgm time=500]
 [cancelskip]
@@ -219,7 +219,7 @@
 [show_effect]
 
 #シルヴィ
-…がんばりますね♡[p]
+…我很努力吧♡[p]
 
 [call  storage=""  target="*g_b2" ]
 [bg  time="1"  method="crossfade"  storage="sm2-2.jpg" ]
@@ -227,14 +227,14 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sm2-2.png" ]
 [playse  loop="true"  storage="l-wet0.ogg"  clear="true"  ]
 
-あー、れろ♡[p]
+啊─、舔♡[p]
 #
 （シルヴィはためらいなく竿に舌を添わせた。[p]
 #シルヴィ
-ん…♡[p]
+嗯…♡[p]
 #
-（慣れた様子で竿全体を舐め上げている…。[lr]
-（ペニスはすぐにシルヴィの唾液で濡れ切った。[p]
+（似乎是習慣的樣子在舔棒子全體…[lr]
+（肉棒早被シルヴィ的唾液淋得濕透了[p]
 
 [call  storage=""  target="*g_b3" ]
 [bg  time="1"  method="crossfade"  storage="sm2-3.jpg" ]
@@ -242,12 +242,12 @@
 [chara_mod  name="tx"  time="0"  storage="chara/16/sm2-3.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/00.png" ]
 #シルヴィ
-あーん…♡[p]
+啊嗯…♡[p]
 #
 （シルヴィは飴玉を舐めるように亀頭を咥えこみ、[r]
 くぼみや先端などペニス先端を舌で丹念に刺激し始めた。[p]
 #シルヴィ
-んちゅ…あむ。[p]
+嗯啾…啊嗯[p]
 
 [if exp="f.xr==1" ]
 [call  storage=""  target="*g_b4" ]
@@ -298,7 +298,7 @@
 [endif]
 
 #
-（小さな口には収まりきらないペニスをより深く咥えようと[r]
+（把小巧的嘴巴所無法完全含住的肉棒吞向更深處[r]
 半ば無理やり喉の奥にねじ込み始めた。[p]
 #シルヴィ
 …ぷはっ♡…え゛ほっ♡[p]
@@ -307,7 +307,7 @@
 僅かに呼吸を整えるとまたすぐにしゃぶりついてくる…。[p]
 
 #シルヴィ
-ぢゅる♡…んぐ…♡♡[p]
+啾嚕♡…嗯咕…♡♡[p]
 [if exp="f.xr==1" ]
 [call  storage=""  target="*g_b6" ]
 [bg  time="1"  method="crossfade"  storage="sm2-6x.jpg" ]
@@ -352,12 +352,12 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sm2-7.png" ]
 [playse  storage="fin1.ogg"  clear="true"  ]
 #
-（限界が訪れシルヴィの口内で高ぶりを爆発させた。[p]
+（到達極限時在シルヴィ的嘴裡用力的爆射出來[p]
 #シルヴィ
-んぅ…！[p]
+嗯嗚…！[p]
 [playse  storage="drink.ogg"  clear="true"  ]
 #
-（シルヴィは驚きに目を見開きながらもペニスをさらに深く咥えこみ、[r]
+（シルヴィ驚訝的淨大雙眼把肉棒深深的含了進去[r]
 喉の奥へ直接精液を導こうとする。[p]
 
 [bg  time="1"  method="crossfade"  storage="sm2-8.jpg" ]
@@ -367,7 +367,7 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sm2-8.png" ]
 
 #シルヴィ
-んっ♡…んぐっ♡♡[p]
+嗯♡嗯咕…♡♡[p]
 [black]
 [bg  time="1"  method="crossfade"  storage="sma2-1.jpg" ]
 [call  storage=""  target="*after_g" ]
@@ -377,11 +377,11 @@
 [playse  storage="drink1.ogg"  clear="true"  ]
 #
 （しばらくしてゆっくりペニスから口を離すと、[r]
-彼女はゴクリと喉を鳴らし口の中に溜まった精液を飲み干した。[p]
+她從喉頭發出咕嚕一聲將嘴中的精液全部喝得一乾二淨[p]
 
 [bg  time="1"  method="crossfade"  storage="sma2-2.jpg" ]
 
-（シルヴィは目を開け嬉しそうな顔でこちらを見上げ微笑む。[p]
+（シルヴィ睜開眼後似乎很開心的向我微笑[p]
 #シルヴィ
 気持ち、よかったですか？♡[lr]
 だんだん慣れてきたし、次はもっと頑張りますね♡♡[p]
@@ -401,16 +401,16 @@
 #
 （限界直前で腰を引き竿がシルヴィの口を離れた瞬間高ぶりは爆発した。[p]
 #シルヴィ
-んっ…♡♡！[p]
+嗯…♡[p]
 [bg  time="1"  method="crossfade"  storage="sma2-2.jpg" ]
 [call  storage=""  target="*after_g" ]
 [chara_show  name="e-glasses"  time="0"  wait="true"  left="1" ]
 [chara_mod  name="z-a"  time="0"  storage="chara/25/sma2-z.png" ]
 [chara_show  name="z-a"  time="0"  wait="true"  left="1" ]
 #
-（白濁にそまったシルヴィは嬉しそうな顔でこちらを見上げ微笑む。[p]
+（被白濁液體沾染的シルヴィ抬起頭來微笑的看著我[p]
 #シルヴィ
-気持ち、よかったですか♡？[lr]
+很舒服嗎♡？[lr]
 だんだん慣れてきたし、次はもっと頑張りますね♡♡[p]
 
 [black]
@@ -440,7 +440,7 @@
 [show_effect]
 
 #シルヴィ
-あぁ…♡[name]の…♡[name]…♡♡[p]
+啊啊…♡[name]嗚…♡[name]…♡♡[p]
 #
 （膝の間に座り込んだシルヴィの口元から熱い吐息がペニスにかかる。[p]
 
@@ -466,9 +466,9 @@
 [endif]
 
 #シルヴィ
-ん…♡じゅる…♡[p]
+嗯…♡啾嚕…♡[p]
 #
-（シルヴィは一気にペニスにしゃぶりつき舌を這わせてきた。[p]
+（シルヴィ一口氣將肉棒用舌頭包覆著。[p]
 [if exp="f.xr==1" ]
 [call  storage=""  target="*g_c3" ]
 [bg  time="1"  method="crossfade"  storage="sm3-3x.jpg" ]
@@ -491,19 +491,19 @@
 [endif]
 
 #シルヴィ
-ん゛ぐ…♡[p]
+嗯咕…♡[p]
 #
-（あっという間にペニスを唾液まみれにすると深々とペニスを飲み込んでいく。[p]
+（瞬間肉棒就沾滿了唾液，接著把肉棒往更深的地方含進去[p]
 
-（シルヴィはペニスを狭い喉にねじ込み、ジュルジュルと音を立てながらフェラを始める。[p]
+（シルヴィ用小小的喉嚨將肉棒吸進去，發出啾嚕啾嚕的開始口交的聲音[p]
 （軽くえずきながらもシルヴィはそれを意に介す様子もなく夢中で肉棒をしゃぶり続けている。[p]
 #シルヴィ
-んちゅ…♡げほっ…♡[p]
+嗯啾…♡咳…♡[p]
 #
 （時折短い息継ぎを挟みながらもシルヴィの奉仕は勢いを緩めず、[r]
-だんだんとペニスを喉に収める幅が深くなっていく。[p]
+漸漸的肉棒進入喉嚨的深度越來越深[p]
 #シルヴィ
-…ぷはっ♡[p]
+…噗哈♡[p]
 [if exp="f.xr==1" ]
 [call  storage=""  target="*g_c4" ]
 [bg  time="1"  method="crossfade"  storage="sm3-4x.jpg" ]
@@ -529,18 +529,18 @@
 
 
 
-（喉の奥は狭く熱く、思わず腰を引きそうになる。[p]
+（喉嚨的深處又窄又熱、忍不住想將腰往後抽[p]
 [playse  loop="true"  storage="oral2.ogg"  clear="true"  ]
-（シルヴィはゆっくりとフェラを再開するが[r]
+（慢慢地シルヴィ再度開始口交[r]
 ストロークの長さは先ほどまでの比ではない。[p]
 #シルヴィ
-ん…♡♡じゅっ…♡ぐぇ…っ♡♡[p]
+嗯…♡♡啾…♡咕…♡♡[p]
 #
 （亀頭の先までペニスを引き抜いた後きっちり腰に唇を押し付けるまで咥えこんでくる。[p]
 （スピードは速くないがねっとりと動きで絶え間なく繰り返される刺激に耐えるため[r]
 自然と体が力んでしまう。[p]
 （しばらく味わうようなディープスロートを続けていたシルヴィだが[r]
-だんだんと１往復にかかる時間が短くなっていく。[p]
+漸漸的來回的時間縮短了[p]
 #シルヴィ
 ふー…♡♡[p]
 
@@ -551,7 +551,7 @@
 [playse  loop="true"  storage="oral3.ogg"  clear="true"  ]
 （再び一瞬の息継ぎをしたかと思うとシルヴィは一気に口淫の速度を上げた。[p]
 #シルヴィ
-んぐっ♡♡じゅっぶっ♡ぐぇっ♡♡♡[p]
+嗯咕♡♡啾噗♡咕…♡♡♡[p]
 #
 （ストロークの長さはそのままに顔面を腰にぶつけるようなスピードでペニスにしゃぶりつく。[p]
 （その激しい奉仕に耐えられる時間はそう長くはなく、じきにに限界がやってきた。[p]
@@ -582,13 +582,13 @@
 （シルヴィは射精が始まったとわかるやいなや唇をイチモツの根元に押し付け[r]
 ペニスを喉の奥に思い切りねじ込んできた[p]
 #シルヴィ
-ん…♡げほっ♡♡[p]
+嗯…♡咳…♡♡[p]
 [playse  storage="drink.ogg"  clear="true"  ]
 #
 （大きく脈打つペニスがシルヴィの喉の奥に大量の精液を流し込んでいく。[p]
 （彼女はそれを促すように口内を吸い上げ、グリグリと頭を揺らしてペニスを貪った。[p]
 
-（たっぷりと時間をかけた射精が終わると、[r]
+（過了一陣子射精終於結束後，[r]
 彼女はジュルジュルと音を立て逆流した精液を口に収めながら[r]
 ゆっくりペニスを引き抜いていった。[p]
 [black]
@@ -596,11 +596,11 @@
 [call  storage=""  target="*after_g" ]
 [chara_show  name="e-glasses"  time="0"  wait="true"  left="1" ]
 #シルヴィ
-…ん…♡♡ふぅ…♡♡♡[p]
+…嗯…♡♡呼…♡♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sma3-2.jpg" ]
 
-ぁ…♡♡♡[p]
+阿…♡♡♡[p]
 #
 （ペニスが唇から離れ、こちらを見上げたシルヴィは大きく口を開き口淫の跡を見せつけてきた。[p]
 （唇は絡まる精液でニチャッと音を立て開き、喉から逆流した精液が小さな口の中でゴポゴポと泡立っている。[p]
@@ -608,22 +608,22 @@
 [bg  time="1"  method="crossfade"  storage="sma3-3.jpg" ]
 [playse  storage="drink.ogg"  clear="true"  ]
 #シルヴィ
-ん…♡♡[p]
+恩…♡♡[p]
 #
 （口を閉じるとモゴモゴと口を動かし、じっくり精液を味わう様子を見せた後[r]
 ２、３回喉を鳴らしゆっくりとそれを飲み下した。[p]
 
 [bg  time="1"  method="crossfade"  storage="sma3-4.jpg" ]
 #シルヴィ
-はぁ…♡♡[p]
+哈啊…♡♡[p]
 #
-（再び口を開けると喉の奥まで見える口内が精液を全て胃に納めたことを証明していた。[p]
+（再次打開嘴後可以看見喉嚨深處證明了她將嘴裡的精液完全吞入肚子裡[p]
 
 [bg  time="1"  method="crossfade"  storage="sma3-5.jpg" ]
 
 #シルヴィ
-…ごちそうさまでした♡♡[p]
-[name]の気が向いたらまた、いつでもご奉仕させてくださいね♡[p]
+…謝謝招待♡♡[p]
+[name]如果　　有那種心情的話，我隨時都可以待奉您喔♡[p]
 
 
 [black]
@@ -642,7 +642,7 @@
 #
 （限界直前で腰を引き竿がシルヴィの口を離れた瞬間高ぶりは爆発した。[p]
 #シルヴィ
-んっ…♡♡♡[p]
+嗯…♡♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sma3-5.jpg" ]
 [call  storage=""  target="*after_g" ]
@@ -650,10 +650,10 @@
 [chara_mod  name="z-a"  time="0"  storage="chara/25/sma3-z.png" ]
 [chara_show  name="z-a"  time="0"  wait="true"  left="1" ]
 #
-（シルヴィは恍惚の表情で精液を受け止めた。[p]
+（シルヴィ用恍惚的表情接受了精液[p]
 #シルヴィ
-ん…♡♡[name]のたくさん…♡♡[p]
-[name]の気が向いたらまた、いつでもご奉仕させてくださいね♡[p]
+恩…♡♡[name]のたくさ恩…♡♡[p]
+[name]如果　　有那種心情的話，我隨時都可以待奉您喔♡[p]
 [black]
 [fadeoutbgm time=500]
 [cancelskip]
