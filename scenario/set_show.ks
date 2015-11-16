@@ -560,7 +560,16 @@
 [chara_mod name="e-clothes" time="50" storage="chara/8/nd_e4.png" ]
 [elsif exp="f.dress==45" ]
 [chara_mod name="e-clothes" time="50" storage="chara/8/nd_e5.png" ]
+[elsif exp="f.dress==51" ]
+[chara_mod name="e-clothes" time="50" storage="chara/8/nd_f1.png" ]
+[elsif exp="f.dress==52" ]
+[chara_mod name="e-clothes" time="50" storage="chara/8/nd_f2.png" ]
+[elsif exp="f.dress==53" ]
+[chara_mod name="e-clothes" time="50" storage="chara/8/nd_f3.png" ]
 [endif]
+
+
+
 
 [chara_mod name="e-face" time="50" storage="chara/9/d-s.png" ]
 [if exp="f.hair==0" ]

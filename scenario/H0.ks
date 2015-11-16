@@ -89,7 +89,7 @@
 （割れ目と豆を優しくなぞり続ける[p]
 #シルヴィ
 [chara_mod  name="e-face"  time="0"  storage="chara/9/s0-b.png" ]
-嗯…[p]
+ん…[p]
 [button  storage="H0.ks"  target="*touch3"  graphic="ch/continue.png"    x="0"  y="200" ]
 [button  storage="H0.ks"  target="*stop1"  graphic="ch/stop.png"   x="0"  y="350" ]
 [s]
@@ -104,7 +104,7 @@
 経験があるのだろうか。[p]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/s0-c.png" ]
 #シルヴィ
-え…？[lr]沒什麼，只是之前的主人從來沒有做過…這種事情…。[p]
+え…？[lr]いや、前のご主人様にこういうことをされたことは…ないです…。[p]
 [button  storage="H0.ks"  target="*touch4"  graphic="ch/continue.png"    x="0"  y="200" ]
 [button  storage="H0.ks"  target="*stop2"  graphic="ch/stop.png"   x="0"  y="350" ]
 [s]
@@ -116,7 +116,7 @@
 [chara_mod  name="e-h"  time="0"  storage="chara/13/s0-c.png" ]
 
 #シルヴィ
-總覺得…有種奇怪的感覺[p]
+なんだか…変な感じ[p]
 #
 （だんだんと快感を感じ始めたようだ。[lr]内腿を蜜がつたう。[p]
 [chara_mod  name="e-h"  time="0"  storage="chara/13/s0-d.png" ]
@@ -130,10 +130,10 @@
 [cm]
 [chara_mod  name="e-h"  time="0"  storage="chara/13/00.png" ]
 #
-（從シルヴィ的身上把手拿開[p]
+（シルヴィの体から手を離した。[p]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/s0-c.png" ]
 #シルヴィ
-…已經結束了嗎？[p]
+…終わりですか？[p]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/s0-f.png" ]
 ふぅ…[p]
 [after_touch]
@@ -142,11 +142,11 @@
 [cm]
 [chara_mod  name="e-h"  time="0"  storage="chara/13/s0-d.png" ]
 #
-（從シルヴィ的身上把手拿開[p]
+（シルヴィの体から手を離した。[p]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/s0-c.png" ]
 [chara_mod  name="e-h"  time="0"  storage="chara/13/s0-1.png" ]
 #シルヴィ
-…已經結束了嗎？[p]
+…終わりですか？[p]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/s0-f.png" ]
 ふぅ…[p]
 [after_touch]

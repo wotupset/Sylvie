@@ -76,16 +76,16 @@
 
 
 #シルヴィ
-啊啊[name]的…好雄偉…♡[p]
+あぁ、[name]の、たくましい…♡[p]
 #
-在シルヴィ的蜜裂上用略微鼓漲的陰莖抵住[r]
-她用滿是期待的目光不斷的凝視著我[p]
+（シルヴィのわれめに硬く膨れ上がったイチモツを添えると[r]
+彼女は期待に満ちた目でそれを凝視した。[p]
 #シルヴィ
-不好意思…[lr]其實…只是我想為你做而已[p]
-[name]好想讓寵幸…[p]
+すいません…[lr]本当は…私がして欲しかっただけなんです…♡[p]
+[name]に…抱いていただきたくて…。[p]
 #
-（抱著シルヴィ的腿，感覺到她腿上微微出汗，以及她的興奮感[lr]
-（好像沒有做前戲的必要了…[p]
+（抱えたシルヴィの脚は軽く汗ばみ彼女の興奮を感じる。[lr]
+（前戯の必要はなさそうだ…[p]
 [bg  time="1"  method="crossfade"  storage="sx-2.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sx-2.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sx-2.png" ]
@@ -94,12 +94,12 @@
 [playse    storage="s-wet1.ogg"  clear="true"  ]
 
 #シルヴィ
-啊啊…![p]
-進來了….[name]嗚…♡[p]
+あぁ…！[p]
+入ってくる…[name]の…♡[p]
 #
-（シルヴィ的小穴依然是相當的緊，但[r]
-因為溢出的愛液，使得摩擦大幅降低了。[p]
-很順利的把肉棒插入準備好的肉壁裡[p]
+（シルヴィの膣は相変わらず狭くきついが、[r]
+溢れる愛液が十分に摩擦を減らしているようだ。[p]
+（出来上がった肉壁はペニスをすんなり受け入れた。[p]
 
 [bg  time="1"  method="crossfade"  storage="sx-3.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sx-3.png" ]
@@ -108,12 +108,12 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sx-3.png" ]
 
 #シルヴィ
-阿~…..哈~…..♡[lr]
+あ〜…は〜…♡[lr]
 [name]…♡[p]
-這樣…想忘都忘不掉了…[lr]
-把我放著不管這麼久…這裡會變得很寂寞的…♡[p]
+これが…忘れられなくて…[lr]
+長く放って置かれると…ここが寂しくなっちゃうんです…♡[p]
 #
-炙熱的腔內歡喜的微震著，對著不動的肉棒傳送甜美的刺激[p]
+（熱くぬめった膣内が喜びに震え、動かずともペニスに甘い刺激を送ってくる…。[p]
 [bg  time="1"  method="crossfade"  storage="sx-4.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sx-4.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sx-4.png" ]
@@ -121,15 +121,15 @@
 [playse  loop="true"  storage="l-wet1.ogg"  clear="true"  ]
 
 #
-（感受到胸中沸騰的慾望，腰部不由自主地動了起來。[p]
+（沸き上がる欲望を感じ、たまらず腰を動かし始める。[p]
 #シルヴィ
-阿…♡這個…感覺…好舒服…♡[p]
+あっ…♡これっ…気持ち…いいっ…♡[p]
 
 #
-（即使一開始動作激烈了一點，シルヴィ的口中還是流出陣陣嬌喘[p]
+（初めから少し激しい動きにも関わらずシルヴィは甘い吐息を漏らしている。[p]
 
-（享受著從陰莖傳來的シルヴィ的體溫，暫時仔細的慢慢動著腰[p]
-（她的表情像是融化似的朦朧，像是連膣穴內部都清楚感覺到般咬著牙[p]
+（ペニスに伝わるシルヴィの体温を楽しみながら、しばらくの間じっくりと腰を動かす。[p]
+（彼女もとろけるような表情をして膣を掻き分けられる感覚を噛みしめているようだ。[p]
 
 [bg  time="1"  method="crossfade"  storage="sx-5.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sx-5.png" ]
@@ -139,15 +139,15 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 #シルヴィ
-啊♡啊…♡[p]
-[name]嗚…那裡…不行啦♡[p]
+あっ♡あっ…♡[p]
+[name]っ…それ…っだめですっ♡[p]
 #
-（將腰部的動作加上旋轉，像是從內部磨著腹部一樣刺激著シルヴィ[p]
+（腰の動きにひねりを加え、内から腹をこするようにシルヴィを攻め立てる。[p]
 #シルヴィ
-啊、對不起…♡[lr]
-我快要…！！[p]
+あ、ごめんなさい…っ[lr]
+私、もう…っ！！[p]
 #
-（因為猛攻弱點的緣故，シルヴィ一瞬間就快面臨了高潮[p]
+（弱いところを突いたせいでシルヴィは一気に絶頂を前にしているようだ。[p]
 
 
 
@@ -173,13 +173,13 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sx-6a.png" ]
 [playse    storage="fin1.ogg"  clear="true"  ]
 
-（在シルヴィ甜美的聲音與顫抖的肉壁之中，這邊也達到了頂點[p]
+（シルヴィの甘い声とヒクつく肉襞につられてこちらの高ぶりも頂点に達した[p]
 #シルヴィ
-嗯…唔嗯！！♡！♡♡[p]
+ん…くぅっ！！♡！♡♡[p]
 #
-射精的瞬間我們的腰部緊緊的貼在一起我就像是渴求シルヴィ的子宮一般不斷的往深處射出精液[p]
-達到高潮的シルヴィ的肉壁將肉棒緊緊的全部夾住[r]
-就像是不留下任何一滴一般不斷的榨乾精液[p]
+（射精の瞬間に腰を密着させシルヴィの子宮に思い切り精液を吐き出す。[p]
+（絶頂に達しているシルヴィの肉襞がギュウギュウとペニス全体を締め上げ[r]
+まるで精液を一滴残らず飲み干そうとしているようだ。[p]
 
 [bg  time="1"  method="crossfade"  storage="sx-7a.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sx-7a.png" ]
@@ -188,12 +188,12 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sx-7.png" ]
 
 #シルヴィ
-哇~….♡呼~♡[p]
+は〜…♡ふ〜…♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sx-8a.jpg" ]
 
-感…感謝招待…♡[p]
-稍微…保持這樣…♡♡[p]
+ありがとう…ございます…♡[p]
+もう…少しこのまま…♡♡[p]
 [cancelskip]
 [fadeoutbgm time=500]
 [playbgm  loop="true"  storage="Silver_Glass.ogg" ]
@@ -211,11 +211,11 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/00.png" ]
 [playse    storage="squi.ogg"  clear="true"  ]
 
-（在シルヴィ甜美的聲音與顫抖的肉壁之中，這邊也達到了頂點[p]
+（シルヴィの甘い声とヒクつく肉襞につられてこちらの高ぶりも頂点に達した[p]
 #シルヴィ
-嗯…唔嗯！！♡！♡♡[p]
+ん…くぅっ！！♡！♡♡[p]
 #
-射精的瞬間拔出的肉棒所射出的精液灑落在シルヴィ的身軀上[p]
+（射精の瞬間ペニスを引き抜くと吹き出す精液がシルヴィの体に降りかかった。[p]
 
 [bg  time="1"  method="crossfade"  storage="sx-7b.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sx-7b.png" ]
@@ -224,11 +224,11 @@
 [chara_mod  name="z-a"  time="0"  storage="chara/25/sx-z.png" ]
 
 #シルヴィ
-哇~….♡呼~♡[p]
+は〜…♡ふ〜…♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sx-8b.jpg" ]
-感…感謝招待…♡[p]
-啊啊…[name]的精液….居然這麼的…♡♡[p]
+ありがとう…ございます…♡[p]
+あぁ…、[name]の精液が…こんなに…♡♡[p]
 
 [cancelskip]
 [black]

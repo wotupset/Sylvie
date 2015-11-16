@@ -217,11 +217,10 @@
 [if exp="f.h_in>=7" ]
 [chara_mod  name="p"  time="0"  storage="chara/27/p0zzzzz.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/ex-0zzzzz.png" ]
-[if exp="f.h_in>=5" ]
+[elsif exp="f.h_in>=5" ]
 [chara_mod  name="p"  time="0"  storage="chara/27/p0zzzz.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/ex-0zzzz.png" ]
-
-[if exp="f.h_in>=3" ]
+[elsif exp="f.h_in>=3" ]
 [chara_mod  name="p"  time="0"  storage="chara/27/p0zzz.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/ex-0zzz.png" ]
 [elsif exp="f.h_in==2" ]
@@ -249,6 +248,7 @@
 [wait time=1000]
 [chara_mod  name="p"  time="0"  storage="chara/27/00.png" ]
 [endif]
+
 [endmacro]
 
 [macro name=v_slow]

@@ -290,7 +290,6 @@
 [eval exp="f.lust=f.lust+15" ]
 [eval exp="f.love=f.love+20" ]
 [eval exp="f.heavn=f.heavn+10" ]
-[eval exp="f.day=f.day+1" ]
 [eval exp="f.cum=f.cum+8" ]
 [eval exp="f.act='sexxx'" ]
 [eval exp="f.out=1" ]

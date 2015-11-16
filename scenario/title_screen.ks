@@ -3,7 +3,7 @@
 [tb_start_tyrano_code]
 [call  storage="macro.ks" ]
 [call  storage="face.ks" ]
-[title name="TeachingFeeling_ver1.14" ]
+[title name="TeachingFeeling_ver1.15" ]
 [movie storage="logo.webm" skip=true ]
 
 *title
