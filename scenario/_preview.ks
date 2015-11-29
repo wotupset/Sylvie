@@ -9,7 +9,7 @@
 *skip
 
 [tb_show_message_window  ]
-[eval exp="f.name='ご主人様'" ]
+[eval exp="f.name='主人'" ]
 [eval exp="f.step=1" ]
 [eval exp="f.feeling=0" ]
 [eval exp="f.act=0" ]
