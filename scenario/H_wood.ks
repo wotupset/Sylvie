@@ -9,11 +9,11 @@
 
 
 #
-（シルヴィの正面に回り覆いかぶさるように唇を奪う。[p]
+（希露薇の正面に回り覆いかぶさるように唇を奪う。[p]
 [f_clp]
 
-#シルヴィ
-嗯…[p]
+#希露薇
+嗯…。[p]
 [fadeoutbgm  time=500]
 [if exp="f.lust<=40" ]
 [f_tp]
@@ -23,7 +23,7 @@
 雖然覺得很害羞[name]がしたいなら…。[p]
 [elsif exp="f.lust<=100" ]
 [f_tp]
-（侵入シルヴィ的嘴裡後，她馬上用那小巧的舌頭開始回應我[p]
+（侵入希露薇的嘴裡後，她馬上用那小巧的舌頭開始回應我[p]
 嗯…[name]…。[p]
 …するんですか？[p]
 [f_stp]
@@ -31,8 +31,8 @@
 [else ]
 [f_ctp]
 （才輕觸到嘴唇，她立刻伸出了舌頭[p]
-（頭を抱えられ、シルヴィの長く深い積極的なディープキスをしばし味わう。[p]
-#シルヴィ
+（頭を抱えられ、希露薇の長く深い積極的なディープキスをしばし味わう。[p]
+#希露薇
 呼啊…[name]。[p]
 我…忍不住了[p]
 請你…[r]拜託你、就在這裡…[p]
@@ -61,7 +61,7 @@
 [chara_mod  name="e-ring"  time="0"  storage="chara/24/sw-a2.png" ]
 [elsif exp="f.ring==3" ]
 [chara_mod  name="e-ring"  time="0"  storage="chara/24/sw-a3.png" ]
-[if exp="f.ring==11" ]
+[elsif exp="f.ring==11" ]
 [chara_mod  name="e-ring"  time="0"  storage="chara/24/sw-b1.png" ]
 [elsif exp="f.ring==12" ]
 [chara_mod  name="e-ring"  time="0"  storage="chara/24/sw-b2.png" ]
@@ -220,10 +220,10 @@
 *x
 
 #
-シルヴィ慢慢的張開了雙腳[p]
-嘴上喊著舒服但シルヴィ的臉卻害羞的漲紅了雙頰[p]
+希露薇慢慢的張開了雙腳[p]
+嘴上喊著舒服但希露薇的臉卻害羞的漲紅了雙頰[p]
 
-#シルヴィ
+#希露薇
 不…不要緊的[p]
 [bg  time="1"  method="crossfade"  storage="sw1-2.jpg" ]
 
@@ -236,7 +236,7 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sw1-3.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-1.png" ]
 [playse  storage="s-wet1.ogg"  clear="true"  ]
-#シルヴィ
+#希露薇
 嗯…呼嗚…[p]
 #
 （しっかり閉じた割れ目も少し押し広げると中はじっとりと湿り始めている。[p]
@@ -250,8 +250,8 @@
 [playse  loop="true"  storage="l-wet1.ogg"  clear="true"  ]
 
 #
-（シルヴィに体重がかからないようゆっくりと腰を動かし始める。[p]
-#シルヴィ
+（希露薇に体重がかからないようゆっくりと腰を動かし始める。[p]
+#希露薇
 嗯…呼…[p]
 #
 （野外だからか風や虫の立てる音一つ一つに注意を引かれ[r]
@@ -260,10 +260,10 @@
 很明顯的表現出快感和興奮[p]
 [bg  time="1"  method="crossfade"  storage="sw1-5.jpg" ]
 
-#シルヴィ
+#希露薇
 呼嗚…♡咕…哈啊…♡[p]
 #
-（シルヴィ似乎要抑止住不小心發出的嬌喘聲而咬住嘴唇[r]
+（希露薇似乎要抑止住不小心發出的嬌喘聲而咬住嘴唇[r]
 子宮に押し付けるように深いピストンを繰り返すと堪えきれず小さく声をあげ始めた。[p]
 [bg  time="1"  method="crossfade"  storage="sw1-6.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sw1-6.png" ]
@@ -272,14 +272,14 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-3.png" ]
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
-#シルヴィ
+#希露薇
 啊…！♡…呼啊…！♡[p]
 #
-（持續的做了一陣子後シルヴィ的嬌喘聲也越來越大[r]
+（持續的做了一陣子後希露薇的嬌喘聲也越來越大[r]
 漸漸的可以感覺到彼此的極限就要到了[p]
 [bg  time="1"  method="crossfade"  storage="sw1-7.jpg" ]
 
-#シルヴィ
+#希露薇
 啊…[name]…我、也差不多要…♡[p]
 啊啊！♡♡[p]
 
@@ -290,11 +290,11 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-4.png" ]
 [playse  storage="fin1.ogg"  clear="true"  ]
 
-#シルヴィ
+#希露薇
 嗯…咕嗚～！♡！♡♡[p]
 #
 （最後用力的把腰貼上去[r]
-肉棒全插進シルヴィ的裡面射出精液[p]
+肉棒全插進希露薇的裡面射出精液[p]
 
 [bg  time="1"  method="crossfade"  storage="sw1-9.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/00.png" ]
@@ -302,7 +302,7 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sw1-9.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-5.png" ]
 
-#シルヴィ
+#希露薇
 哈啊…！♡哈啊…♡♡[p]
 我…在外面…[name]怎…麼了嗎…♡[p]
 [eval exp="f.sex=f.sex+1" ]
@@ -320,12 +320,12 @@
 
 *xx
 #
-（シルヴィ自己打開雙腳露出陰部[p]
+（希露薇自己打開雙腳露出陰部[p]
 [bg  time="1"  method="crossfade"  storage="sw2-2.jpg" ]
 
 （見せつけるように開かれた脚の間で硬くなったイチモツをあらわにすると、[r]
 她用十分期待的眼神看著那個[p]
-#シルヴィ
+#希露薇
 在外面做時的心驚膽跳，雖然剛開始覺得有點恐怖，但總覺得會上癮啊[p]
 #
 （恥ずかしそうに頬を染め、あたりを気にしているようだが[r]
@@ -338,9 +338,9 @@
 [playse  storage="s-wet1.ogg"  clear="true"  ]
 
 （把肉棒插入早已經溼透的她的小縫裡[p]
-#シルヴィ
+#希露薇
 啊…♡哈啊～♡[p]
-（當溫暖的腔內迎來肉棒時，シルヴィ的表情變得恍惚起來[p]
+（當溫暖的腔內迎來肉棒時，希露薇的表情變得恍惚起來[p]
 [bg  time="1"  method="crossfade"  storage="sw2-4.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sw2-4.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sw2-4.png" ]
@@ -349,21 +349,21 @@
 [playse  loop="true"  storage="l-wet1.ogg"  clear="true"  ]
 
 #
-（像是要享受シルヴィ的體溫般開始往深處慢慢地擺動起腰來[p]
-#シルヴィ
+（像是要享受希露薇的體溫般開始往深處慢慢地擺動起腰來[p]
+#希露薇
 嗯…♡呼嗚…♡[p]
 #
 （一邊感覺到在這開放場所進行性行為的違和感，[r]
-シルヴィ開始把身體任由快樂的感覺所支配[p]
+希露薇開始把身體任由快樂的感覺所支配[p]
 [bg  time="1"  method="crossfade"  storage="sw2-5.jpg" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sw2-5.png" ]
 [chara_mod  name="ef"  time="0"  storage="chara/18/sw2-5.png" ]
 
-#シルヴィ
+#希露薇
 啊…♡呼啊…！♡啊嗯！♡♡[p]
 #
 （じっくりと肉襞を掻き分け膣をえぐり続けると[r]
-シルヴィはためらうように少し抑えた嬌声を上げ始める。[p]
+希露薇はためらうように少し抑えた嬌声を上げ始める。[p]
 [bg  time="1"  method="crossfade"  storage="sw2-6.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sw2-6.png" ]
 [chara_mod  name="tx"  time="0"  storage="chara/16/sw2-6.png" ]
@@ -372,13 +372,13 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 （誘うような膣のヒクつきに誘われてだんだんと腰の動きが激しくなっていく[p]
-#シルヴィ
+#希露薇
 啊！♡…哈啊！♡♡[name]嗚！♡！♡♡[p]
 #
 （野外であることなど御構い無しの声の荒ぶり方から[r]
-可以感覺到シルヴィ就快要高潮了[p]
+可以感覺到希露薇就快要高潮了[p]
 我也快要到達極限了[p]
-#シルヴィ
+#希露薇
 啊！♡啊！♡♡[p]
 [bg  time="1"  method="crossfade"  storage="sw2-7.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sw2-7.png" ]
@@ -388,7 +388,7 @@
 [playse  storage="fin1.ogg"  clear="true"  ]
 #
 （最後趁勢用力的把腰貼上去[r]
-肉棒全插進シルヴィ的裡面射出精液[p]
+肉棒全插進希露薇的裡面射出精液[p]
 喔…！！♡！♡♡[r]
 啊…～♡嗚…！！♡！♡♡♡[p]
 
@@ -418,14 +418,14 @@
 
 
 *xxx
-シルヴィ豪無猶豫的打開雙腳，像是要求般的挺起腰[p]
-#シルヴィ
+希露薇豪無猶豫的打開雙腳，像是要求般的挺起腰[p]
+#希露薇
 哈啊～…♡哈啊～…♡♡[p]
 
 [bg  time="1"  method="crossfade"  storage="sw3-2.jpg" ]
 #
-（硬くなったイチモツをあらわにするとシルヴィは期待に満ちた目でそれを見つめた。[p]
-#シルヴィ
+（硬くなったイチモツをあらわにすると希露薇は期待に満ちた目でそれを見つめた。[p]
+#希露薇
 哈啊～…♡[name]諾…♡♡[p]
 #
 （還是一樣似乎感覺到有些羞恥[r]
@@ -438,11 +438,11 @@
 [chara_mod  name="ef"  time="0"  storage="chara/18/sw3-3.png" ]
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-1.png" ]
 [playse  storage="s-wet1.ogg"  clear="true"  ]
-#シルヴィ
+#希露薇
 嗯咿～…！♡！♡♡[p]
 #
 （ゆっくりと挿入すると熱を持った肉襞がペニスに絡みつき、[r]
-シルヴィ發出了恍惚的聲音[p]
+希露薇發出了恍惚的聲音[p]
 
 [bg  time="1"  method="crossfade"  storage="sw3-4.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sw3-4.png" ]
@@ -451,9 +451,9 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-2.png" ]
 [playse  loop="true"  storage="l-wet1.ogg"  clear="true"  ]
 
-（今シルヴィをいたわっても彼女を焦らすだけだろう。[p]
+（今希露薇をいたわっても彼女を焦らすだけだろう。[p]
 （始めから腰を打ち付ける音が響く勢いで子宮を叩く。[p]
-#シルヴィ
+#希露薇
 啊！♡…哈啊！♡♡[name]嗚！♡！♡♡[p]
 #
 （彼女は野外であることは御構い無しに思い切り喘ぎ声を上げ始めた。[p]
@@ -466,22 +466,22 @@
 [playse  loop="true"  storage="l-wet2.ogg"  clear="true"  ]
 
 
-#シルヴィ
+#希露薇
 啊！♡咿…！♡♡啊嗯！♡！♡♡♡[p]
 #
 （さらにペースを上げると、彼女はひときわ大きく喉を震わした。[p]
-（在藍天下和彷彿野獸般的發出聲音シルヴィ的性愛[r]
+（在藍天下和彷彿野獸般的發出聲音希露薇的性愛[r]
 彷彿像是動物的交尾一樣[p]
 
-#シルヴィ
+#希露薇
 咿…！♡♡啊！♡♡♡[p]
 #
-（本能の赴くままにシルヴィの膣内を蹂躙し快楽を貪り合う[p]
-（全力の腰つきでシルヴィを攻め立て息が絶え絶えになるが、[r]
-シルヴィに精を吐き出すまでは動きは激しくなる一方だ。[p]
+（本能の赴くままに希露薇の膣内を蹂躙し快楽を貪り合う[p]
+（全力の腰つきで希露薇を攻め立て息が絶え絶えになるが、[r]
+希露薇に精を吐き出すまでは動きは激しくなる一方だ。[p]
 [bg  time="1"  method="crossfade"  storage="sw3-6.jpg" ]
 
-#シルヴィ
+#希露薇
 喔！！♡！♡♡[r]
 啊！♡啊嗚…！！♡！♡♡♡[p]
 #
@@ -495,15 +495,15 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-4.png" ]
 [playse    storage="fin1.ogg"  clear="true"  ]
 
-#シルヴィ
+#希露薇
 啊啊啊啊！啊！♡啊♡♡！♡♡♡！♡♡[p]
 #
-（全体重を思い切りシルヴィの子宮にかけるように腰をぶつけ[r]
+（全体重を思い切り希露薇の子宮にかけるように腰をぶつけ[r]
 煮えたぎった精液を彼女の深くに撃ち込んだ。[p]
-#シルヴィ
+#希露薇
 啊啊…♡！♡♡嘎啊…♡！♡♡！啊！♡♡♡[p]
 #
-（シルヴィの腰が絶頂の痙攣に跳ねまわろうともがくが[r]
+（希露薇の腰が絶頂の痙攣に跳ねまわろうともがくが[r]
 地面に思い切り押し付けられた彼女の体はほとんど動けないままただ震えた。[p]
 [bg  time="1"  method="crossfade"  storage="sw3-8.jpg" ]
 [chara_mod  name="se"  time="0"  storage="chara/17/sw3-8.png" ]
@@ -512,7 +512,7 @@
 [chara_mod  name="x"  time="0"  storage="chara/15/sw-5.png" ]
 
 
-#シルヴィ
+#希露薇
 啊～！♡♡啊～！♡♡[p]
 
 [eval exp="f.sex=f.sex+1" ]
@@ -530,7 +530,7 @@
 [black]
 #
 （二人就這樣緊連著不動的過了幾分[r]
-就算氣息平靜下來後シルヴィ也直不起腰[p]
+就算氣息平靜下來後希露薇也直不起腰[p]
 
 [hide_skip]
 [eval exp="f.day=f.day+1" ]
