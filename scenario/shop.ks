@@ -10,21 +10,23 @@
 [eval exp="f.shop=1" ]
 [jump  storage="event3.ks"  target="*shop_first" ]
 [endif]
-
+[iscript]
+f.lady=Math.floor(Math.random() * 3 + 1);
+[endscript]
 
 [playbgm  loop="true"  storage="Brilliant_Red.ogg" ]
 [bg  time="1"  method="crossfade"  storage="bg-shop.jpg" ]
 #
-（來到了服裝店[p]
+（來到了服裝店。[p]
 
-[chara_mod  name="man"  time="0"  storage="chara/1/woman.png" ]
+[set_lady]
 [chara_show  name="man"  time="100"  wait="true" ]
 
-#不気味な店員
-哎呀，歡迎光臨，請隨意的看看吧[p]
+#古怪的店員
+哎呀，歡迎光臨，請隨意逛逛吧。[p]
 
 #
-要買什麼呢?[p]
+要買什麼呢？[p]
 
 [anim name="man" time="300" left="20" ]
 [chara_mod  name="window"  time="1"  storage="chara/12/shop-win.png" ]
@@ -112,23 +114,23 @@
 
 *bought_dress
 [cm]
-（これはもう買ってある。別のものを買おう。[l]
+（這個已經買過了。再看看別的商品吧。[l]
 [jump  storage=""  target="*shop_dress" ]
 *bought_hair
 [cm]
-（これはもう買ってある。別のものを買おう。[l]
+（這個已經買過了。再看看別的商品吧。[l]
 [jump  storage=""  target="*shop_hair" ]
 *bought_pin
 [cm]
-（これはもう買ってある。別のものを買おう。[l]
+（這個已經買過了。再看看別的商品吧。[l]
 [jump  storage=""  target="*shop_pin" ]
 *bought_leg
 [cm]
-（これはもう買ってある。別のものを買おう。[l]
+（這個已經買過了。再看看別的商品吧。[l]
 [jump  storage=""  target="*shop_leg" ]
 
 *color
-買了　　。[p]
+被買下了。[p]
 [free]
 [set_stand]
 [f_t]
@@ -136,103 +138,103 @@
 
 
 [if exp="f.step<5" ]
-#シルヴィ
-這個…跟之前買的衣服的布料顏色不同呢[p]
-光是顏色不一樣感覺也不一樣了呢[lr]這個也是，讓我穿上真的好嗎？[p]
+#希露薇
+這件…跟之前買給我的衣服不同顏色呢。[p]
+光是顏色不同感覺也不一樣了。[lr]這個也…讓我穿上真的好嗎？[p]
 [f_s]
-…謝謝。[p]
+…十分感謝您。[p]
 [else]
-#シルヴィ
-這個…跟之前買的衣服的布料顏色不同呢[lr]
+#希露薇
+這件…跟之前買給我的衣服不同顏色呢。[lr]
 [f_st]
-謝謝[p]
-光是顏色不一樣感覺也不一樣了呢[lr]
+十分地感謝您。[p]
+光是顏色不同感覺也不一樣了。[lr]
 [f_sst]
-想要早點穿戴看看呢。[p]
+想要早點穿穿看呢。[p]
 [endif]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 *color_r
-買了　　。[p]
+被買下了。[p]
 [free]
 [set_stand]
 [f_t]
 [show_stand]
 
 [if exp="f.step<5" ]
-#シルヴィ
-這是…和之前買的蝴蝶結顏色不一樣吧[p]
-真的、可以收下嗎？[p]
+#希露薇
+這個…和之前買給我的蝴蝶結不同顏色呢。[p]
+真的…可以收下嗎？[p]
 [f_s]
-…謝謝。[p]
+…十分感謝您。[p]
 [else]
-#シルヴィ
-這是…和之前買的蝴蝶結顏色不一樣吧[lr]
+#希露薇
+這個…和之前買給我的蝴蝶結不同顏色呢。[lr]
 [f_st]
-謝謝[p]
-有了蝴蝶結感覺似乎不一樣了[lr]
+十分地感謝您。[p]
+有了蝴蝶結感覺也不一樣了。[lr]
 [f_sst]
-期待穿上的樣子[p]
+真期待戴上的時候。[p]
 [endif]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 *color_p
-買了　　。[p]
+被買下了。[p]
 [free]
 [set_stand]
 [f_t]
 [show_stand]
 
 [if exp="f.step<5" ]
-#シルヴィ
-這是…。和之前您買給我的別針顏色不一樣呢[p]
-真的、可以收下嗎？[p]
+#希露薇
+這是…和之前買給我的髮帶不同顏色呢。[p]
+真的…可以收下嗎？[p]
 [f_s]
-…謝謝。[p]
+…十分感謝您。[p]
 [else]
-#シルヴィ
-這是…。和之前您買給我的別針顏色不一樣呢[lr]
+#希露薇
+這是…和之前買給我的髮帶不同顏色呢。[lr]
 [f_st]
-謝謝[p]
-雖然只是一點點，但給人的印象確實改變了對吧。[lr]
-[f_sst]看起來會是什麼感覺，真是期待。[p]
+十分地感謝您。[p]
+雖然只是一點點，但給人的印象確實改變了呢。[lr]
+[f_sst]戴上看起來會是什麼感覺，真是期待。[p]
 [endif]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 *color_g
-買了　　。[p]
+被買下了。[p]
 [free]
 [set_stand]
 [f_t]
 [show_stand]
 
-#シルヴィ
-這是…和之前買的眼鏡的顏色不一樣吧[lr]
+#希露薇
+這個…和之前買給我的眼鏡不同顏色吧。[lr]
 [f_s]
-謝謝[p]
+十分地感謝您。[p]
 [f_st]
-眼鏡很時髦、總覺得有種不可思議的感覺。[p]
-[after_shop]
+眼鏡很時髦、總有種不可思議的感覺。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 
 *color_s
-買了　　。[p]
+被買下了。[p]
 [free]
 [set_stand]
 [f_t]
 [show_stand]
 
-#シルヴィ
+#希露薇
 這是...新的襪子嗎？[lr]
 [f_s]
 [if exp="f.step>=5" ]
-謝謝[lr]
+十分地感謝您。[lr]
 [f_st]
-我也[name]我想穿　會喜歡的[p]
+我也[name]喜歡的我都想穿。[p]
 [else]
-…謝謝。[p]
+…十分感謝您。[p]
 [endif]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 
 
@@ -290,17 +292,17 @@
 [if exp="f.c_c1==0" ]
 [eval exp="f.c_c1=1" ]
 #
-（買了輕飄飄的衣服了。[p]
+（買了輕飄飄的衣服。[p]
 [free]
 [set_stand]
 [f_]
 [show_stand]
 
-#シルヴィ
+#希露薇
 [f_st]
-輕飄飄的衣裳。還有好多蝴蝶結，好可愛…[lr]
-謝謝[p]
-[after_shop]
+輕飄飄的衣服。還有好多蝴蝶結…好可愛。[lr]
+十分地感謝您。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_dress" ]
 [endif]
@@ -356,12 +358,12 @@
 [show_stand]
 
 
-#シルヴィ
-這真是...非常單薄的洋裝呢。[lr]透過去了...。[p]
-雖然有點讓人害羞...[lr]
+#希露薇
+這真是…非常單薄的洋裝呢。[lr]透過去了…。[p]
+雖然有點讓人害羞…。[lr]
 [f_stp]
-[name]如果　　喜歡的話我會穿看看的。[p]
-[after_shop]
+[name]喜歡的話我就會穿上的。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_dress" ]
 [endif]
@@ -396,13 +398,13 @@
 [f_st]
 [show_stand]
 
-#シルヴィ
-這是...很可愛的一件式洋裝呢。[lr]感覺很涼爽，活動起來也很方便[p]
-您買給我的嗎？[lr]
+#希露薇
+這是…很可愛的連衣裙呢。[lr]感覺很涼爽，活動起來也很方便。[p]
+您是要買給我的嗎？[lr]
 [f_sst]
-謝謝[p]
-穿上這個[name]我想和　一起出門[p]
-[after_shop]
+十分地感謝您。[p]
+我想穿上它和[name]一起出門。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_dress" ]
 [endif]
@@ -451,18 +453,18 @@
 [cm  ]
 [if exp="f.c_f1==0" ]
 [eval exp="f.c_f1=1" ]
-(買了護士服[p]
+（買了護士服。[p]
 [free]
 [set_stand]
 [f_st]
 [show_stand]
 
-#シルヴィ
-這是...護士的衣服吧？[lr]穿上這個[name]我可以幫忙　的工作嗎？[p]
+#希露薇
+這是…護士在穿的衣服吧？[lr]我想穿上它和[name]在一起，多少能幫忙點工作吧？[p]
 [f_sst]
-謝謝[r]
-我[name]為了能幫上的忙我會努力加油的[p]
-[after_shop]
+十分地感謝您。[r]
+我為了能幫上[name]的忙，會努力加油的。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_dress" ]
 [endif]
@@ -472,19 +474,19 @@
 [cm  ]
 [if exp="f.c_f2==0" ]
 [eval exp="f.c_f2=1" ]
-(買了粉紅色的護士服[p]
+（買了粉紅色的護士服[p]
 [free]
 [set_stand]
 [f_st]
 [show_stand]
 
-#シルヴィ
-這是…和剛才不同色的護士服吧[lr]是要拿來當備用的嗎？[p]
-這一件看起來有點可愛呢[p]
+#希露薇
+這是…和之前買給我的護士服不同顏色吧。[lr]是要拿來當備用的嗎？[p]
+這件看起來稍稍可愛點呢。[p]
 [f_sst]
-謝謝[r]
+十分地感謝您。[r]
 我會更加努力的。[p]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_dress" ]
 [endif]
@@ -493,20 +495,20 @@
 [cm  ]
 [if exp="f.c_f3==0" ]
 [eval exp="f.c_f3=1" ]
-(買了黑色的護士服[p]
+（買了黑色的護士服[p]
 [free]
 [set_stand]
 [f_st]
 [show_stand]
 
-#シルヴィ
-這是…和剛才不同色的護士服吧[lr]是要拿來當備用的嗎？[p]
+#希露薇
+這是…和之前買給我的護士服不同顏色吧。[lr]是要拿來當備用的嗎？[p]
 [f_t]
 全黑的…也有這樣的款式呢[p]
 [f_sst]
-謝謝[r]
-我會更加、更加努力的！[p]
-[after_shop]
+十分地感謝您。[r]
+我會更加、更加努力的。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_dress" ]
 [endif]
@@ -612,19 +614,19 @@
 [cm  ]
 [if exp="f.r_b1==0" ]
 [eval exp="f.r_b1=1" ]
-(買了大段帶[p]
-#シルヴィ
+（買了大蝴蝶結[p]
+#希露薇
 [free]
 [set_stand]
 [f_t]
 [show_stand]
 
-比上一次買的緞帶還要大呢[lr]
+比上一次買的蝴蝶結還要大呢。[lr]
 [f_s]
-謝謝[p]
+十分地感謝您。[p]
 [f_st]
-これをつけたら、私も少しは可愛く見えますかね？[p]
-[after_shop]
+不曉得戴上時，會不會變得可愛不點？[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_hair" ]
 [endif]
@@ -645,8 +647,9 @@
 [eval exp="f.r_b3=1" ]
 （太いリボン「赤」
 [jump  storage=""  target="*color_r" ]
-[else]
+[elseif]
 [jump  storage=""  target="*bought_hair" ]
+[endif]
 
 *r_b4
 [cm  ]
@@ -797,15 +800,15 @@
 [f_ct]
 [show_stand]
 
-#シルヴィ
-這是...眼鏡嗎?[lr]
-雖然，我不覺得我的視力不好。[p]
+#希露薇
+這是…眼鏡嗎？[lr]
+我並不覺得自己的視力不好啊。[p]
 [f_t]
-啊咧？這個…沒有度數啊[lr]
-時髦，嗎？[p]
+欸？這個…沒有度數吔。[lr]
+是為了…時髦嗎？[p]
 [f_s]
-雖然我不是很了解[name]如果喜歡的話，我就去試著穿戴起來。[p]
-[after_shop]
+雖然我不是很明白，如果[name]喜歡的話，我就試著戴戴看。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_pin" ]
 [endif]
@@ -858,11 +861,11 @@
 [set_stand]
 [f_t]
 [show_stand]
-#シルヴィ
-這個…。跟之前買的眼鏡樣式不一樣呢。[p]
+#希露薇
+這個…跟之前買的眼鏡樣式不一樣呢。[p]
 [f_st]
-稍微有點變聰明的感覺[lr]
-[after_shop]
+稍微有點變聰明的感覺。[lr]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_pin" ]
 [endif]
@@ -915,13 +918,13 @@
 [set_stand]
 [f_t]
 [show_stand]
-#シルヴィ
-這個…。跟之前買的眼鏡樣式不一樣呢。[p]
+#希露薇
+這個…跟之前買的眼鏡樣式不一樣呢。[p]
 [f_st]
-有種時尚感[lr]
-謝謝[p]
+有種時尚感呢。[lr]
+十分地感謝您。[p]
 [eval exp="f.g_c1=1" ]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [jump  storage=""  target="*bought_pin" ]
 [endif]
@@ -1034,7 +1037,7 @@
 
 *color_ri
 
-買了　　。[p]
+被買下了。[p]
 [free]
 [set_stand]
 [f_t]
@@ -1042,20 +1045,20 @@
 
 [if exp="f.ring_f==0" ]
 [eval exp="f.ring_f=1" ]
-#シルヴィ
+#希露薇
 [f_t]
-乳環、嗎？[p]
+乳環…嗎？[p]
 [f_tp]
-這個...是掛在身體上...的吧？[lr]
+這個…是掛在身體上…的吧？[lr]
 [f_stp]
-我瞭解了。[name]很高興你會喜歡[p]
-[after_shop]
+我瞭解了。[name]喜歡的話我也很高興。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 [else]
 [f_sp]
-新的針飾呢[p]
+是新的針飾呢。[p]
 [f_stp]
-[name]我想穿所喜歡的服飾[p]
-[after_shop]
+[name]喜歡的服飾我都會穿上的。[p]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 *s_a1
 [cm  ]
@@ -1222,7 +1225,7 @@
 [cm]
 果然還是不要好了吧。[p]
 [eval exp="f.shop_c=3" ]
-[after_shop]
+[jump  storage="after_action.ks"  target="*after_shop" ]
 
 
 
