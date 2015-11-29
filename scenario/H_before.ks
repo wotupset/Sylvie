@@ -15,11 +15,11 @@
 [f_t]
 …[p]
 [show_stand]
-#シルヴィ
+#希露薇
 …[name]？[p]
 #
-輕輕地親吻了シルヴィ…。[p]
-#シルヴィ
+輕輕地親吻了希露薇…。[p]
+#希露薇
 …嗯[p]
 [jump  storage="event5.ks"  target="*kiss" ]
 [endif]
@@ -54,7 +54,7 @@
 [endif]
 
 [if exp="f.drugx>=1 && f.lust>=100" ]
-[button  storage=""  target="*xxx"  graphic="ch/use-x.png"    x="0"  y="160" hint="シルヴィの絶頂上限がなくなります" ]
+[button  storage=""  target="*xxx"  graphic="ch/use-x.png"    x="0"  y="160" hint="希露薇の絶頂上限がなくなります" ]
 [endif]
 [if exp="f.drugz>=1 && f.lust>=35" ]
 [button  storage=""  target="*zzz"  graphic="ch/use-z.png"   x="0"  y="260" hint="射精上限がなくなります" ]
@@ -106,7 +106,7 @@
 [cm]
 [cancelskip]
 [show_stand]
-#シルヴィ
+#希露薇
 [if exp="f.lust<=40" ]
 [f_tp]
 …我會做的呦[p]
@@ -126,7 +126,7 @@
 [endif]
 [black]
 #
-（褪去シルヴィ的衣服後，讓她躺上床)[p]
+（褪去希露薇的衣服後，讓她躺上床)[p]
 [cancelskip]
 [jump  storage="H_ex.ks"  target="*H_ex" ]
 
@@ -138,7 +138,7 @@
 [cancelskip]
 [f_t]
 [show_stand]
-#シルヴィ
+#希露薇
 這…是什麼?[p]
 [f_tp]
 ...變得舒服的藥?[p]
@@ -146,7 +146,7 @@
 [f_stp]
 [name]已經準備好了，所以應該不會是什麼不好的東西啦。[p]
 #
-（褪去シルヴィ的衣服後，讓她躺上床)[p]
+（褪去希露薇的衣服後，讓她躺上床)[p]
 [cancelskip]
 [black]
 [jump  storage="H_ex.ks"  target="*H_ex" ]
@@ -155,7 +155,7 @@
 [cm]
 [cancelskip]
 [show_stand]
-#シルヴィ
+#希露薇
 [eval exp="f.blow=f.blow+1" ]
 
 [if exp="f.m_mouth==0" ]
@@ -194,6 +194,7 @@
 [s]
 [endif]
 [cancelskip]
+[eval exp="f.day=f.day+1" ]
 [jump  storage="after_action.ks"  target="*return_bace" ]
 
 *conti
@@ -201,7 +202,7 @@
 [cancelskip]
 [black]
 #
-我無法滿足單單那一次的射精，乾脆把シルヴィ推倒在床上[p]
+我無法滿足單單那一次的射精，乾脆把希露薇推倒在床上[p]
 [cancelskip]
 [jump  storage="H_ex.ks"  target="*H_ex" ]
 
@@ -229,7 +230,7 @@
 [f_ctp]
 [show_stand]
 
-#シルヴィ
+#希露薇
 今天就這樣結束嗎？[p]
 [if exp="f.lust>=1000" ]
 [name]請讓我也做...[lr]
@@ -250,8 +251,8 @@
 [cancelskip]
 [black]
 #
-（受不了シルヴィ的模樣，忍不住將她推倒了)[p]
-#シルヴィ
+（受不了希露薇的模樣，忍不住將她推倒了)[p]
+#希露薇
 …♡[p]
 [cancelskip]
 [jump  storage="H_ex.ks"  target="*H_ex" ]

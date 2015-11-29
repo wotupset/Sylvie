@@ -948,7 +948,7 @@
 [eval  exp="f.h_act='off'" ]
 [left_non]
 [right_non]
-[h_def]
+[jump  storage="H_ex.ks"  target="*h_def" ]
 
 
 
@@ -982,7 +982,7 @@
 [eval  exp="f.h_in=f.h_in+1" ]
 [squi]
 
-#シルヴィ
+#希露薇
 [if exp="f.s_ex==1" ]
 [call  storage="Hx_text.ks"  target="*tx_ex_both_in1" ]
 [elsif exp="f.s_ex==2" ]
@@ -993,19 +993,19 @@
 [call  storage="Hx_text.ks"  target="*tx_ex_both_in4" ]
 [endif]
 #
-（射精的同時，シルヴィ也在顫抖中達到了高潮[r]
+（射精的同時，希露薇也在顫抖中達到了高潮[r]
 像在跳躍般顫抖的陰道褶皺不停地榨取著更多的精液[p]
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
-[h_def]
+[jump  storage="H_ex.ks"  target="*h_def" ]
 
 *out_cum
 [cm]
 [eval  exp="f.kake=f.kake+1" ]
 [cum_out]
 #
-（抽插的瞬間到達了極限、在シルヴィ體內射出了精液[p]
+（抽插的瞬間到達了極限、在希露薇體內射出了精液[p]
 [if  exp="f.h_in>=3" ]
 [chara_mod  name="z-b"  time="0"  storage="chara/26/z3.png" ]
 [elsif  exp="f.h_in==2" ]
@@ -1015,7 +1015,7 @@
 [endif]
 
 [squi]
-#シルヴィ
+#希露薇
 [if exp="f.s_ex==1" ]
 [call  storage="Hx_text.ks"  target="*tx_ex_both_out1" ]
 [elsif exp="f.s_ex==2" ]
@@ -1026,7 +1026,7 @@
 [call  storage="Hx_text.ks"  target="*tx_ex_both_out4" ]
 [endif]
 #
-（在我射精的同時シルヴィ的下體也噴射出體液，從兩人性器官噴射的體液飛濺到半空中。[p]
+（在我射精的同時希露薇的下體也噴射出體液，從兩人性器官噴射的體液飛濺到半空中。[p]
 [left_non]
 [right_non]
 [cum_add]
@@ -1036,7 +1036,7 @@
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
-[h_def]
+[jump  storage="H_ex.ks"  target="*h_def" ]
 
 *ex_s
 [eval  exp="f.lust=f.lust+1" ]
@@ -1046,9 +1046,9 @@
 [eval  exp="f.wet=f.wet+30" ]
 
 #
-シルヴィ的身體激烈地弓起、在顫抖中達到了高潮[p]
+希露薇的身體激烈地弓起、在顫抖中達到了高潮[p]
 [squi]
-#シルヴィ
+#希露薇
 [if exp="f.s_ex==1" ]
 [call  storage="Hx_text.ks"  target="*tx_ex_s1" ]
 [elsif exp="f.s_ex==2" ]
@@ -1064,14 +1064,14 @@
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
-[h_def]
+[jump  storage="H_ex.ks"  target="*h_def" ]
 
 
 *ex_sy
 [eval  exp="f.y_feel=0" ]
 [eval  exp="f.y_ex=f.y_ex+1" ]
 #
-（シルヴィ的陰道在高潮中猛力收縮，緊緊地吸啜著我的陰莖、到這時我也再無法忍耐下去[p]
+（希露薇的陰道在高潮中猛力收縮，緊緊地吸啜著我的陰莖、到這時我也再無法忍耐下去[p]
 [button  storage=""  target="*sy_in_cum"  graphic="ch/in-cum.png"    x="0"  y="200" ]
 [button  storage=""  target="*sy_out_cum"  graphic="ch/out-cum.png"   x="0"  y="350" ]
 [s]
@@ -1084,7 +1084,7 @@
 （盡情的扭動著腰，往顫抖著的子宮深處裡流進精液。[p]
 [eval  exp="f.h_in=f.h_in+1" ]
 
-#シルヴィ
+#希露薇
 [if exp="f.s_ex==1" ]
 [jump  storage="Hx_text.ks"  target="*tx_ex_sy_in1" ]
 [elsif exp="f.s_ex==2" ]
@@ -1100,7 +1100,7 @@
 [eval  exp="f.kake=f.kake+1" ]
 [cum_out]
 #
-（抽插的瞬間到達了極限、在シルヴィ體內射出了精液[p]
+（抽插的瞬間到達了極限、在希露薇體內射出了精液[p]
 [if  exp="f.h_in>=3" ]
 [chara_mod  name="z-b"  time="0"  storage="chara/26/z3.png" ]
 [elsif  exp="f.h_in==2" ]
@@ -1116,8 +1116,8 @@
 [eval  exp="f.h_sex=0" ]
 [eval  exp="f.h_act='off'" ]
 #
-（噴射飛散的精液在顫抖的シルヴィ的身體上反射著光芒。[p]
-#シルヴィ
+（噴射飛散的精液在顫抖的希露薇的身體上反射著光芒。[p]
+#希露薇
 [if exp="f.s_ex==1" ]
 [jump  storage="Hx_text.ks"  target="*tx_ex_sy_out1" ]
 [elsif exp="f.s_ex==2" ]
@@ -1163,7 +1163,7 @@
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
-[h_def]
+[jump  storage="H_ex.ks"  target="*h_def" ]
 
 *ex_ys
 [eval  exp="f.lust=f.lust+1" ]
@@ -1173,8 +1173,8 @@
 [eval  exp="f.wet=f.wet+30" ]
 
 [squi]
-感受到流進子宮的精子，シルヴィ的下腹也不住顫抖起來[p]
-#シルヴィ
+感受到流進子宮的精子，希露薇的下腹也不住顫抖起來[p]
+#希露薇
 [if exp="f.s_ex==1" ]
 [call  storage="Hx_text.ks"  target="*tx_ex_s1" ]
 [elsif exp="f.s_ex==2" ]
@@ -1187,7 +1187,7 @@
 [if  exp="f.h_count>=170" ]
 [jump  storage="Hx_text.ks"  target="*morning" ]
 [endif]
-[h_def]
+[jump  storage="H_ex.ks"  target="*h_def" ]
 
 
 *y_out_cum
@@ -1195,7 +1195,7 @@
 [eval  exp="f.kake=f.kake+1" ]
 [cum_out]
 #
-（抽插的瞬間到達了極限、在シルヴィ體內射出了精液[p]
+（抽插的瞬間到達了極限、在希露薇體內射出了精液[p]
 [if  exp="f.h_in>=3" ]
 [chara_mod  name="z-b"  time="0"  storage="chara/26/z3.png" ]
 [elsif  exp="f.h_in==2" ]
@@ -1256,7 +1256,7 @@
 射精[emb exp="f.y_ex" ]回[r]
 [endif]
 [if  exp="f.s_ex>=1" ]
-シルヴィ高潮了[emb exp="f.s_ex" ]回[p]
+希露薇高潮了[emb exp="f.s_ex" ]回[p]
 [endif]
 
 [jump  storage="Hx_text.ks"  target="*desc_calc" ]
