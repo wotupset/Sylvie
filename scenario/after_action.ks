@@ -59,6 +59,7 @@
 [button  storage=""  target="*nade_continue"  graphic="ch/continue.png"    x="0"  y="200" ]
 [button  storage=""  target="*stop_nade"  graphic="ch/stop.png"   x="0"  y="350" ]
 [s]
+[endif]
 
 *nade_continue
 [cm]
@@ -182,9 +183,9 @@
 [if exp="f.love>=300 && f.shop_c==0" ]
 [eval exp="f.shop_c=1" ]
 #
-…せっかくだ、もう少し見ていこうか…[l]
+…好不容易出門，不再稍微逛逛嗎…？[l]
 [free]
-[chara_mod  name="man"  time="0"  storage="chara/1/woman.png" ]
+[set_lady]
 [chara_show  name="man"  time="100"  wait="true" ]
 [anim name="man" time="300" left="20" ]
 [chara_mod  name="window"  time="1"  storage="chara/12/shop-win.png" ]
@@ -194,9 +195,9 @@
 [elsif exp="f.love>=1000 && f.shop_c==1" ]
 [eval exp="f.shop_c=2" ]
 #
-…せっかくだ、もう少し見ていこうか…[l]
+…好不容易出門，不再稍微逛逛嗎…？[l]
 [free]
-[chara_mod  name="man"  time="0"  storage="chara/1/woman.png" ]
+[set_lady]
 [chara_show  name="man"  time="100"  wait="true" ]
 [anim name="man" time="300" left="20" ]
 [chara_mod  name="window"  time="1"  storage="chara/12/shop-win.png" ]
@@ -206,9 +207,9 @@
 [elsif exp="f.love>=3000 && f.shop_c==2" ]
 [eval exp="f.shop_c=3" ]
 #
-…せっかくだ、もう少し見ていこうか…[l]
+…好不容易出門，不再稍微逛逛嗎…？[l]
 [free]
-[chara_mod  name="man"  time="0"  storage="chara/1/woman.png" ]
+[set_lady]
 [chara_show  name="man"  time="100"  wait="true" ]
 [anim name="man" time="300" left="20" ]
 [chara_mod  name="window"  time="1"  storage="chara/12/shop-win.png" ]

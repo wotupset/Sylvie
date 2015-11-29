@@ -848,6 +848,7 @@
 [macro name=d_f]
 [if exp="f.pin==0" ]
 [chara_mod  name="e-face"  time="0"  storage="chara/9/d-f.png" ]
+[endif]
 [endmacro]
 
 [macro name=d_s]
