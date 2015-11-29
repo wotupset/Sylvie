@@ -1030,10 +1030,7 @@
 [else]
 [chara_show name="e-ribbon" time="50" wait="false" left="1" ]
 [endif]
-[if exp="f.dress==0" ]
-[else]
 [chara_show name="e-clothes" time="50" wait="false" left="1" ]
-[endif]
 [return]
 
 
