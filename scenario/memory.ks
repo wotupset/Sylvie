@@ -18,7 +18,7 @@
 [if exp="f.m_first==1" ]
 [button  storage="H_first-.ks"  target="*scene"  graphic="m/1.png" x="214"  y="106"  _clickable_img="" ]
 [else]
-[button  torage=""  target="*scene"  graphic="m/0.png" x="214"  y="106" hint="条件-始めの一回" _clickable_img="" ]
+[button  storage=""  target="*scene"  graphic="m/0.png" x="214"  y="106" hint="条件-初めの一回" _clickable_img="" ]
 [endif]
 
 [if exp="f.m_morning>=1" ]
@@ -128,7 +128,7 @@
 [if exp="f.m_first==1" ]
 [button  storage="H_first-.ks"  target="*cg"  graphic="m/1.png" x="214"  y="106"  _clickable_img="" ]
 [else]
-[button  torage=""  target="*cg"  graphic="m/0.png" x="214"  y="106" hint="条件-始めの一回" _clickable_img="" ]
+[button  storage=""  target="*cg"  graphic="m/0.png" x="214"  y="106" hint="条件-初めの一回" _clickable_img="" ]
 [endif]
 [if exp="f.m_morning>=1" ]
 [button  storage="H_morning-.ks"  target="*a_cg"  graphic="m/2.png" x="391"  y="106"  _clickable_img="" ]

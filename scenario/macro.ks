@@ -99,51 +99,13 @@
 [endif]
 [endmacro]
 
-[macro name=skip_talk]
-[eval exp="f.talk=f.talk+1" ]
-[jump  storage="action_lead.ks"  target="*talk" ]
-[endmacro]
-
 [macro name="no_button" ]
 @clearfix name="role_button"
-[endmacro]
-
-[macro name=return_bace]
-[jump  storage="after_action.ks"  target="*return_bace" ]
-[endmacro]
-
-[macro name=return_menu]
-[jump  storage="after_action.ks"  target="*return_menu" ]
-[endmacro]
-
-[macro name=after_nade]
-[jump  storage="after_action.ks"  target="*after_nade" ]
-[endmacro]
-
-[macro name=after_talk]
-[jump  storage="after_action.ks"  target="*after_talk" ]
-[endmacro]
-
-[macro name=after_touch]
-[jump  storage="after_action.ks"  target="*after_touch" ]
-[endmacro]
-
-[macro name=after_town]
-[jump  storage="after_action.ks"  target="*after_town" ]
-[endmacro]
-
-[macro name=after_shop]
-[call  storage="after_action.ks"  target="*after_shop" ]
 [endmacro]
 
 [macro name=name]
 [emb exp="f.name" ]
 [endmacro]
-
-[macro name=h_def]
-[jump  storage="H_ex.ks"  target="*h_def" ]
-[endmacro]
-
 
 [macro name=left_b]
 [chara_mod  name="e-h2"  time="0"  storage="chara/14/hx-b.png" ]
@@ -361,6 +323,17 @@
 [chara_mod  name="bw"  time="0"  storage="chara/28/b2s.png" ]
 [elsif  exp="f.wet>=120" ]
 [chara_mod  name="bw"  time="0"  storage="chara/28/b1s.png" ]
+[endif]
+[endmacro]
+
+
+[macro name=set_lady]
+[if  exp="f.lady==1" ]
+[chara_mod  name="man"  time="0"  storage="chara/1/w-1.png" ]
+[elsif  exp="f.lady==2" ]
+[chara_mod  name="man"  time="0"  storage="chara/1/w-2.png" ]
+[elsif  exp="f.lady==3" ]
+[chara_mod  name="man"  time="0"  storage="chara/1/w-3.png" ]
 [endif]
 [endmacro]
 
