@@ -8,11 +8,11 @@
 [show_skip]
 [cancelskip]
 [set_stand]
-[if exp="f.dress==0 || f.dress==31 || f.dress==32" ]
+[if exp="f.dress==0 || f.dress==31 || f.dress==32 || f.dress==33" ]
 #
 （換一件能夠穿出門的服裝吧…。[p]
 [hide_skip]
-[return_menu]
+[jump  storage="after_action.ks"  target="*return_menu" ]
 [endif]
 
 [black]
@@ -23,44 +23,44 @@
 [eval  exp="f.flag1=0" ]
 …。[lr]
 [f_t]
-我也要嗎？[p]
+我也能一起去嗎？[p]
 [f_cl]
 …。[lr]
 [f_t]
 我瞭解了。[lr]
-雖然我覺得我不能提太重的東西、但我還是會一起去的[p]
+雖然我覺得自己不能提太重的東西，不過請讓我跟著…。[p]
 
 [elsif exp="f.step==3" ]
 [f_t]
 
-#シルヴィ
-還可以，跟您一起出門嗎？[p]
+#希露薇
+還可以，和您一起出門嗎？[p]
 [elsif exp="f.step==4" ]
 [f_t]
 
-#シルヴィ
-要出門嗎？[lr]知道了，請讓我與您同行。[p]
+#希露薇
+要出門嗎？[lr]知道了，那麼就一起出門吧。[p]
 [elsif exp="f.step==5" ]
 [f_st]
 
-#シルヴィ
+#希露薇
 好的，要出門了嗎？[lr]…真令人期待呢。[p]
 [elsif exp="f.step==6" ]
 [f_ss]
 
-#シルヴィ
-好的，我也與您一起同行。[lr]
+#希露薇
+好的，一起出門吧。[lr]
 [f_sst]
 [name]在我身邊，不管去哪裡都很開心[p]
 [elsif exp="f.love>300" ]
 [f_ssp]
 
-#シルヴィ
-好的，請讓我一起同行。[lr]不管要去哪裡，請讓我跟在身邊…。[p]
+#希露薇
+好的，一起出門吧。[lr]不管去哪，請讓我跟身邊…。[p]
 [endif]
 
 #
-どこに行こうか？[l]
+要去哪裡呢？[l]
 [if exp="f.step>5" ]
 [button  storage="wood.ks"  target="*wood"  graphic="ch/wood.png"   x="0"  y="300"  ]
 [else]
@@ -103,7 +103,7 @@
 [bg  time="100"  method="crossfade"  storage="bg-town.jpg"  ]
 [show_stand]
 
-町に来たが、どこへ行こう。[l]
+來到鎮上了，要往哪裡去呢？[l]
 
 [if exp="f.step<6" ]
 [jump  storage=""  target="*choise_4_5" ]
@@ -140,7 +140,7 @@
 （今天買完日用品之後就回家吧…。[p]
 [fadeoutbgm time=500]
 [black]
-[after_town]
+[jump  storage="after_action.ks"  target="*after_town" ]
 
 
 *talk
@@ -521,9 +521,6 @@ f.talk=Math.floor(Math.random() * 36 + 1);
 [jump  storage="step6.ks"  target="*talk74" ]
 [elsif exp="f.talk==75" ]
 [jump  storage="step6.ks"  target="*talk75" ]
-
-
-
 [endif]
 
 
@@ -693,6 +690,7 @@ f.nade=Math.floor(Math.random() * 54 + 1);
 [iscript]
 f.nade=Math.floor(Math.random() * 22 + 32);
 [endscript]
+[endif]
 [jump  storage=""  target="*nade6_" ]
 
 *nade6
@@ -834,7 +832,7 @@ f.nade=Math.floor(Math.random() * 32 + 1);
 
 *walk
 [cm  ]
-#シルヴィ
+#希露薇
 [if exp="f.walk==1" ]
 [jump  storage="wood.ks"  target="*walk1" ]
 [elsif exp="f.walk==2" ]
@@ -914,7 +912,7 @@ f.nade=Math.floor(Math.random() * 32 + 1);
 
 *market
 [cm  ]
-#シルヴィ
+#希露薇
 [if exp="f.market==1" ]
 [jump  storage="market.ks"  target="*market1" ]
 [elsif exp="f.market==2" ]
@@ -988,20 +986,20 @@ f.nade=Math.floor(Math.random() * 32 + 1);
 
 *tea
 [cm  ]
-#シルヴィ
+#希露薇
 [s_st]
 要喝茶嗎？[lr]
 [s_sst]
-好的，我會去準備的。[p]
-[name]請您稍等一下。[p]
+好的，我去準備。[p]
+[name]請您稍待一下。[p]
 [black]
 #
 …[p]
-過了一會，シルヴィ從廚房拿來了兩人份的茶具回來。[p]
+過了一會，希露薇從廚房拿了兩人份的茶具回來。[p]
 [set_sit]
 [s_st]
 [show_sit]
-#シルヴィ
+#希露薇
 讓您久等了。[lr]
 那麼開動吧。[p]
 [s_scl]
