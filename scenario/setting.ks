@@ -115,7 +115,7 @@
 
 *tx_speed_after
 #
-文字速度則試[p]
+文字速度測試[p]
 [jump  storage=""  target="*setting" ]
 
 *full_screen
@@ -191,58 +191,58 @@
 *record
 [cm  ]
 #
-和シルヴィ開始一起生活[emb exp="f.day" ]日目[r]
+和希露薇開始一起生活第[emb exp="f.day" ]日[r]
 
 [if exp="f.sex==0 || f.sex=='yet'" ]
 [else]
-セックス回数[emb exp="f.sex" ]回、
+做愛次數[emb exp="f.sex" ]次、
 [endif]
 
 [if exp="f.heavn==0" ]
 [else]
-シルヴィ絶頂[emb exp="f.heavn" ]回、
+希露薇高潮了[emb exp="f.heavn" ]次、
 [endif]
 
 [if exp="f.cum==0" ]
 [else]
-中出し[emb exp="f.cum" ]回、
+內射[emb exp="f.cum" ]次、
 [endif]
 [r]
 
 [if exp="f.kake==0" ]
 [else]
-ぶっかけ[emb exp="f.kake" ]回、
+顏射[emb exp="f.kake" ]次、
 [endif]
 
 [if exp="f.blow==0" ]
 [else]
-フェラ[emb exp="f.blow" ]回、
+口交[emb exp="f.blow" ]次、
 [endif]
 
 [if exp="f.drink==0" ]
 [else]
-飲精[emb exp="f.drink" ]回
+喝下精液[emb exp="f.drink" ]回
 [endif]
 [r]
 
 [if exp="f.book=='non'" ]
 [else]
-所持品-ピンクの花 [emb exp="f.flower" ] 個、
+持有-粉紅色的花[emb exp="f.flower" ]個、
 [endif]
 
 [if exp="f.flower_b==0" ]
 [elsif exp="f.flower_b>=1" ]
-所持品-青い花 [emb exp="f.flower_b" ] 個、
+持有-藍色的花[emb exp="f.flower_b" ]個、
 [endif]
 
 [if exp="f.book=='non'" ]
 [else]
-媚薬[emb exp="f.drugx" ]個、
+媚藥[emb exp="f.drugx" ]個、
 [endif]
 
 [if exp="f.book=='non'" ]
 [else]
-精力剤[emb exp="f.drugz" ]個
+精力劑[emb exp="f.drugz" ]個
 [endif]
 [p]
 
@@ -253,56 +253,65 @@
 [if exp="f.lust<=0" ]
 [eval exp="f.lust=0" ]
 [endif]
+
+[if exp="f.love>=9999" ]
+[eval exp="f.love=9999" ]
+[endif]
+
+[if exp="f.lust>=9999" ]
+[eval exp="f.lust=9999" ]
+[endif]
+
 #
 [if exp="f.step==1" ]
-シルヴィ仍把你當他人看待。[r]
-親愛度「[emb exp="f.love" ]」[p]
+希露薇仍把你當陌生人看待。[r]
+親密度「[emb exp="f.love" ]」[p]
 [jump  storage="step1.ks"  target="*before_menu" ]
 
 [elsif exp="f.step==2" ]
-シルヴィ看待你為友人[r]
-親愛度「[emb exp="f.love" ]」[p]
+希露薇把你看待為友人。[r]
+親密度「[emb exp="f.love" ]」[p]
 [jump  storage="step2.ks"  target="*before_menu" ]
 
 [elsif exp="f.step==3" ]
-シルヴィ把你當成同居人開始產生了信賴[r]
-親愛度「[emb exp="f.love" ]」[p]
+希露薇把你當成同居人，開始產生了信賴。[r]
+親密度「[emb exp="f.love" ]」[p]
 [jump  storage="step3.ks"  target="*before_menu" ]
 
 [elsif exp="f.step==4" ]
-シルヴィ很享受跟你在一起的時間。[r]
-親愛度「[emb exp="f.love" ]」[p]
+希露薇很享受跟你在一起的時間。[r]
+親密度「[emb exp="f.love" ]」[p]
 [jump  storage="step4.ks"  target="*before_menu" ]
 
 [elsif exp="f.step>=6 && f.love>1100 && f.lust>600" ]
-シルヴィ即使只是離開你一天也會感到恐慌[r]
-親愛度「[emb exp="f.love" ]」
-淫乱度「[emb exp="f.lust" ]」
+希露薇即使只離開你一天也會感到恐慌。[r]
+親密度「[emb exp="f.love" ]」
+淫亂度「[emb exp="f.lust" ]」
 [kando][p]
 [jump  storage="after_action.ks"  target="*return_menu" ]
 
 [elsif exp="f.step>=6 && f.love>800 && f.lust>400" ]
-シルヴィ覺得如果沒有你的話也活不下去了。[r]
-親愛度「[emb exp="f.love" ]」
-淫乱度「[emb exp="f.lust" ]」
+希露薇覺得如果沒有你的話，自己也活不下去了。[r]
+親密度「[emb exp="f.love" ]」
+淫亂度「[emb exp="f.lust" ]」
 [kando][p]
 [jump  storage="after_action.ks"  target="*return_menu" ]
 
 [elsif exp="f.step==5" ]
-シルヴィ對你產生了好感[lr]
-親愛度「[emb exp="f.love" ]」[p]
+希露薇對你產生了好感。[lr]
+親密度「[emb exp="f.love" ]」[p]
 [jump  storage="step5.ks"  target="*before_menu" ]
 
 [elsif exp="f.step>=6 && f.love>400" ]
-シルヴィ現在想的只有你一人了。[lr]
-親愛度「[emb exp="f.love" ]」
-淫乱度「[emb exp="f.lust" ]」
+希露薇現在心中想的只有你一人。[lr]
+親密度「[emb exp="f.love" ]」
+淫亂度「[emb exp="f.lust" ]」
 [kando][p]
 [jump  storage="after_action.ks"  target="*return_menu" ]
 
 [elsif exp="f.step>=6" ]
-シルヴィ打從心裡想著你的事。[r]
-親愛度「[emb exp="f.love" ]」
+希露薇打從心底只想著你的事。[r]
+親密度「[emb exp="f.love" ]」
 淫亂度「[emb exp="f.lust" ]」[r]
 [kando]
 [p]
@@ -1153,21 +1162,21 @@
 *medi
 [cm]
 [if exp="f.flower>=1" ]
-所持数-ピンクの花（[emb exp="f.flower"]、媚薬（[emb exp="f.drugx"]、精力剤（[emb exp="f.drugz"]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"]
 [button  storage=""  target="*medi_z"  graphic="ch/medi-y.png"    x="0"  y="180" ]
 [button  storage=""  target="*medi_x"  graphic="ch/medi-s.png"   x="0"  y="300"  ]
 [button  storage=""  target="*return_menu"  graphic="ch/remind.png"   x="0"  y="420"  ]
 [s]
 [else]
 #
-(材料不足[p]
+（材料不足。[p]
 [jump  storage=""  target="*return_menu" ]
 [endif]
 
 *medi_x
 [cm]
-所持数-ピンクの花（[emb exp="f.flower"]、媚薬（[emb exp="f.drugx"]、精力剤（[emb exp="f.drugz"]
-[button  storage=""  target="*one_x"  graphic="ch/make-one.png"    x="0"  y="160" hint="コマンドえっちでシルヴィの絶頂上限がなくなります" ]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"]
+[button  storage=""  target="*one_x"  graphic="ch/make-one.png"    x="0"  y="160" hint="コマンドえっちで希露薇の絶頂上限がなくなります" ]
 [if exp="f.flower>=5" ]
 [button  storage=""  target="*five_x"  graphic="ch/make-five.png"   x="0"  y="260" hint="コマンドえっちで射精上限がなくなります" ]
 [endif]
@@ -1177,7 +1186,7 @@
 
 *medi_z
 [cm]
-所持数-ピンクの花（[emb exp="f.flower"]、媚薬（[emb exp="f.drugx"]、精力剤（[emb exp="f.drugz"]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"]
 [button  storage=""  target="*one_z"  graphic="ch/make-one.png"    x="0"  y="160" ]
 [if exp="f.flower>=5" ]
 [button  storage=""  target="*five_z"  graphic="ch/make-five.png"   x="0"  y="260"  ]
@@ -1191,21 +1200,21 @@
 [eval exp="f.flower=f.flower-1" ]
 [eval exp="f.drugz=f.drugz+1" ]
 製作了1個精力劑。[r]
-持有數量-ピンクの花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
 [jump  storage=""  target="*return_menu" ]
 *five_z
 [cm]
 [eval exp="f.flower=f.flower-5" ]
 [eval exp="f.drugz=f.drugz+5" ]
 製作了5個精力劑。[r]
-持有數量-ピンクの花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
 [jump  storage=""  target="*return_menu" ]
 *all_z
 [cm]
 [eval exp="f.drugz=f.flower+f.drugz" ]
 [eval exp="f.flower=0" ]
-把所有的ピンクの花做成了精力劑[r]
-持有數量-ピンクの花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
+把所有的粉紅色花做成了精力劑。[r]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
 [jump  storage=""  target="*return_menu" ]
 
 *one_x
@@ -1213,21 +1222,21 @@
 [eval exp="f.flower=f.flower-1" ]
 [eval exp="f.drugx=f.drugx+1" ]
 製作了1個媚藥。[r]
-持有數量-ピンクの花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
 [jump  storage=""  target="*return_menu" ]
 *five_x
 [cm]
 [eval exp="f.flower=f.flower-5" ]
 [eval exp="f.drugx=f.drugx+5" ]
 製作了5個媚藥。[r]
-持有數量-ピンクの花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
 [jump  storage=""  target="*return_menu" ]
 *all_x
 [cm]
 [eval exp="f.drugx=f.flower+f.drugx" ]
 [eval exp="f.flower=0" ]
-把所有的粉紅花做成了媚藥。[r]
-持有數量-ピンクの花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
+把所有的粉紅色花做成了媚藥。[r]
+持有數量-粉紅色的花([emb exp="f.flower"]、媚藥（[emb exp="f.drugx"]、精力劑（[emb exp="f.drugz"][p]
 [jump  storage=""  target="*return_menu" ]
 
 
@@ -1236,15 +1245,14 @@
 *tea
 [cm]
 #
-午餐用完了、飯後就泡杯茶吧。[p]
-[if exp="f.sex=='yet'" ]
-[jump  storage="action_lead.ks"  target="*tea" ]
-[elsif exp="f.flower<=0 && f.flower_b<=0" ]
+午餐用完了，飯後就泡杯茶吧。[p]
+[eval exp="f.love=f.love+1" ]
+[if exp="f.sex=='yet' || f.flower<=0 && f.flower_b<=0 || f.lust<=15" ]
 [jump  storage="action_lead.ks"  target="*tea" ]
 [endif]
 
-應該可以用什麼東西來再增添香氣[p]
-所持数-ピンクの花（[emb exp="f.flower"]、青い花（[emb exp="f.flower_b"]
+應該可以用什麼東西來增添香氣。[p]
+持有數量-粉紅色的花([emb exp="f.flower"]、藍色的話（[emb exp="f.flower_b"]
 [if exp="f.flower>=1" ]
 [button  storage=""  target="*tea-p"  graphic="ch/tea-p.png"    x="0"  y="180" ]
 [endif]
@@ -1260,7 +1268,7 @@
 *tea-p
 [cm]
 要加入多少呢？[p]
-所持数-ピンクの花（[emb exp="f.flower"]
+持有數量-粉紅色的花([emb exp="f.flower"]
 
 [button  storage=""  target="*little-p"  graphic="ch/little.png"  x="0"  y="180" hint="花を1つ使います" ]
 [if exp="f.flower>=3" ]
@@ -1273,19 +1281,19 @@
 
 *little-p
 [cm]
-#シルヴィ
+#希露薇
 [s_t]
-你為我泡了杯茶嗎？[p]
-如果交代下來我就會去準備的說...。[p]
+這杯茶是您為我泡的嗎？[p]
+如果交代的話，我就會去準備的說…。[p]
 [s_st]
 不過，還是相當感謝您。[p]
-那麼就一起開動吧。[p]
+那麼就一起品嘗吧。[p]
 [s_cl]
 …。[p]
 
 [s_st]
-些微帶點香甜味的茶呢[p]
-又熱又好吃…[p]
+帶有些微香甜味的茶呢。[p]
+又溫暖又美味…。[p]
 [s_s]
 [eval exp="f.flower=f.flower-1" ]
 [eval exp="f.lust=f.lust+5" ]
@@ -1296,18 +1304,18 @@
 *mid-p
 [cm]
 [s_t]
-你為我泡了杯茶嗎？[p]
-如果交代下來我就會去準備的說...。[p]
+這杯茶是您為我泡的嗎？[p]
+如果交代的話，我就會去準備的說…。[p]
 [s_st]
 不過，還是相當感謝您。[p]
-那麼就一起開動吧。[p]
+那麼就一起品嘗吧。[p]
 [s_cl]
 …。[p]
 
 [s_st]
-聞到了很香甜的味道，似乎很好吃呢。[p]
+聞起來有香甜的氣味，似乎很好喝呢。[p]
 [s_stp]
-身體不知不覺溫暖起來了。[p]
+身體不知不覺暖和起來了。[p]
 [s_sp]
 
 [eval exp="f.flower=f.flower-3" ]
@@ -1318,19 +1326,19 @@
 *lot-p
 [cm]
 [s_t]
-你為我泡了杯茶嗎？[p]
-如果交代下來我就會去準備的說...。[p]
+這杯茶是您為我泡的嗎？[p]
+如果交代的話，我就會去準備的說…。[p]
 [s_st]
 不過，還是相當感謝您。[p]
-那麼就一起開動吧。[p]
+那麼就一起品嘗吧。[p]
 [s_cl]
 …。[p]
 
 [s_stp]
-很甜很好吃呢。[p]
+很甜很好喝呢。[p]
 [s_tp]
-也一鼓作氣的喝完了吧[r]稍微有點變熱了呢。[p]
-不是房間變熱對吧。[p]
+…一鼓作氣地喝完它吧[r]稍微有點變熱了呢。[p]
+應該不是因為房間變熱對吧。[p]
 [s_p]
 
 [eval exp="f.flower=f.flower-5" ]
@@ -1342,7 +1350,7 @@
 *tea-b
 [cm]
 要加入多少呢？[p]
-所持数-青い花（[emb exp="f.flower_b"]
+持有數量-藍色的花（[emb exp="f.flower_b"]
 
 [button  storage=""  target="*little-b"  graphic="ch/little.png"  x="0"  y="180" hint="花を1つ使います" ]
 [if exp="f.flower_b>=3" ]
@@ -1355,19 +1363,19 @@
 
 *little-b
 [cm]
-#シルヴィ
+#希露薇
 [s_t]
-你為我泡了杯茶嗎？[p]
-如果交代下來我就會去準備的說...。[p]
+這杯茶是您為我泡的嗎？[p]
+如果交代的話，我就會去準備的說…。[p]
 [s_st]
 不過，還是相當感謝您。[p]
-那麼就一起開動吧。[p]
+那麼就一起品嘗吧。[p]
 [s_cl]
 …。[p]
 
 [s_st]
-帶有些微芬香的茶呢[p]
-很好吃。[p]
+帶有些微芬香的茶呢。[p]
+很好喝喔。[p]
 [s_s]
 
 [eval exp="f.flower_b=f.flower_b-1" ]
@@ -1379,18 +1387,18 @@
 *mid-b
 [cm]
 [s_t]
-你為我泡了杯茶嗎？[p]
-如果交代下來我就會去準備的說...。[p]
+這杯茶是您為我泡的嗎？[p]
+如果交代的話，我就會去準備的說…。[p]
 [s_st]
 不過，還是相當感謝您。[p]
-那麼就一起開動吧。[p]
+那麼就一起品嘗吧。[p]
 [s_cl]
 …。[p]
 
 [s_st]
 味道很香的茶呢。[p]
 [s_st]
-非常的令人感到安心[p]
+喝起來令人非常安心。[p]
 [s_s]
 
 [eval exp="f.flower_b=f.flower_b-3" ]
@@ -1401,22 +1409,22 @@
 *lot-b
 [cm]
 [s_t]
-你為我泡了杯茶嗎？[p]
-如果交代下來我就會去準備的說...。[p]
+這杯茶是您為我泡的嗎？[p]
+如果交代的話，我就會去準備的說…。[p]
 [s_st]
 不過，還是相當感謝您。[p]
-那麼就一起開動吧。[p]
+那麼就一起品嘗吧。[p]
 [s_cl]
 …。[p]
 
 [s_st]
-加重花草味的茶呢[lr]
-但是並不討厭。[p]
+花草味很重的茶呢，[lr]
+不過我並不討厭。[p]
 [s_clt]
 …呼啊。[p]
 [s_ctp]
 啊、對不起。[r]
-身子一暖就開始覺得想睡了…[p]
+身子一暖就開始覺得想睡了…。[p]
 [s_s]
 
 [eval exp="f.flower_b=f.flower_b-5" ]
@@ -1427,11 +1435,11 @@
 
 *name_change
 [cm]
-#シルヴィ
+#希露薇
 [s_t]
-想要更換稱呼、嗎？[lr]
+想要改變我對您的稱呼嗎？[lr]
 [s_st]
-はい、なんとお呼びすればいいでしょうか？
+好的，那之後要怎麼稱呼呢？
 *yourname
 [edit left=792 top=206 width="386"  height="42" name="f.name" ]
 [locate x=847 y=283]
@@ -1451,109 +1459,119 @@
 
 
 
-[if exp="f.name=='お兄ちゃん' || f.name=='おにいちゃん' || f.name=='兄さん' || f.name=='お兄様' || f.name=='お兄さん'" ]
+[if exp="f.name=='お兄ちゃん' || f.name=='おにいちゃん' || f.name=='兄さん' || f.name=='お兄様' || f.name=='お兄さん' || f.name=='葛格' || f.name=='歐尼醬' || f.name=='哥哥' || f.name=='兄長' || f.name=='兄長大人'" ]
 [s_st]
-#シルヴィ
-好的。那麼接下來「[name]」這樣叫吧。[p]
-我，雖然沒有兄弟姊妹，但您願意像對妹妹一般疼愛我的話，我會很高興的[lr]
+#希露薇
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
+我雖然沒有兄弟姊妹，但您願意像對妹妹一般疼愛我的話，我會很高興的。[lr]
 [s_stp][name]。[p]
 [jump  storage=""  target="*return_menu" ]
 
 
 
 
-[elsif exp="f.name=='あなた'" ]
+[elsif exp="f.name=='あなた' || f.name=='親愛的'" ]
 [s_st]
-#シルヴィ
-好的。那麼接下來「[name]」這樣叫吧。[lr]
-[s_stp]親‧愛‧的...♡。[lr]
+#希露薇
+好的。那麼接下來就稱呼您為「[name]」吧。[lr]
+[s_stp]親‧愛‧的…♡。[lr]
 [jump  storage=""  target="*return_menu" ]
 
 
 
-[elsif exp="f.name=='旦那様' || f.name=='旦那さま'" ]
-好的。那麼接下來「[name]」這樣叫吧。[lr]
+[elsif exp="f.name=='旦那様' || f.name=='旦那さま' || f.name=='老爺大人' || f.name=='老爺'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[lr]
 [s_stp][name]…♡。[lr]
 [jump  storage=""  target="*return_menu" ]
 
 
 
-[elsif exp="f.name=='パパ' || f.name=='お父さん' || f.name=='お父様'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
-意思是願當成女兒對待嗎。[p]
+[elsif exp="f.name=='パパ' || f.name=='お父さん' || f.name=='お父様' || f.name=='父親大人' || f.name=='爸爸' || f.name=='父親'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
+意思是想要把我當成女兒對待嗎？[p]
 [jump  storage=""  target="*return_menu" ]
 
 
 
 
-[elsif exp="f.name=='先生'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
-因為是醫生、已經很習慣這樣被稱呼了吧。[p]
+[elsif exp="f.name=='先生' || f.name=='醫生'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
+因為是醫生，已經很習慣被這樣稱呼了吧？[p]
 [jump  storage=""  target="*return_menu" ]
 
-[elsif exp="f.name=='先輩'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
+[elsif exp="f.name=='先輩' || f.name=='前輩' || f.name=='學長' || f.name=='學姊' || f.name=='學姐'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
 [s_t]
-...是指哪方面的前輩呢？[p]
+…是指哪方面的前輩呢？[p]
 [jump  storage=""  target="*return_menu" ]
-[elsif exp="f.name=='マスター'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
+[elsif exp="f.name=='マスター' || f.name=='master' || f.name=='Master' || f.name=='MASTER' || f.name=='ｍａｓｔｅｒ' || f.name=='Ｍａｓｔｅｒ' || f.name=='ＭＡＳＴＥＲ'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
 [s_t]
-意思和「主人」沒什麼差別吧？雖然發音不同[p]
+意思和「主人」沒什麼差別吧？雖然發音不同。[p]
 [jump  storage=""  target="*return_menu" ]
-[elsif exp="f.name=='ユーザー'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
+[elsif exp="f.name=='ユーザ' || f.name=='使用者' || f.name=='user' || f.name=='User' || f.name=='USER' || f.name=='ｕｓｅｒ' || f.name=='Ｕｓｅｒ' || f.name=='ＵＳＥＲ'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
 [s_t]
 …欸ー咦ー？[p]
 [jump  storage=""  target="*return_menu" ]
 [elsif exp="f.name=='ユーザ'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
 [s_t]
 …欸ー咦ー？[p]
 [jump  storage=""  target="*return_menu" ]
 
 
-[elsif exp="f.name=='プロデューサー'" ]
-好的。那麼接下來「[name]」這樣叫吧。[p]
+[elsif exp="f.name=='プロデューサー' || f.name=='製作人'" ]
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
 [s_t]
-…[name]…是什麼呢？[lr]
+…[name]…是什麼意思呢？[lr]
 [s_ct]
-…偶像？？對不起、我不太了解[p]
+…偶像？？對不起，我不太了解。[p]
 [jump  storage=""  target="*return_menu" ]
 
 
-[elsif exp="f.name=='ご主人様'" ]
+[elsif exp="f.name=='ご主人様' || f.name=='主人'" ]
 [s_st]
-#シルヴィ
-好的。那麼接下來「[name]」這樣叫吧。[lr]
-已經開始習慣剛開始時叫她的方式了[p]
+#希露薇
+好的。那麼接下來就稱呼您為「[name]」吧。[lr]
+已經開始習慣我這樣稱呼您了吧。[p]
 [jump  storage=""  target="*return_menu" ]
 
 
-[elsif exp="f.name=='おじさん'" ]
+[elsif exp="f.name=='おじさん' || f.name=='叔叔' || f.name=='叔叔大人'" ]
 [s_st]
-#シルヴィ
-好的。那麼接下來「[name]」這樣叫吧。[lr]
+#希露薇
+好的。那麼接下來就稱呼您為「[name]」吧。[lr]
 [s_t]
-我還以為一般都不喜歡會顯得年紀大的稱呼[p]
+我還以為一般人都不喜歡會顯得年紀大的稱呼…。[p]
 [jump  storage=""  target="*return_menu" ]
 
 
 
+[elsif exp="f.name=='島民' || f.name=='糟糕島民' || f.name=='K島島民'" ]
+[s_st]
+#希露薇
+欸？[name]？是那些教我說中文的人嗎
+[lr]
+[s_scltp]
+好像有很多傻爸爸投入呢。[lr]
+[s_ssp]
+真是十分感謝…。[p]
+[jump  storage=""  target="*return_menu" ]
 
 [else]
 [s_st]
-#シルヴィ
-好的。那麼接下來「[name]」稱呼您可以嗎。[p]
+#希露薇
+好的。那麼接下來就稱呼您為「[name]」吧。[p]
 [jump  storage=""  target="*return_menu" ]
 [endif]
 
 
 *nop
 [cm]
-#シルヴィ
+#希露薇
 [s_t]
-可以嗎？[p]
+嗯？這樣就好嗎？[p]
 [jump  storage=""  target="*return_menu" ]
 
 
